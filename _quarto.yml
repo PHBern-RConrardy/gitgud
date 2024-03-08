@@ -1,22 +1,93 @@
 project:
   type: website
   output-dir: docs
+  
 execute:
   freeze: auto
+lang: de #Sprache für die Webseite
 
-website:
-  title: "gitgud"
+theme: 
+  - styles/phbern_ci.scss # alle Stylesheets
+  
+date-format: "DD.MM.YYYY" # übliche Daten in der Schweiz
+
+bibliography:     # Liste mite allen Bibliographiedatei
+  - bibliographien/bibliographie_richard.bib
+  - bibliographien/bib_conrardy_full.bib
+csl: bibliographien/apa7.csl          # Zitierstil, wird automatisch angewandt
+
+link-external-newwindow: true  # damit Präsentationen in neuem Tab geöffnet werden.
+fig-align: center # Bilder werden zentriert, funktioniert nicht immer
+
+author:   # Autoren welche automatisch gesetzt werden, falls nichts anderes angegeben wird
+      - name: Richard Conrardy
+        orcid: 0009-0004-2063-6898
+        id: 00383195
+        email: richard.conrardy@phbern.ch
+        url: https://www.phbern.ch/ueber-die-phbern/personen/richard-conrardy
+        affiliations:
+        - name: University of Teacher Education Bern
+          address: Länggassstrasse 35
+          city: Bern
+          postal-code: 3012
+          url: https://www.phbern.ch
+          department: Institut Sekundarstufe I
+          ror: https://ror.org/05jf1ma54
+
+website:  # Menüs für die Webseite
+  favicon: images/penguin.png
+  search: true
   navbar:
+    logo: "images/penguin.png"
+    background: white
+    tools:
+      - icon: github
+        href: https://github.com/PHBern-RConrardy/gitgud
     left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+      - href: jahresplanungen/jahresplanungen.qmd
+        text: Jahresplanungen
+        icon: calendar-week-fill
+      
+  page-footer: # Fusszeile
+    center: 
+      - text: "Impressum"
+        href: footer/impressum.qmd
+      - text: "Disclaimer"
+        href: footer/disclaimer.qmd 
+      - text: "Kontakt"
+        href: https://www.phbern.ch/ueber-die-phbern/personen/richard-conrardy  
+    left: 
+      - text: "PHBern"
+        href: https://www.phbern.ch/
+    right: 
+      - text: <small>Dieses Produkt ist in einem Kontext des Lernens an der PHBern entstanden.</small>
+    background: $schwarz1
+    foreground: $schwarz4
 
 format:
-  html:
-    theme: cosmo
-    css: styles.css
+  html: # Einstellungen nur für Webseiten
     toc: true
-
-
-
+    toc-expand: true
+    toc-location: right
+    toc-depth: 2
+    license: "CC BY-SA"
+    page-layout: article
+    title-block-banner: true
+    
+      
+  revealjs: # Einträge nur für Präsentationen
+    toc: true
+    slide-number: false
+    chalkboard: true
+    toc-title: "Inhalt"
+    footer: "[PHBern, Institut Sekundarstufe 1,](https://www.phbern.ch/studium/sekundarstufe-i)  Richard Conrardy, Dozent"
+    title-slide-attributes: 
+      data-background-image: "images/logo cc-by-sa.svg"
+      data-background-size: 12%
+      data-background-position: 94% 99%
+    fig-align: center
+    scrollable: true
+    logo: images/penguin.png
+    hide-inactive-cursor: true
+    mermaid:
+      theme: neutral

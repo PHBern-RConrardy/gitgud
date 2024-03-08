@@ -1,0 +1,7 @@
+---
+title: "8. Klasse"
+subtitle: "Jahresplanung"
+format: 
+  html: default
+  pdf: default
+---
