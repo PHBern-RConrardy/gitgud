@@ -1,0 +1,107 @@
+---
+title: "Inhaltliche Zusammenhänge"
+format: 
+  html: default
+  pdf: default
+---
+
+```{mermaid}
+
+graph LR;
+  subgraph Arithmetik
+    MA_AR_1[Ganze Zahlen];
+    MA_AR_2[Rationale Zahlen];
+    MA_AR_3[Reelle Zahlen];
+    MA_AR_5[Potenzieren];
+    MA_AR_6[Wurzel ziehen];
+    MA_AR_7[Prozentrechnen];
+    MA_AR_8[Wissenschaftliche Schreibweise];
+    MA_AR_9[Umkehroperationen];
+    subgraph Grundoperationen
+      MA_GO_1["+"];
+      MA_GO_2["-"];
+      MA_GO_3["*"];
+      MA_GO_4["/"];
+    end
+  end;
+  
+  subgraph Algebra
+    MA_AL_1[Variablen];
+    MA_AL_2[Gleichungen];
+    MA_AL_3[Lineare Gleichungen];
+    MA_AL_4[Terme];
+    MA_AL_5[Ungleichungen];
+    MA_AL_6[Polynome];
+    MA_AL_7[Monome];
+    MA_AL_8[2x2 lineare Gleichungssysteme];
+    MA_AL_9[Binome];
+  end;
+  
+  subgraph Analysis
+    MA_AN_1[Funktionen];
+    MA_AN_2[Umkehrfunktionen];
+    MA_AN_3[Lineare Funktionen];
+    MA_AN_4[exponentielles Wachstum];
+    MA_AN_5[Wertetabelle];
+    MA_AN_6[Funktionsgraphen];
+  end;
+  
+  subgraph Geometrie
+    MA_GE_4[Koordinatensystem];
+    MA_GE_5[Einheitsstrecke];
+    MA_GE_11[Winkel];
+    subgraph "Ebene Geometrie"
+      MA_GE_1[Dreiecke];
+      MA_GE_2[Vierecke];
+      MA_GE_3[Kongruenzabbildungen];
+      MA_GE_9[Satzgruppe von Pythagoras];
+      MA_GE_10[Satz von Thales];
+      MA_GE_12[Kreise];
+    end
+    subgraph "Räumliche Geometrie"
+      MA_GE_6[Prismen];
+      MA_GE_7[Zylinder];
+      MA_GE_8[Pyramiden];
+    end
+  end;
+  
+  subgraph Nichtaxiomatische Mathematik
+    MA_NI_1[SI-Einheiten];
+    MA_NI_2[Diagramme];
+    MA_NI_3[Überschlagen];
+    MA_NI_4[Masseinheiten];
+    MA_NI_5[Flussdiagramm];
+    MA_NI_6[Zins, Zinssatz, Kapital, Rabatt, Brutto, Netto];
+  end;
+  
+  subgraph Stochastik
+    MA_ST_1[Wahrscheinlichkeit];
+    MA_ST_2[Baumdiagramm];
+    MA_ST_3[Arithmetisches Mittel];
+    subgraph Kombinatorik
+      MA_KO_1[Fakultät];
+      MA_KO_2[mehrstufige Zufallsexperimente];
+    end
+  end;
+  
+  subgraph "Medien und Informatik"
+    MI_PR_1[Variable];
+    MI_PR_2[Funktionen];
+    MI_PR_3[Schlaufen];
+    MI_PR_4[Listen];
+    MI_PR_5[Flussdiagramm];
+  end;
+  
+  MA_AR_1-->MA_AR_2-->MA_AR_3;
+  MA_AN_1-->MA_AN_2;
+  MA_AN_1-->MA_AN_3;
+  MA_ST_2<-->MI_PR_5;
+  MI_PR_1<-->MA_AL_1;
+  MI_PR_2<-->MA_AN_1;
+  
+  classDef title font-size:14px;
+  classDef padding stroke:none,fill:none;
+  
+  class main title;
+  class padding padding;
+```

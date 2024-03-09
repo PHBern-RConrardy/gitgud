@@ -1,33 +1,6 @@
 ---
 title: "gitgud"
+subtitle: "GIT-basierte gute UnterrichtsDokumente"
 format: html
 ---
-
-# Jahresplanungen
-
-:::: {.columns}
-
-::: {.column width="20%" style="text-align: center;"}
-## 7. Klasse
-
-{{< fa user size=3x >}} 
-
-:::
-
-::: {.column width="20%" style="text-align: center;"}
-## 8. Klasse
-
-{{< fa user size=3x >}} 
-
-:::
-
-::: {.column width="20%" style="text-align: center;"}
-
-## 9. Klasse
-
-{{< fa user size=3x >}} 
-
-:::
-
-::::
 

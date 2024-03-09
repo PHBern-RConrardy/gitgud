@@ -1,0 +1,21 @@
+---
+title: "Jahresplanungen"
+format: 
+  html: default
+  pdf: default
+---
+
+# 7. Klasse
+
+| Zeitpunkt | Mathematik | Medien und Informatik |
+|-----------|------------|-----------------------|
+|           |            |                       |
+|           |            |                       |
+|           |            |                       |
+
+# 8. Klasse
+
+# 9. Klasse
+
+
+
