@@ -3,4 +3,3 @@ title: "gitgud"
 subtitle: "GIT-basierte gute UnterrichtsDokumente"
 format: html
 ---
-
