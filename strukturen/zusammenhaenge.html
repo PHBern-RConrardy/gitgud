@@ -155,6 +155,7 @@ ul.task-list li input[type="checkbox"] {
 <p></p><figure class="figure"><p></p>
 <div>
 <pre class="mermaid mermaid-js">graph LR;
+  subgraph Mathematik
   subgraph Arithmetik
     MA_AR_1[Ganze Zahlen];
     MA_AR_2[Rationale Zahlen];
@@ -170,7 +171,8 @@ ul.task-list li input[type="checkbox"] {
       MA_GO_3["*"];
       MA_GO_4["/"];
     end
-  end;
+  end
+  
   
   subgraph Algebra
     MA_AL_1[Variablen];
@@ -182,16 +184,20 @@ ul.task-list li input[type="checkbox"] {
     MA_AL_7[Monome];
     MA_AL_8[2x2 lineare Gleichungssysteme];
     MA_AL_9[Binome];
-  end;
+  end
   
   subgraph Analysis
     MA_AN_1[Funktionen];
     MA_AN_2[Umkehrfunktionen];
     MA_AN_3[Lineare Funktionen];
     MA_AN_4[exponentielles Wachstum];
+    MA_AN_8[quadratisches Wachstum];
+    subgraph sichtweisen[Sichtweisen von Funktionen]
     MA_AN_5[Wertetabelle];
     MA_AN_6[Funktionsgraphen];
-  end;
+    MA_AN_7[Funktionsgleichungen];
+    end
+  end
   
   subgraph Geometrie
     MA_GE_4[Koordinatensystem];
@@ -204,13 +210,15 @@ ul.task-list li input[type="checkbox"] {
       MA_GE_9[Satzgruppe von Pythagoras];
       MA_GE_10[Satz von Thales];
       MA_GE_12[Kreise];
+      MA_GE_13[Polygone];
+      MA_GE_14[Rechtwinklige Dreiecke];
     end
     subgraph "Räumliche Geometrie"
       MA_GE_6[Prismen];
       MA_GE_7[Zylinder];
       MA_GE_8[Pyramiden];
     end
-  end;
+  end
   
   subgraph Nichtaxiomatische Mathematik
     MA_NI_1[SI-Einheiten];
@@ -219,7 +227,7 @@ ul.task-list li input[type="checkbox"] {
     MA_NI_4[Masseinheiten];
     MA_NI_5[Flussdiagramm];
     MA_NI_6[Zins, Zinssatz, Kapital, Rabatt, Brutto, Netto];
-  end;
+  end
   
   subgraph Stochastik
     MA_ST_1[Wahrscheinlichkeit];
@@ -229,14 +237,17 @@ ul.task-list li input[type="checkbox"] {
       MA_KO_1[Fakultät];
       MA_KO_2[mehrstufige Zufallsexperimente];
     end
-  end;
+  end
+  end
   
   subgraph "Medien und Informatik"
-    MI_PR_1[Variable];
-    MI_PR_2[Funktionen];
-    MI_PR_3[Schlaufen];
+    MI_PR_1[Variablen];
+    MI_PR_2[Unterprogramme, Funktionen];
+    MI_PR_3[Schleifen];
     MI_PR_4[Listen];
     MI_PR_5[Flussdiagramm];
+    MI_PR_6[Parameter];
+    MI_PR_7[Bedingte Anweisungen]
   end;
   
   MA_AR_1--&gt;MA_AR_2--&gt;MA_AR_3;
@@ -245,6 +256,50 @@ ul.task-list li input[type="checkbox"] {
   MA_ST_2&lt;--&gt;MI_PR_5;
   MI_PR_1&lt;--&gt;MA_AL_1;
   MI_PR_2&lt;--&gt;MA_AN_1;
+  MA_GO_1--&gt;MA_AR_1;
+  MA_GO_2--&gt;MA_AR_1;
+  MA_GO_3--&gt;MA_AR_2;
+  MA_GO_4--&gt;MA_AR_2;
+  MA_AR_6--&gt;MA_AR_3;
+  MA_AR_5--&gt;MA_AR_6;
+  MA_AR_9--&gt;MA_AR_6;
+  MA_AR_2--&gt;MA_AR_7--&gt;MA_ST_1;
+  MA_AR_5--&gt;MA_AR_8;
+  MA_AN_1&lt;--&gt;sichtweisen;
+  MA_AL_2--&gt;MA_AN_7;
+  MA_AL_1--&gt;MA_AL_4--&gt;MA_AL_2--&gt;MA_AL_3--&gt;MA_AL_8;
+  MA_AL_2--&gt;MA_AL_5;
+  MA_AR_9--&gt;MA_GO_2;
+  MA_AR_9--&gt;MA_GO_4;
+  MA_GO_1--&gt;MA_GO_3--&gt;MA_AR_5;
+  MA_AR_9--&gt;MA_AN_2;
+  MA_AL_4--&gt;MA_AL_7--&gt;MA_AL_9;  
+  MA_AL_7--&gt;MA_AL_6;
+  MA_AL_3--&gt;MA_AN_3;
+  MA_GE_4--&gt;MA_AL_8;
+  MA_GE_4--&gt;MA_AN_6;
+  MA_GE_1--&gt;MA_GE_9;
+  MA_GE_13--&gt;MA_GE_6;
+  MA_GE_12--&gt;MA_GE_7;
+  MA_GE_13--&gt;MA_GE_1;
+  MA_GE_13--&gt;MA_GE_2;
+  MA_GE_14--&gt;MA_GE_10;
+  MA_GE_11--&gt;MA_GE_14;
+  MA_GE_13--&gt;MA_GE_8;
+  MA_GE_1--&gt;MA_GE_13;
+  MA_GE_4--&gt;MA_GE_3;
+  MA_GE_4--&gt;MA_GE_5;
+  MA_ST_1--&gt;MA_AN_4;
+  MA_AL_9--&gt;MA_AL_3;
+  MA_AN_5&lt;--&gt;MA_AN_7;
+  MA_AN_5&lt;--&gt;MA_AN_6;
+  MA_AN_6&lt;--&gt;MA_AN_7;
+  MA_KO_2--&gt;MA_ST_2;
+  
+  
+  
+  
+  
   
   classDef title font-size:14px;
   classDef padding stroke:none,fill:none;
