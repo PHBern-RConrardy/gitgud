@@ -6,7 +6,6 @@ format: html
 # Stoffzusammenhänge im LP21
 
 ```{mermaid}
-%%| mermaid-format: png
 
 graph LR;
   subgraph Mathematik
