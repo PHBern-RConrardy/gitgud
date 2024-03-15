@@ -223,7 +223,7 @@ ul.task-list li input[type="checkbox"] {
   
   subgraph Nichtaxiomatische Mathematik
     MA_NI_1[SI-Einheiten];
-    MA_NI_2[Diagramme];
+    MA_NI_2[Diagramme der deskriptiven Statistik];
     MA_NI_3[Überschlagen];
     MA_NI_4[Masseinheiten];
     MA_NI_5[Flussdiagramm];
@@ -269,13 +269,13 @@ ul.task-list li input[type="checkbox"] {
     PH_SB_1[Gut angekommen in der Mathematik der Ungewissheit - Summative Beurteilung]
   end
   
-  PH_FK_1-.-&gt; MA_AR_10;
+  PH_FK_1-.-&gt; MA_AR_10 &amp; MA_AL_2 &amp; MA_AR_1 &amp; MA_AR_5 &amp; MA_AR_6 &amp; MA_AR_8 &amp; Grundoperationen &amp; MA_KO_1 &amp; MA_AL_9 &amp; MA_AL_4 &amp; MA_AL_6 &amp; MA_AL_7;
   PH_FK_2-.-&gt;MA_GE_1 &amp; MA_GE_2 &amp; MA_GE_11 &amp; MA_GE_6 &amp; MA_GE_7 &amp; MA_GE_12;
-  PH_FK_3-.-&gt;MA_AN_1 &amp; MA_AN_2 &amp; MA_AR_2;
+  PH_FK_3-.-&gt;MA_AN_1 &amp; MA_AN_2 &amp; MA_AR_2 &amp; MA_AR_8;
   PH_FK_4-.-&gt;MA_GE_3;
   PH_MI_1-.-&gt;MA_ST_1;
   PH_MA_1-.-&gt;MA_AR_3;
-  PH_FB_1-.-&gt;MA_ST_1;
+  PH_FB_1-.-&gt;MA_ST_1 &amp; MA_KO_2 &amp; MA_ST_2 &amp; MA_ST_3;
   PH_SB_1-.-&gt;MA_ST_3 &amp; MA_NI_2;
   PH_FB_2-.-&gt;MA_NI_3 &amp; MA_KO_2;
   
@@ -291,6 +291,19 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </div>
+<p>subgraph Hochschulmathematik subgraph Fachkompetenz PH_FK_1[Arithmetik]; * Gleichungen * Ganze Zahlen * Potenzieren * Wurzeln * Wissenschaftliche Schreibweise * Grundoperationen * Fakultät * Binome * Terme * Polynome</p>
+<pre><code>  PH_FK_2[Grundlagen der Geometrie];
+  PH_FK_3[Grundlagen der Mathematik];</code></pre>
+<ul>
+<li><p>Wissenschaftliche Schreibweise</p></li>
+<li><pre><code>PH_FK_4[Abbildungsgeometrie];</code></pre>
+<p>end PH_MI_1[Wahrscheinlichkeitsrechnung - Mikroplanung]; PH_MA_1[Erforschen und Argumentieren - Makroplanung]; PH_FB_1[Sicher Unterwegs in der Mathematik der Ungewissheit - Formative Beurteilung];</p></li>
+<li><p>Baumdiagramm</p></li>
+<li><p>Mehrstufige</p></li>
+<li><p>Mittelwert</p>
+<p>PH_FB_2[Verstehensorientiert prüfen in Zeiten von KI - Formative und summative Beurteilung]; PH_SB_1[Gut angekommen in der Mathematik der Ungewissheit - Summative Beurteilung] end</p></li>
+<li><p>Diagramme spezifizieren</p></li>
+</ul>
 
 
 
