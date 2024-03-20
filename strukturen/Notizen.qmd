@@ -1,0 +1,79 @@
+---
+title: Notizen
+format: html
+---
+
+Arithmetik:
+ - kein Modulo
+ - Quantorenlogik
+ - Buch = Basiswissen Zahlentheorie
+ - Beweisformen
+ - GGT & KGB
+ - Vollständige Induktion
+
+Grundlagen der Geometrie:
+  - Höhensatz
+  - Kathetensatz
+  - Pythagoras
+  - Argumentieren
+  - Kongruenzabbildungen
+  - Symmetrien
+  - Ähnlichkeitsabbildungen
+  - (Affine Abbildungen)
+
+Math als Produkt und Prozess:
+- Fachkonzept, welche Sicht gibt es?
+- Math als Werkzeug
+- Math die gefunden werden kann
+- Math als Wissenschaft
+- Weitere Forschung
+- Arbeitsformen
+- 9 Beweise, verständlich, korrekt, vollständig? (Buch Leuders, Erlebnis Arithmetik)
+- Geschichte Mathematik, Schwerpunkt Antike (Vorschlag: Geschichte von Kantor)
+
+Mathematik unterricht planen:
+- Mathematikdidaktische Einführungs
+- Mathematikdiddaktische Prinzipien
+- Lernphasenmodelle.
+- Guter Mathematikunterricht nach Mayer (Annegret)
+- Kernprozessmodell (Leuders, Prediger, Bruder?) 3 Kernprozesse, Erkunden, Ordnen, Vertiefen
+- LU9 -> Kühlschrankaufgabe
+
+Wahrscheinlichkeitsrechnen:
+- Produkt und Summenregel
+- 4 Auswahlprozesse
+- Bijektion
+- Binomialkoeffizient - Pascalsches Dreieck
+- Bernouillikette
+- keine(oder doch?) bedingte Wahrscheinlichkeit
+- keine Axiomatik
+
+Makroplanung:
+- keine Jahresplanung
+- Leistungsnachweis Stellung nehmen zur Planung
+Erforschen und Argumentieren:
+- Beweisprinzipien - Direkter, Induktion, Kontraposition, Wiederspruch
+- Mächtigkeiten
+- Mengenlehre
+
+Form. Beurt.
+Sicher Unterwegs in der Math der Ungewissheit:
+- Allg. Sachanalyse
+- Wie wird ein unsicherer Ergebnis generiert.
+- Mögliche Ergebnisse, Wahrscheinlichkeiten,
+- Zufallsvariable
+- Verteilung
+- Erwartungswert
+- Kreieren Aufgaben und Beurteilungsmethoden
+- Fehleranalyse
+- Statistik nur sehr wenig
+
+Gut angekommen in der Mathematik der Ungewissheit:
+- Auswertungen machen
+- Noten setzen
+- Histogramm
+- Rel und Abs. Häufigkeiten
+- ÜGK
+- Grundbegriffe (Grundgesamtheit)
+- 
+

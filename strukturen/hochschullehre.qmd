@@ -1,14 +1,15 @@
 ---
 title: "Zusammenhänge Fachwissenschaften LP21"
 format: 
-  html: default
+    html:
+      page-layout: full
 ---
 
 
 ```{mermaid}
 
 graph LR;
-  subgraph Mathematik
+  subgraph "Mathematik Lehr- Lerninhalte der Sekundarstufe 1 - Lehrplan21"
   subgraph Arithmetik
     MA_AR_1[Ganze Zahlen];
     MA_AR_2[Rationale Zahlen];
@@ -61,6 +62,8 @@ graph LR;
       MA_GE_1[Dreiecke];
       MA_GE_2[Vierecke];
       MA_GE_3[Kongruenzabbildungen];
+      MA_GE_15[Symmetrien];
+      MA_GE_16[Ähnlichkeitsabbildungen];
       MA_GE_9[Satzgruppe von Pythagoras];
       MA_GE_10[Satz von Thales];
       MA_GE_12[Kreise];
@@ -90,22 +93,10 @@ graph LR;
     subgraph Kombinatorik
       MA_KO_1[Fakultät];
       MA_KO_2[mehrstufige Zufallsexperimente];
+      MA_KO_3[4 Auswahlprozesse]
     end
   end
   end
-  
-  subgraph "Medien und Informatik"
-    MI_PR_1[Variablen];
-    MI_PR_2[Unterprogramme, Funktionen];
-    MI_PR_3[Schleifen];
-    MI_PR_4[Listen];
-    MI_PR_5[Flussdiagramm];
-    MI_PR_6[Parameter];
-    MI_PR_7[Bedingte Anweisungen]
-  end;
-  
-
-  
   
   
   subgraph Hochschulmathematik
@@ -123,15 +114,14 @@ graph LR;
   end
   
   PH_FK_1-.-> MA_AR_10 & MA_AL_2 & MA_AR_1 & MA_AR_5 & MA_AR_6 & MA_AR_8 & Grundoperationen & MA_KO_1 & MA_AL_9 & MA_AL_4 & MA_AL_6 & MA_AL_7;
-  PH_FK_2-.->MA_GE_1 & MA_GE_2 & MA_GE_11 & MA_GE_6 & MA_GE_7 & MA_GE_12;
+  PH_FK_2-.->MA_GE_1 & MA_GE_2 & MA_GE_11 & MA_GE_6 & MA_GE_7 & MA_GE_12 & MA_GE_9 & MA_GE_15 & MA_GE_16;
   PH_FK_3-.->MA_AN_1 & MA_AN_2 & MA_AR_2 & MA_AR_8;
   PH_FK_4-.->MA_GE_3;
-  PH_MI_1-.->MA_ST_1;
+  PH_MI_1-.->MA_ST_1 & MA_KO_3 & MA_ST_2;
   PH_MA_1-.->MA_AR_3;
   PH_FB_1-.->MA_ST_1 & MA_KO_2 & MA_ST_2 & MA_ST_3;
   PH_SB_1-.->MA_ST_3 & MA_NI_2;
   PH_FB_2-.->MA_NI_3 & MA_KO_2;
-  
   
   classDef title font-size:14px;
   classDef padding stroke:none,fill:none;
@@ -139,39 +129,3 @@ graph LR;
   class main title;
   class padding padding;
 ```
-
-subgraph Hochschulmathematik
-    subgraph Fachkompetenz
-      PH_FK_1[Arithmetik];
-* Gleichungen
-* Ganze Zahlen
-* Potenzieren
-* Wurzeln
-* Wissenschaftliche Schreibweise
-* Grundoperationen
-* Fakultät
-* Binome
-* Terme
-* Polynome
-
-      PH_FK_2[Grundlagen der Geometrie];
-      PH_FK_3[Grundlagen der Mathematik];
-* Wissenschaftliche Schreibweise
-* 
-
-      PH_FK_4[Abbildungsgeometrie];
-
-
-    end
-    PH_MI_1[Wahrscheinlichkeitsrechnung - Mikroplanung];
-    PH_MA_1[Erforschen und Argumentieren - Makroplanung];
-    PH_FB_1[Sicher Unterwegs in der Mathematik der Ungewissheit - Formative Beurteilung];
-* Baumdiagramm
-* Mehrstufige
-* Mittelwert
-
-    PH_FB_2[Verstehensorientiert prüfen in Zeiten von KI - Formative und summative Beurteilung];
-    PH_SB_1[Gut angekommen in der Mathematik der Ungewissheit - Summative Beurteilung]
-  end
-  
-* Diagramme spezifizieren

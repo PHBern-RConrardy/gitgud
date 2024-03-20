@@ -1,9 +1,11 @@
 ---
 title: "Inhaltliche Zusammenhänge"
-format: html
+format: 
+    html:
+      page-layout: full
 ---
 
-# Stoffzusammenhänge im LP21
+
 
 ```{mermaid}
 
@@ -61,6 +63,8 @@ graph LR;
       MA_GE_1[Dreiecke];
       MA_GE_2[Vierecke];
       MA_GE_3[Kongruenzabbildungen];
+      MA_GE_15[Symmetrien];
+      MA_GE_16[Ähnlichkeitsabbildungen];
       MA_GE_9[Satzgruppe von Pythagoras];
       MA_GE_10[Satz von Thales];
       MA_GE_12[Kreise];
@@ -157,19 +161,7 @@ graph LR;
   
   
   
-  subgraph Hochschulmathematik
-    subgraph Fachkompetenz
-      PH_FK_1[Arithmetik];
-      PH_FK_2[Grundlagen der Geometrie];
-      PH_FK_3[Grundlagen der Mathematik];
-      PH_FK_4[Abbildungsgeometrie];
-    end
-    PH_MI_1[Wahrscheinlichkeitsrechnung - Mikroplanung];
-    PH_MA_1[Erforschen und Argumentieren - Makroplanung];
-    PH_FB_1[Sicher Unterwegs in der Mathematik der Ungewissheit - Formative Beurteilung];
-    PH_FB_2[Verstehensorientiert prüfen in Zeiten von KI - Formative und summative Beurteilung];
-    PH_SB_1[Gut angekommen in der Mathematik der Ungewissheit - Summative Beurteilung]
-  end
+
   
   
   
