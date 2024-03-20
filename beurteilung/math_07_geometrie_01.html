@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Jonas Eggimann">
+<meta name="author" content="Jonas Hunkeler">
 
-<title>Zusammenhänge Fachwissenschaften LP21</title>
+<title>Mathematikprüfung</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -67,11 +69,36 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Suchen"
   }
 }</script>
-<meta name="mermaid-theme" content="neutral">
-<script src="../site_libs/quarto-diagram/mermaid.min.js"></script>
-<script src="../site_libs/quarto-diagram/mermaid-init.js"></script>
-<link href="../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -122,166 +149,122 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page">
-      <h1 class="title">Zusammenhänge Fachwissenschaften LP21</h1>
+    <div class="quarto-title column-body">
+      <h1 class="title">Mathematikprüfung</h1>
                       </div>
   </div>
     
   
-  <div class="quarto-title-meta column-page">
+  <div class="quarto-title-meta">
 
+      <div>
+      <div class="quarto-title-meta-heading">Autor:innen</div>
+      <div class="quarto-title-meta-contents">
+               <p>Jonas Eggimann </p>
+               <p>Jonas Hunkeler </p>
+            </div>
+    </div>
       
     
       
     </div>
     
   
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="99">
+    <h2 id="toc-title">Auf dieser Seite</h2>
+   
+  <ul class="collapse">
+  <li><a href="#aufgabe-1-1-punkt" id="toc-aufgabe-1-1-punkt" class="nav-link active" data-scroll-target="#aufgabe-1-1-punkt">Aufgabe 1: (1 Punkt)</a></li>
+  <li><a href="#aufgabe-2" id="toc-aufgabe-2" class="nav-link" data-scroll-target="#aufgabe-2">Aufgabe 2</a></li>
+  <li><a href="#aufgabe-3" id="toc-aufgabe-3" class="nav-link" data-scroll-target="#aufgabe-3">Aufgabe 3</a></li>
+  <li><a href="#aufgabe-4" id="toc-aufgabe-4" class="nav-link" data-scroll-target="#aufgabe-4">Aufgabe 4</a></li>
+  <li><a href="#aufgabe-5" id="toc-aufgabe-5" class="nav-link" data-scroll-target="#aufgabe-5">Aufgabe 5</a></li>
+  <li><a href="#aufgabe-6" id="toc-aufgabe-6" class="nav-link" data-scroll-target="#aufgabe-6">Aufgabe 6:</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content quarto-banner-title-block column-page" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
 
-<div class="cell" data-layout-align="center">
-<div class="cell-output-display">
-<div>
-<p></p><figure class="figure"><p></p>
-<div>
-<pre class="mermaid mermaid-js">graph LR;
-  subgraph "Mathematik Lehr- Lerninhalte der Sekundarstufe 1 - Lehrplan21"
-  subgraph Arithmetik
-    MA_AR_1[Ganze Zahlen];
-    MA_AR_2[Rationale Zahlen];
-    MA_AR_3[Reelle Zahlen];
-    MA_AR_5[Potenzieren];
-    MA_AR_6[Wurzel ziehen];
-    MA_AR_7[Prozentrechnen];
-    MA_AR_8[Wissenschaftliche Schreibweise];
-    MA_AR_9[Umkehroperationen];
-    MA_AR_10[Primzahlen]
-    subgraph Grundoperationen
-      MA_GO_1["+"];
-      MA_GO_2["-"];
-      MA_GO_3["*"];
-      MA_GO_4["/"];
-    end
-  end
-  
-  
-  subgraph Algebra
-    MA_AL_1[Variablen];
-    MA_AL_2[Gleichungen];
-    MA_AL_3[Lineare Gleichungen];
-    MA_AL_4[Terme];
-    MA_AL_5[Ungleichungen];
-    MA_AL_6[Polynome];
-    MA_AL_7[Monome];
-    MA_AL_8[2x2 lineare Gleichungssysteme];
-    MA_AL_9[Binome];
-  end
-  
-  subgraph Analysis
-    MA_AN_1[Funktionen];
-    MA_AN_2[Umkehrfunktionen];
-    MA_AN_3[Lineare Funktionen];
-    MA_AN_4[exponentielles Wachstum];
-    MA_AN_8[quadratisches Wachstum];
-    subgraph sichtweisen[Sichtweisen von Funktionen]
-    MA_AN_5[Wertetabelle];
-    MA_AN_6[Funktionsgraphen];
-    MA_AN_7[Funktionsgleichungen];
-    end
-  end
-  
-  subgraph Geometrie
-    MA_GE_4[Koordinatensystem];
-    MA_GE_5[Einheitsstrecke];
-    MA_GE_11[Winkel];
-    subgraph "Ebene Geometrie"
-      MA_GE_1[Dreiecke];
-      MA_GE_2[Vierecke];
-      MA_GE_3[Kongruenzabbildungen];
-      MA_GE_15[Symmetrien];
-      MA_GE_16[Ähnlichkeitsabbildungen];
-      MA_GE_9[Satzgruppe von Pythagoras];
-      MA_GE_10[Satz von Thales];
-      MA_GE_12[Kreise];
-      MA_GE_13[Polygone];
-      MA_GE_14[Rechtwinklige Dreiecke];
-    end
-    subgraph "Räumliche Geometrie"
-      MA_GE_6[Prismen];
-      MA_GE_7[Zylinder];
-      MA_GE_8[Pyramiden];
-    end
-  end
-  
-  subgraph Nichtaxiomatische Mathematik
-    MA_NI_1[SI-Einheiten];
-    MA_NI_2[Diagramme der deskriptiven Statistik];
-    MA_NI_3[Überschlagen];
-    MA_NI_4[Masseinheiten];
-    MA_NI_5[Flussdiagramm];
-    MA_NI_6[Zins, Zinssatz, Kapital, Rabatt, Brutto, Netto];
-  end
-  
-  subgraph Stochastik
-    MA_ST_1[Wahrscheinlichkeit];
-    MA_ST_2[Baumdiagramm];
-    MA_ST_3[Arithmetisches Mittel];
-    subgraph Kombinatorik
-      MA_KO_1[Fakultät];
-      MA_KO_2[mehrstufige Zufallsexperimente];
-      MA_KO_3[4 Auswahlprozesse]
-    end
-  end
-  end
-  
-  
-  subgraph Hochschulmathematik
-    subgraph Fachkompetenz
-      PH_FK_1[Arithmetik];
-      PH_FK_2[Grundlagen der Geometrie];
-      PH_FK_3[Grundlagen der Mathematik];
-      PH_FK_4[Abbildungsgeometrie];
-    end
-    PH_MI_1[Wahrscheinlichkeitsrechnung - Mikroplanung];
-    PH_MA_1[Erforschen und Argumentieren - Makroplanung];
-    PH_FB_1[Sicher Unterwegs in der Mathematik der Ungewissheit - Formative Beurteilung];
-    PH_FB_2[Verstehensorientiert prüfen in Zeiten von KI - Formative und summative Beurteilung];
-    PH_SB_1[Gut angekommen in der Mathematik der Ungewissheit - Summative Beurteilung]
-  end
-  
-  PH_FK_1-.-&gt; MA_AR_10 &amp; MA_AL_2 &amp; MA_AR_1 &amp; MA_AR_5 &amp; MA_AR_6 &amp; MA_AR_8 &amp; Grundoperationen &amp; MA_KO_1 &amp; MA_AL_9 &amp; MA_AL_4 &amp; MA_AL_6 &amp; MA_AL_7;
-  PH_FK_2-.-&gt;MA_GE_1 &amp; MA_GE_2 &amp; MA_GE_11 &amp; MA_GE_6 &amp; MA_GE_7 &amp; MA_GE_12 &amp; MA_GE_9 &amp; MA_GE_15 &amp; MA_GE_16;
-  PH_FK_3-.-&gt;MA_AN_1 &amp; MA_AN_2 &amp; MA_AR_2 &amp; MA_AR_8;
-  PH_FK_4-.-&gt;MA_GE_3;
-  PH_MI_1-.-&gt;MA_ST_1 &amp; MA_KO_3 &amp; MA_ST_2;
-  PH_MA_1-.-&gt;MA_AR_3;
-  PH_FB_1-.-&gt;MA_ST_1 &amp; MA_KO_2 &amp; MA_ST_2 &amp; MA_ST_3;
-  PH_SB_1-.-&gt;MA_ST_3 &amp; MA_NI_2;
-  PH_FB_2-.-&gt;MA_NI_3 &amp; MA_KO_2;
-  
-  classDef title font-size:14px;
-  classDef padding stroke:none,fill:none;
-  
-  class main title;
-  class padding padding;
-</pre>
-</div>
-<p></p></figure><p></p>
-</div>
-</div>
-</div>
+<p>Mathematikprüfung</p>
+<p>Name:</p>
+<p>Niveau:</p>
+<p>Datum:</p>
+<p>Punkte: / 16 (Real), 18 (Sek), 20 (Spez. Sek.)</p>
+<p>Note:</p>
+<p>Hilfsmittel: Schreibzeug, Geodreieck, Lineal, Zirkel, Taschenrechner</p>
+<p>Hinweis: Runde alle Zahlen auf zwei Nachkommastellen und notiere alle Resultate mit einem Kugelschreiber. Alle Zahlenangaben geben wir als Längeneinheit (LE) an. Sprich du musst keine Längeneinheit angeben.</p>
+<p>Zeit: Du hast 45min Zeit.</p>
+<p>Real-Niveau: Bei den Aufgaben mit einem (*) oder zwei Sternen (**) kannst du Bonuspunkte verdienen. Sek-Niveau: Bei der Aufgabe mit zwei Sternen (**) kannst du Bonuspunkte verdienen.</p>
+<p>Viel Glück 😊</p>
+<section id="aufgabe-1-1-punkt" class="level2">
+<h2 class="anchored" data-anchor-id="aufgabe-1-1-punkt">Aufgabe 1: (1 Punkt)</h2>
+<p>Auftrag: Kreuze die wahre Aussage an:</p>
+<ul>
+<li>Die Formel, um mit dem Satz des Pythagoras zu rechnen, lautet: <span class="math inline">\(a^2 + b^2 = c\)</span></li>
+<li>DieFormel, um mit dem Satz des Pythagoras zu rechnen, lautet: <span class="math inline">\(a^2 + b^2 = c^2\)</span></li>
+<li>Die Formel, um mit dem Satz des Pythagoras zu rechnen, lautet: <span class="math inline">\(1a^2 +1b^2 = 2c^2\)</span></li>
+</ul>
+</section>
+<section id="aufgabe-2" class="level2">
+<h2 class="anchored" data-anchor-id="aufgabe-2">Aufgabe 2</h2>
+<p>(4 Punkte) Auftrag:</p>
+<p>Bestimme die fehlende Grösse der folgenden Dreiecke. Dein Rechnungsweg muss ersichtlich sein.</p>
+<p><img src="images/geogebra-export.svg" class="img-fluid"></p>
+<p><img src="images/geogebra-export_2.svg" class="img-fluid"></p>
+</section>
+<section id="aufgabe-3" class="level2">
+<h2 class="anchored" data-anchor-id="aufgabe-3">Aufgabe 3</h2>
+<p>(3 Punkte) Auftrag: Bestimme vom gleichschenkligen Dreieck die Grundlinie g. Hinweis: Höhe des Dreiecks = 15</p>
+<p><img src="images/geogebra-export_3.svg" class="img-fluid"></p>
+</section>
+<section id="aufgabe-4" class="level2">
+<h2 class="anchored" data-anchor-id="aufgabe-4">Aufgabe 4</h2>
+<p>(4 Punkte)</p>
+<p>Auftrag a*: Konstruiere die Mittelsenkrechte der Linie a.</p>
+<p>Auftrag b**: Konstruiere mithilfe des Satzes von Thales ein rechtwinkliges Dreieck. Hypotenuse = a</p>
+<p><img src="images/geogebra-export_4.svg" class="img-fluid"></p>
+</section>
+<section id="aufgabe-5" class="level2">
+<h2 class="anchored" data-anchor-id="aufgabe-5">Aufgabe 5</h2>
+<p>: (4 Punkte) Auftrag: Bestimme das Volumen und die Oberfläche der Pyramide. Hinweis: gestrichelte Linie ist die Hälfte von a.</p>
+<p><span class="math inline">\(h = 6\)</span> <span class="math inline">\(a = 4\)</span></p>
+<p><img src="images/geogebra-export_5.png" class="img-fluid"></p>
+<p><span class="math inline">\(V =\)</span></p>
+<p><span class="math inline">\(O =\)</span></p>
+</section>
+<section id="aufgabe-6" class="level2">
+<h2 class="anchored" data-anchor-id="aufgabe-6">Aufgabe 6:</h2>
+<p>(4 Punkte)</p>
+<section id="auftrag-real" class="level3">
+<h3 class="anchored" data-anchor-id="auftrag-real">Auftrag (Real):</h3>
+<p>Bestimme das Volumen und die</p>
+<p>Oberfläche des Prismas. Gegeben: c = 10 hc = 4 hp = 12</p>
+</section>
+<section id="auftrag-sek" class="level3">
+<h3 class="anchored" data-anchor-id="auftrag-sek">Auftrag (Sek):</h3>
+<p>Bestimme das Volumen und die Oberfläche des Prismas.</p>
+<p>Gegeben: a = 12 b = 8 hp = 22</p>
+</section>
+<section id="auftrag-spez-sek" class="level3">
+<h3 class="anchored" data-anchor-id="auftrag-spez-sek">Auftrag (Spez-Sek):</h3>
+<p><img src="images/geogebra-export_6.png" class="img-fluid"></p>
+<p>Bestimme das Volumen und die Oberfläche des Prismas.</p>
+<p>Gegeben: a = 25 c= 60 hp = 34</p>
+<p>Volumen:</p>
+<p>Oberfläche:</p>
 
 
+</section>
+</section>
 
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Wiederverwendung</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">CC BY-SA 4.0</a></div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
