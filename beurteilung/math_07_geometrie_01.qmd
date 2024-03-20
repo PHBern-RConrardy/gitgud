@@ -9,6 +9,7 @@ author:
 editor: 
   markdown: 
     wrap: 72
+format: html
 ---
 
 Mathematikprüfung
