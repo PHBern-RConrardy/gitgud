@@ -39,49 +39,49 @@
     "href": "beurteilung/math_07_geometrie_01.html",
     "title": "Mathematikprüfung",
     "section": "",
-    "text": "Mathematikprüfung\nName:\nNiveau:\nDatum:\nPunkte: / 16 (Real), 18 (Sek), 20 (Spez. Sek.)\nNote:\nHilfsmittel: Schreibzeug, Geodreieck, Lineal, Zirkel, Taschenrechner\nHinweis: Runde alle Zahlen auf zwei Nachkommastellen und notiere alle Resultate mit einem Kugelschreiber. Alle Zahlenangaben geben wir als Längeneinheit (LE) an. Sprich du musst keine Längeneinheit angeben.\nZeit: Du hast 45min Zeit.\nReal-Niveau: Bei den Aufgaben mit einem (*) oder zwei Sternen (**) kannst du Bonuspunkte verdienen. Sek-Niveau: Bei der Aufgabe mit zwei Sternen (**) kannst du Bonuspunkte verdienen.\nViel Glück 😊"
+    "text": "Name, Niveau, Datum:"
   },
   {
-    "objectID": "beurteilung/math_07_geometrie_01.html#aufgabe-1-1-punkt",
-    "href": "beurteilung/math_07_geometrie_01.html#aufgabe-1-1-punkt",
+    "objectID": "beurteilung/math_07_geometrie_01.html#aufgabe-1",
+    "href": "beurteilung/math_07_geometrie_01.html#aufgabe-1",
     "title": "Mathematikprüfung",
-    "section": "Aufgabe 1: (1 Punkt)",
-    "text": "Aufgabe 1: (1 Punkt)\nAuftrag: Kreuze die wahre Aussage an:\n\nDie Formel, um mit dem Satz des Pythagoras zu rechnen, lautet: \\(a^2 + b^2 = c\\)\nDieFormel, um mit dem Satz des Pythagoras zu rechnen, lautet: \\(a^2 + b^2 = c^2\\)\nDie Formel, um mit dem Satz des Pythagoras zu rechnen, lautet: \\(1a^2 +1b^2 = 2c^2\\)"
+    "section": "Aufgabe 1",
+    "text": "Aufgabe 1\n1 Punkt\nAuftrag: Kreuze die wahre Aussage an:\n\nDie Formel, um mit dem Satz des Pythagoras zu rechnen, lautet: \\(a^2 + b^2 = c\\)\nDieFormel, um mit dem Satz des Pythagoras zu rechnen, lautet: \\(a^2 + b^2 = c^2\\)\nDie Formel, um mit dem Satz des Pythagoras zu rechnen, lautet: \\(1a^2 +1b^2 = 2c^2\\)\n\nMA.2.A.3.h"
   },
   {
     "objectID": "beurteilung/math_07_geometrie_01.html#aufgabe-2",
     "href": "beurteilung/math_07_geometrie_01.html#aufgabe-2",
     "title": "Mathematikprüfung",
     "section": "Aufgabe 2",
-    "text": "Aufgabe 2\n(4 Punkte) Auftrag:\nBestimme die fehlende Grösse der folgenden Dreiecke. Dein Rechnungsweg muss ersichtlich sein."
+    "text": "Aufgabe 2\n(4 Punkte) Auftrag:\nBestimme die fehlende Grösse der folgenden Dreiecke. Dein Rechnungsweg muss ersichtlich sein.\n\n\n\n\n\n\n\n\nAbbildung 1\n\n\n\n\n\n\n\n\n\n\nAbbildung 2\n\n\n\n\n\nMA.2.A.3.h"
   },
   {
     "objectID": "beurteilung/math_07_geometrie_01.html#aufgabe-3",
     "href": "beurteilung/math_07_geometrie_01.html#aufgabe-3",
     "title": "Mathematikprüfung",
     "section": "Aufgabe 3",
-    "text": "Aufgabe 3\n(3 Punkte) Auftrag: Bestimme vom gleichschenkligen Dreieck die Grundlinie g. Hinweis: Höhe des Dreiecks = 15"
+    "text": "Aufgabe 3\n(3 Punkte) Auftrag: Bestimme vom gleichschenkligen Dreieck die Grundlinie g. Hinweis: Höhe des Dreiecks = 15\n\n\n\n\n\n\nAbbildung 3\n\n\n\nMA.2.A.3.h MA.2.A.1.i"
   },
   {
     "objectID": "beurteilung/math_07_geometrie_01.html#aufgabe-4",
     "href": "beurteilung/math_07_geometrie_01.html#aufgabe-4",
     "title": "Mathematikprüfung",
     "section": "Aufgabe 4",
-    "text": "Aufgabe 4\n(4 Punkte)\nAuftrag a*: Konstruiere die Mittelsenkrechte der Linie a.\nAuftrag b**: Konstruiere mithilfe des Satzes von Thales ein rechtwinkliges Dreieck. Hypotenuse = a"
+    "text": "Aufgabe 4\n(4 Punkte)\nAuftrag a*: Konstruiere die Mittelsenkrechte der Linie a.\nAuftrag b**: Konstruiere mithilfe des Satzes von Thales ein rechtwinkliges Dreieck. Hypotenuse = a\n\n\n\n\n\n\nAbbildung 4\n\n\n\nMA.2.C.2.i"
   },
   {
     "objectID": "beurteilung/math_07_geometrie_01.html#aufgabe-5",
     "href": "beurteilung/math_07_geometrie_01.html#aufgabe-5",
     "title": "Mathematikprüfung",
     "section": "Aufgabe 5",
-    "text": "Aufgabe 5\n: (4 Punkte) Auftrag: Bestimme das Volumen und die Oberfläche der Pyramide. Hinweis: gestrichelte Linie ist die Hälfte von a.\n\\(h = 6\\) \\(a = 4\\)\n\n\\(V =\\)\n\\(O =\\)"
+    "text": "Aufgabe 5\n: (4 Punkte) Auftrag: Bestimme das Volumen und die Oberfläche der Pyramide. Hinweis: gestrichelte Linie ist die Hälfte von a.\n\\(h = 6\\) \\(a = 4\\)\n\n\n\n\n\n\nAbbildung 5\n\n\n\n\\(V =\\)\n\\(O =\\)\nMA.2.A.3.j"
   },
   {
     "objectID": "beurteilung/math_07_geometrie_01.html#aufgabe-6",
     "href": "beurteilung/math_07_geometrie_01.html#aufgabe-6",
     "title": "Mathematikprüfung",
     "section": "Aufgabe 6:",
-    "text": "Aufgabe 6:\n(4 Punkte)\n\nAuftrag (Real):\nBestimme das Volumen und die\nOberfläche des Prismas. Gegeben: c = 10 hc = 4 hp = 12\n\n\nAuftrag (Sek):\nBestimme das Volumen und die Oberfläche des Prismas.\nGegeben: a = 12 b = 8 hp = 22\n\n\nAuftrag (Spez-Sek):\n\nBestimme das Volumen und die Oberfläche des Prismas.\nGegeben: a = 25 c= 60 hp = 34\nVolumen:\nOberfläche:"
+    "text": "Aufgabe 6:\n(4 Punkte)\n\nAuftrag (Real):\nBestimme das Volumen und die\nOberfläche des Prismas. Gegeben: c = 10 hc = 4 hp = 12\n\n\nAuftrag (Sek):\nBestimme das Volumen und die Oberfläche des Prismas.\nGegeben: a = 12 b = 8 hp = 22\n\n\nAuftrag (Spez-Sek):\n\n\n\n\n\n\nAbbildung 6\n\n\n\nBestimme das Volumen und die Oberfläche des Prismas.\nGegeben: a = 25 c= 60 hp = 34\nVolumen:\nOberfläche:\nMA.2.A.1.k MA.2.A.3.i"
   },
   {
     "objectID": "footer/disclaimer.html",
