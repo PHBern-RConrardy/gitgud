@@ -1,6 +1,6 @@
 ---
 title: "Mathematikprüfung"
-tags: 
+categories: 
   - "Geometrie"
   - "Form und Raum"
 author:
@@ -9,116 +9,152 @@ author:
 editor: 
   markdown: 
     wrap: 72
-format: html
+format: 
+  html: default
+  
+toc-depth: 3
 ---
 
-Mathematikprüfung
+### Angaben
+Name, Niveau, Datum:
 
-Name:
 
-Niveau: 
+### Punkte 
+16 (Real), 18 (Sek), 20 (Spez. Sek.)
 
-Datum: 
+### Hilfsmittel
 
-Punkte: / 16 (Real), 18 (Sek), 20 (Spez. Sek.)
+Schreibzeug, Geodreieck, Lineal, Zirkel, Taschenrechner
 
-Note:
+### Allgemeine Hinweise
 
-Hilfsmittel: Schreibzeug, Geodreieck, Lineal, Zirkel, Taschenrechner
-
-Hinweis: Runde alle Zahlen auf zwei Nachkommastellen und notiere alle
+Runde alle Zahlen auf zwei Nachkommastellen und notiere alle
 Resultate mit einem Kugelschreiber. Alle Zahlenangaben geben wir als
 Längeneinheit (LE) an. Sprich du musst keine Längeneinheit angeben.
 
-Zeit: Du hast 45min Zeit.
+### Zeit
+45min
 
-Real-Niveau: Bei den Aufgaben mit einem (\*) oder zwei Sternen (\*\*)
-kannst du Bonuspunkte verdienen. Sek-Niveau: Bei der Aufgabe mit zwei
-Sternen (\*\*) kannst du Bonuspunkte verdienen.
+### Binnendifferenzierung
 
-Viel Glück 😊
+-   Real-Niveau: Bei den Aufgaben mit einem (\*) oder zwei Sternen
+    (\*\*) kannst du Bonuspunkte verdienen.
+-   Sek-Niveau: Bei der Aufgabe mit zwei Sternen (\*\*) kannst du
+    Bonuspunkte verdienen.
 
-## Aufgabe 1: (1 Punkt) 
+Viel Glück
 
-Auftrag: Kreuze die wahre Aussage an: 
+---
 
-* Die Formel, um mit dem Satz des Pythagoras zu rechnen, lautet: $a^2 + b^2 = c$
-* DieFormel, um mit dem Satz des Pythagoras zu rechnen, lautet: $a^2 + b^2 = c^2$
-* Die Formel, um mit dem Satz des Pythagoras zu rechnen, lautet: $1a^2 +1b^2 = 2c^2$
+## Aufgabe 1
 
+1 Punkt
 
+Auftrag: Kreuze die wahre Aussage an:
+
+-   Die Formel, um mit dem Satz des Pythagoras zu rechnen, lautet:
+    $a^2 + b^2 = c$
+-   DieFormel, um mit dem Satz des Pythagoras zu rechnen, lautet:
+    $a^2 + b^2 = c^2$
+-   Die Formel, um mit dem Satz des Pythagoras zu rechnen, lautet:
+    $1a^2 +1b^2 = 2c^2$
+
+[MA.2.A.3.h](https://be.lehrplan.ch/101PkqMkqzxUs36hHHkYEzbSuMg99acT6){.knopf .indikator}    
+
+---
 
 ## Aufgabe 2
 
-(4 Punkte) 
-Auftrag: 
+(4 Punkte) Auftrag:
 
-Bestimme die fehlende Grösse der
-folgenden Dreiecke. Dein Rechnungsweg muss ersichtlich sein.
+Bestimme die fehlende Grösse der folgenden Dreiecke. Dein Rechnungsweg
+muss ersichtlich sein.
 
-![](images/geogebra-export.svg)
 
-![](images/geogebra-export_2.svg)
+:::{.columns}
+:::{.column}
+![](images/geogebra-export.svg){#fig-aufgabe}
+:::
+
+:::{.column }
+![](images/geogebra-export_2.svg){#fig-aufgabe}
+:::
+:::
+
+[MA.2.A.3.h](https://be.lehrplan.ch/101PkqMkqzxUs36hHHkYEzbSuMg99acT6){.knopf .indikator}   
+
+---
 
 ## Aufgabe 3
 
 (3 Punkte) Auftrag: Bestimme vom gleichschenkligen Dreieck die
 Grundlinie g. Hinweis: Höhe des Dreiecks = 15
 
-![](images/geogebra-export_3.svg)
+![](images/geogebra-export_3.svg){#fig-aufgabe}
 
+[MA.2.A.3.h](https://be.lehrplan.ch/101PkqMkqzxUs36hHHkYEzbSuMg99acT6){.knopf .indikator}    [MA.2.A.1.i](https://be.lehrplan.ch/101ynfPky7BFpr8TcpDdhJGF7bGBXERpT){.knopf .indikator} 
+
+---
 
 ## Aufgabe 4
 
-(4 Punkte) 
+(4 Punkte)
 
 Auftrag a\*: Konstruiere die Mittelsenkrechte der Linie a.
 
 Auftrag b\*\*: Konstruiere mithilfe des Satzes von Thales ein
 rechtwinkliges Dreieck. Hypotenuse = a
 
-![](images/geogebra-export_4.svg)
+![](images/geogebra-export_4.svg){#fig-aufgabe}
+
+[MA.2.C.2.i](https://be.lehrplan.ch/101AWXeZS2HpzutW5DCGbwzdV7LxLJZWz){.knopf .indikator}  
+
+---
 
 ## Aufgabe 5
 
-: (4 Punkte) Auftrag: Bestimme das Volumen und die Oberfläche
-der Pyramide. Hinweis: gestrichelte Linie ist die Hälfte von a.
+: (4 Punkte) Auftrag: Bestimme das Volumen und die Oberfläche der
+Pyramide. Hinweis: gestrichelte Linie ist die Hälfte von a.
 
 $h = 6$ $a = 4$
 
-![](images/geogebra-export_5.png)
+![](images/geogebra-export_5.png){#fig-aufgabe}
 
-$V =$ 
+$V =$
 
-$O =$ 
+$O =$
 
+[MA.2.A.3.j](https://be.lehrplan.ch/101WHZAFydPBVsWSKRxVbDDTJ9S2qrXGZ){.knopf .indikator}  
 
+---
 
-## Aufgabe 6: 
+## Aufgabe 6:
 
-(4 Punkte) 
+(4 Punkte)
 
-### Auftrag (Real): 
+### Auftrag (Real):
 
 Bestimme das Volumen und die
 
 Oberfläche des Prismas. Gegeben: c = 10 hc = 4 hp = 12
 
-### Auftrag (Sek): 
+### Auftrag (Sek):
 
 Bestimme das Volumen und die Oberfläche des Prismas.
 
 Gegeben: a = 12 b = 8 hp = 22
 
-### Auftrag (Spez-Sek): 
+### Auftrag (Spez-Sek):
 
-![](images/geogebra-export_6.png)
+![](images/geogebra-export_6.png){#fig-aufgabe}
 
 Bestimme das Volumen und die Oberfläche des Prismas.
 
 Gegeben: a = 25 c= 60 hp = 34
 
-Volumen: 
+Volumen:
 
 Oberfläche:
 
+[MA.2.A.1.k](https://be.lehrplan.ch/101bVuh6VdBgHN5Cz8e8GNuD4cNJh6x2p){.knopf .indikator}
+[MA.2.A.3.i](https://be.lehrplan.ch/101hY2pesFLB3JJ6vSRYcnGYRen9Wuyfy){.knopf .indikator}
