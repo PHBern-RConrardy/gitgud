@@ -3,6 +3,8 @@ title: "Mathematikprüfung"
 categories: 
   - "Geometrie"
   - "Form und Raum"
+  - "Lenrzielkontrolle"
+  - "8. Klasse"
 author:
   - name: Jonas Eggimann
   - name: Jonas Hunkeler
@@ -16,11 +18,20 @@ toc-depth: 3
 ---
 
 ### Angaben
+
 Name, Niveau, Datum:
 
+### Punkte
 
-### Punkte 
-16 (Real), 18 (Sek), 20 (Spez. Sek.)
+| Aufgabe | 1   | 2   | 3   | 4   | 5   | 6   | $\Sigma$ |
+|---------|-----|-----|-----|-----|-----|-----|----------|
+| Punkte  | 1   | 4   | 3   | 4   | 4   | 4   | 20       |
+
+Benötigte Anzahl Punkte für eine 6:
+
+-   16 (Real)
+-   18 (Sek)
+-   20 (Spez. Sek.)
 
 ### Hilfsmittel
 
@@ -28,11 +39,12 @@ Schreibzeug, Geodreieck, Lineal, Zirkel, Taschenrechner
 
 ### Allgemeine Hinweise
 
-Runde alle Zahlen auf zwei Nachkommastellen und notiere alle
-Resultate mit einem Kugelschreiber. Alle Zahlenangaben geben wir als
-Längeneinheit (LE) an. Sprich du musst keine Längeneinheit angeben.
+Runde alle Zahlen auf zwei Nachkommastellen und notiere alle Resultate
+mit einem Kugelschreiber. Alle Zahlenangaben geben wir als Längeneinheit
+(LE) an. Sprich du musst keine Längeneinheit angeben.
 
 ### Zeit
+
 45min
 
 ### Binnendifferenzierung
@@ -44,13 +56,14 @@ Längeneinheit (LE) an. Sprich du musst keine Längeneinheit angeben.
 
 Viel Glück
 
----
+------------------------------------------------------------------------
 
 ## Aufgabe 1
 
-1 Punkt
+[MA.2.A.3.h](https://be.lehrplan.ch/101PkqMkqzxUs36hHHkYEzbSuMg99acT6){.knopf
+.indikator}
 
-Auftrag: Kreuze die wahre Aussage an:
+Kreuze die wahre Aussage an:
 
 -   Die Formel, um mit dem Satz des Pythagoras zu rechnen, lautet:
     $a^2 + b^2 = c$
@@ -59,102 +72,104 @@ Auftrag: Kreuze die wahre Aussage an:
 -   Die Formel, um mit dem Satz des Pythagoras zu rechnen, lautet:
     $1a^2 +1b^2 = 2c^2$
 
-[MA.2.A.3.h](https://be.lehrplan.ch/101PkqMkqzxUs36hHHkYEzbSuMg99acT6){.knopf .indikator}    
-
----
+------------------------------------------------------------------------
 
 ## Aufgabe 2
 
-(4 Punkte) Auftrag:
+[MA.2.A.3.h](https://be.lehrplan.ch/101PkqMkqzxUs36hHHkYEzbSuMg99acT6){.knopf
+.indikator}
 
 Bestimme die fehlende Grösse der folgenden Dreiecke. Dein Rechnungsweg
 muss ersichtlich sein.
 
-
-:::{.columns}
-:::{.column}
+::: columns
+::: column
 ![](images/geogebra-export.svg){#fig-aufgabe}
 :::
 
-:::{.column }
-![](images/geogebra-export_2.svg){#fig-aufgabe}
+::: column
+![](images/geogebra-export_2.svg)
 :::
 :::
 
-[MA.2.A.3.h](https://be.lehrplan.ch/101PkqMkqzxUs36hHHkYEzbSuMg99acT6){.knopf .indikator}   
-
----
+------------------------------------------------------------------------
 
 ## Aufgabe 3
 
-(3 Punkte) Auftrag: Bestimme vom gleichschenkligen Dreieck die
-Grundlinie g. Hinweis: Höhe des Dreiecks = 15
+[MA.2.A.3.h](https://be.lehrplan.ch/101PkqMkqzxUs36hHHkYEzbSuMg99acT6){.knopf
+.indikator}
+[MA.2.A.1.i](https://be.lehrplan.ch/101ynfPky7BFpr8TcpDdhJGF7bGBXERpT){.knopf
+.indikator}
 
-![](images/geogebra-export_3.svg){#fig-aufgabe}
+Bestimme vom gleichschenkligen Dreieck die Grundlinie $g$.
 
-[MA.2.A.3.h](https://be.lehrplan.ch/101PkqMkqzxUs36hHHkYEzbSuMg99acT6){.knopf .indikator}    [MA.2.A.1.i](https://be.lehrplan.ch/101ynfPky7BFpr8TcpDdhJGF7bGBXERpT){.knopf .indikator} 
+Hinweis: Höhe des Dreiecks = 15
 
----
+![](images/geogebra-export_3.svg)
+
+------------------------------------------------------------------------
 
 ## Aufgabe 4
 
-(4 Punkte)
+[MA.2.C.2.i](https://be.lehrplan.ch/101AWXeZS2HpzutW5DCGbwzdV7LxLJZWz){.knopf
+.indikator}
 
 Auftrag a\*: Konstruiere die Mittelsenkrechte der Linie a.
 
 Auftrag b\*\*: Konstruiere mithilfe des Satzes von Thales ein
 rechtwinkliges Dreieck. Hypotenuse = a
 
-![](images/geogebra-export_4.svg){#fig-aufgabe}
+![](images/geogebra-export_4.svg)
 
-[MA.2.C.2.i](https://be.lehrplan.ch/101AWXeZS2HpzutW5DCGbwzdV7LxLJZWz){.knopf .indikator}  
-
----
+------------------------------------------------------------------------
 
 ## Aufgabe 5
 
-: (4 Punkte) Auftrag: Bestimme das Volumen und die Oberfläche der
-Pyramide. Hinweis: gestrichelte Linie ist die Hälfte von a.
+[MA.2.A.3.j](https://be.lehrplan.ch/101WHZAFydPBVsWSKRxVbDDTJ9S2qrXGZ){.knopf
+.indikator}
+
+Bestimme das Volumen und die Oberfläche der Pyramide. Hinweis:
+gestrichelte Linie ist die Hälfte von a.
 
 $h = 6$ $a = 4$
 
-![](images/geogebra-export_5.png){#fig-aufgabe}
+![](images/geogebra-export_5.png)
 
 $V =$
 
 $O =$
 
-[MA.2.A.3.j](https://be.lehrplan.ch/101WHZAFydPBVsWSKRxVbDDTJ9S2qrXGZ){.knopf .indikator}  
-
----
+------------------------------------------------------------------------
 
 ## Aufgabe 6:
 
-(4 Punkte)
+[MA.2.A.1.k](https://be.lehrplan.ch/101bVuh6VdBgHN5Cz8e8GNuD4cNJh6x2p){.knopf
+.indikator}
+[MA.2.A.3.i](https://be.lehrplan.ch/101hY2pesFLB3JJ6vSRYcnGYRen9Wuyfy){.knopf
+.indikator}
 
 ### Auftrag (Real):
 
 Bestimme das Volumen und die
 
-Oberfläche des Prismas. Gegeben: c = 10 hc = 4 hp = 12
+Oberfläche des Prismas. Gegeben: $c = 10$ $h_c = 4$ $h_P = 12$
 
 ### Auftrag (Sek):
 
 Bestimme das Volumen und die Oberfläche des Prismas.
 
-Gegeben: a = 12 b = 8 hp = 22
+Gegeben: $a = 12$ $b = 8$ $h_P = 22$
 
 ### Auftrag (Spez-Sek):
 
-![](images/geogebra-export_6.png){#fig-aufgabe}
+
 
 Bestimme das Volumen und die Oberfläche des Prismas.
 
-Gegeben: a = 25 c= 60 hp = 34
+Gegeben: $a = 25$ $c= 60$ $h_P = 34$
 
 Volumen:
 
 Oberfläche:
 
-[MA.2.A.1.k](https://be.lehrplan.ch/101bVuh6VdBgHN5Cz8e8GNuD4cNJh6x2p){.knopf .indikator}
-[MA.2.A.3.i](https://be.lehrplan.ch/101hY2pesFLB3JJ6vSRYcnGYRen9Wuyfy){.knopf .indikator}
+![](images/geogebra-export_6.png)
