@@ -100,12 +100,12 @@ graph LR;
   
   
   subgraph Hochschulmathematik
-    subgraph Fachkompetenz
-      PH_FK_1[Arithmetik];
-      PH_FK_2[Grundlagen der Geometrie];
-      PH_FK_3[Grundlagen der Mathematik];
-      PH_FK_4[Abbildungsgeometrie];
-    end
+   
+      PH_FK_1[Arithmetik - Fachkompetenz];
+      PH_FK_2[Grundlagen der Geometrie - Fachkompetenz];
+      PH_FK_3[Grundlagen der Mathematik - Fachkompetenz];
+      PH_FK_4[Abbildungsgeometrie - Fachkompetenz];
+    
     PH_MI_1[Wahrscheinlichkeitsrechnung - Mikroplanung];
     PH_MA_1[Erforschen und Argumentieren - Makroplanung];
     PH_FB_1[Sicher Unterwegs in der Mathematik der Ungewissheit - Formative Beurteilung];
@@ -120,12 +120,34 @@ graph LR;
   PH_MI_1-.->MA_ST_1 & MA_KO_3 & MA_ST_2 & MA_KO_3 & MA_KO_2 & MA_KO_1;
   PH_MA_1-.->MA_AR_3 & MA_AR_1 & MA_AR_2 & MA_AR_8 & MA_AR_10 & MA_AN_1;
   PH_FB_1-.->MA_ST_1 & MA_KO_2 & MA_ST_2 & MA_ST_3;
-  PH_SB_1-.->MA_ST_3 & MA_NI_2;
   PH_FB_2-.->MA_NI_3 & MA_KO_2;
+  PH_SB_1-.->MA_ST_3 & MA_NI_2;
+  
+  classDef PH_FK_1 fill:#CDDFE8;
+  classDef PH_FK_2 fill:#F0EFCd;
+  classDef PH_FK_3 fill:#d8b5c9;
+  classDef PH_FK_4 fill:#0eb6d9;
+  classDef PH_MI_1 fill:#e95e84
+  classDef PH_MA_1 fill:#F5BF7F
+  classDef PH_FB_1 fill:#FFE806
+  classDef PH_FB_2 fill:#AD9595
+  classDef PH_SB_1 fill:#8fe7a5
+  
+  
+  class PH_FK_1,MA_AR_10,MA_AL_2,MA_AR_1,MA_AR_5,MA_AR_6,MA_AR_8,MA_KO_1,MA_AL_9,MA_AL_4,MA_AL_6,MA_AL_7 PH_FK_1;
+  class PH_FK_2,MA_GE_1,MA_GE_2,MA_GE_11,MA_GE_6,MA_GE_7,MA_GE_12,MA_GE_9,MA_GE_10,MA_GE_13,MA_GE_14,MA_GE_8 PH_FK_2;
+  class PH_FK_3,MA_AN_1,MA_AN_2,MA_AR_2,MA_AR_8 PH_FK_3;
+  class PH_FK_4,MA_GE_3,MA_GE_4,MA_GE_15,MA_GE_16,MA_AN_1,MA_AN_2 PH_FK_4;
+  class PH_MI_1,MA_ST_1,MA_KO_3,MA_ST_2,MA_KO_3,MA_KO_2,MA_KO_1 PH_MI_1;
+  class PH_MA_1,MA_AR_3,MA_AR_1,MA_AR_2,MA_AR_8,MA_AR_10,MA_AN_1 PH_MA_1;
+  class PH_FB_1,MA_ST_1,MA_KO_2,MA_ST_2,MA_ST_3 PH_FB_1;
+  class PH_FB_2,MA_NI_3,MA_KO_2 PH_FB_2;
+  class PH_SB_1,MA_ST_3,MA_NI_2 PH_SB_1;
+  
   
   classDef title font-size:14px;
   classDef padding stroke:none,fill:none;
-  
+
   class main title;
   class padding padding;
 ```
