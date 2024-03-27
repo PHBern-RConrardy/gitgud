@@ -13,9 +13,6 @@ editor:
     wrap: 72
 format: 
   html: default
-  pdf: default
-  docx: default
-  
 toc-depth: 3
 ---
 
