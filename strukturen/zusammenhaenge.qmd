@@ -2,14 +2,17 @@
 title: "Inhaltliche Zusammenhänge"
 format: 
     html:
+      embed-resources: true
       page-layout: full
 ---
 
 
-
 ```{mermaid}
+%%|mermaid-format: js
+%%|fig-width: 10
+%%|fig-height: 9
 
-graph LR;
+flowchart LR;
   subgraph Mathematik Lehr- Lerninhalte des Lehrplans 21
   subgraph Arithmetik
     MA_AR_1[Ganze Zahlen];
@@ -170,11 +173,8 @@ subgraph Hochschulmathematik - Lerngelegenheiten
     PH_SB_1[Gut angekommen in der Mathematik der Ungewissheit - Summative Beurteilung]
   end;
   
-
   
-  
-  
-  classDef PH_FK_1 fill:#CDDFE8;
+  classDef PH_FK_1 stripedBackground;
   classDef PH_FK_2 fill:#F0EFCd;
   classDef PH_FK_3 fill:#d8b5c9;
   classDef PH_FK_4 fill:#0eb6d9;
@@ -183,8 +183,8 @@ subgraph Hochschulmathematik - Lerngelegenheiten
   classDef PH_FB_1 fill:#FFE806
   classDef PH_FB_2 fill:#AD9595
   classDef PH_SB_1 fill:#8fe7a5
-  
-  
+
+
   class PH_FK_1,MA_AR_10,MA_AL_2,MA_AR_1,MA_AR_5,MA_AR_6,MA_AR_8,MA_KO_1,MA_AL_9,MA_AL_4,MA_AL_6,MA_AL_7 PH_FK_1;
   class PH_FK_2,MA_GE_1,MA_GE_2,MA_GE_11,MA_GE_6,MA_GE_7,MA_GE_12,MA_GE_9,MA_GE_10,MA_GE_13,MA_GE_14,MA_GE_8 PH_FK_2;
   class PH_FK_3,MA_AN_1,MA_AN_2,MA_AR_2,MA_AR_8 PH_FK_3;
@@ -194,14 +194,8 @@ subgraph Hochschulmathematik - Lerngelegenheiten
   class PH_FB_1,MA_ST_1,MA_KO_2,MA_ST_2,MA_ST_3 PH_FB_1;
   class PH_FB_2,MA_NI_3,MA_KO_2 PH_FB_2;
   class PH_SB_1,MA_ST_3,MA_NI_2 PH_SB_1;
-  
-  
-  
-  classDef title font-size:14px;
-  classDef padding stroke:none,fill:none;
-  
-  class main title;
-  class padding padding;
 ```
+
+
 
 

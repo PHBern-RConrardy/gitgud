@@ -3,7 +3,7 @@ title: "Mathematikprüfung"
 categories: 
   - "Geometrie"
   - "Form und Raum"
-  - "Lenrzielkontrolle"
+  - "Lernzielkontrolle"
   - "8. Klasse"
 author:
   - name: Jonas Eggimann
@@ -13,6 +13,8 @@ editor:
     wrap: 72
 format: 
   html: default
+  pdf: default
+  docx: default
   
 toc-depth: 3
 ---
@@ -20,6 +22,19 @@ toc-depth: 3
 ### Angaben
 
 Name, Niveau, Datum:
+
+---
+
+### Lernziele:
+
+Wir können:
+
+- Längen mit Hilfe des Satzes von Pythagoras berechnen.
+- Objekte mit Zirkel und Lineal konstruieren.
+- mit Längen, Flächen und Volumen in Pyramiden rechnen.
+- mit Längen, Flächen und Volumen in geraden Prismen rechnen.
+
+---
 
 ### Punkte
 
@@ -32,6 +47,8 @@ Benötigte Anzahl Punkte für eine 6:
 -   16 (Real)
 -   18 (Sek)
 -   20 (Spez. Sek.)
+
+---
 
 ### Hilfsmittel
 
@@ -61,7 +78,7 @@ Viel Glück
 ## Aufgabe 1
 
 [MA.2.A.3.h](https://be.lehrplan.ch/101PkqMkqzxUs36hHHkYEzbSuMg99acT6){.knopf
-.indikator}
+.stufe .vor}
 
 Kreuze die wahre Aussage an:
 
@@ -77,7 +94,7 @@ Kreuze die wahre Aussage an:
 ## Aufgabe 2
 
 [MA.2.A.3.h](https://be.lehrplan.ch/101PkqMkqzxUs36hHHkYEzbSuMg99acT6){.knopf
-.indikator}
+.stufe .vor}
 
 Bestimme die fehlende Grösse der folgenden Dreiecke. Dein Rechnungsweg
 muss ersichtlich sein.
@@ -97,9 +114,9 @@ muss ersichtlich sein.
 ## Aufgabe 3
 
 [MA.2.A.3.h](https://be.lehrplan.ch/101PkqMkqzxUs36hHHkYEzbSuMg99acT6){.knopf
-.indikator}
+.stufe .vor}
 [MA.2.A.1.i](https://be.lehrplan.ch/101ynfPky7BFpr8TcpDdhJGF7bGBXERpT){.knopf
-.indikator}
+.stufe .vor}
 
 Bestimme vom gleichschenkligen Dreieck die Grundlinie $g$.
 
@@ -112,7 +129,7 @@ Hinweis: Höhe des Dreiecks = 15
 ## Aufgabe 4
 
 [MA.2.C.2.i](https://be.lehrplan.ch/101AWXeZS2HpzutW5DCGbwzdV7LxLJZWz){.knopf
-.indikator}
+.stufe .vor}
 
 Auftrag a\*: Konstruiere die Mittelsenkrechte der Linie a.
 
@@ -126,7 +143,7 @@ rechtwinkliges Dreieck. Hypotenuse = a
 ## Aufgabe 5
 
 [MA.2.A.3.j](https://be.lehrplan.ch/101WHZAFydPBVsWSKRxVbDDTJ9S2qrXGZ){.knopf
-.indikator}
+.stufe .nach}
 
 Bestimme das Volumen und die Oberfläche der Pyramide. Hinweis:
 gestrichelte Linie ist die Hälfte von a.
@@ -144,9 +161,9 @@ $O =$
 ## Aufgabe 6:
 
 [MA.2.A.1.k](https://be.lehrplan.ch/101bVuh6VdBgHN5Cz8e8GNuD4cNJh6x2p){.knopf
-.indikator}
+.stufe .nach}
 [MA.2.A.3.i](https://be.lehrplan.ch/101hY2pesFLB3JJ6vSRYcnGYRen9Wuyfy){.knopf
-.indikator}
+.stufe .vor}
 
 ### Auftrag (Real):
 
