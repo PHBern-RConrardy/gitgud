@@ -1,7 +1,0 @@
----
-title: "9. Klasse"
-subtitle: "Jahresplanung"
-format: 
-  html: default
-  pdf: default
----

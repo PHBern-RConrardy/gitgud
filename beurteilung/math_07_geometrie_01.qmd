@@ -14,6 +14,12 @@ editor:
 format: 
   html: default
 toc-depth: 3
+
+citation: 
+  author:
+    - Jonas Eggimann
+    - Jonas Hunkeler
+    - Richard Conrardy
 ---
 
 ### Angaben
@@ -75,7 +81,7 @@ Viel Glück
 ## Aufgabe 1
 
 [MA.2.A.3.h](https://be.lehrplan.ch/101PkqMkqzxUs36hHHkYEzbSuMg99acT6){.knopf
-.stufe .vor}
+.stufe }
 
 Kreuze die wahre Aussage an:
 
@@ -91,18 +97,18 @@ Kreuze die wahre Aussage an:
 ## Aufgabe 2
 
 [MA.2.A.3.h](https://be.lehrplan.ch/101PkqMkqzxUs36hHHkYEzbSuMg99acT6){.knopf
-.stufe .vor}
+.stufe }
 
 Bestimme die fehlende Grösse der folgenden Dreiecke. Dein Rechnungsweg
 muss ersichtlich sein.
 
 ::: columns
 ::: column
-![](images/geogebra-export.svg){#fig-aufgabe}
+![](math_07_geometrie_01/geogebra-export.svg){#fig-aufgabe}
 :::
 
 ::: column
-![](images/geogebra-export_2.svg)
+![](math_07_geometrie_01/geogebra-export_2.svg){#fig-aufgabe}
 :::
 :::
 
@@ -111,43 +117,43 @@ muss ersichtlich sein.
 ## Aufgabe 3
 
 [MA.2.A.3.h](https://be.lehrplan.ch/101PkqMkqzxUs36hHHkYEzbSuMg99acT6){.knopf
-.stufe .vor}
+.stufe }
 [MA.2.A.1.i](https://be.lehrplan.ch/101ynfPky7BFpr8TcpDdhJGF7bGBXERpT){.knopf
-.stufe .vor}
+.stufe }
 
 Bestimme vom gleichschenkligen Dreieck die Grundlinie $g$.
 
 Hinweis: Höhe des Dreiecks = 15
 
-![](images/geogebra-export_3.svg)
+![](math_07_geometrie_01/geogebra-export_3.svg){#fig-aufgabe}
 
 ------------------------------------------------------------------------
 
 ## Aufgabe 4
 
 [MA.2.C.2.i](https://be.lehrplan.ch/101AWXeZS2HpzutW5DCGbwzdV7LxLJZWz){.knopf
-.stufe .vor}
+.stufe }
 
 Auftrag a\*: Konstruiere die Mittelsenkrechte der Linie a.
 
 Auftrag b\*\*: Konstruiere mithilfe des Satzes von Thales ein
 rechtwinkliges Dreieck. Hypotenuse = a
 
-![](images/geogebra-export_4.svg)
+![](math_07_geometrie_01/geogebra-export_4.svg){#fig-aufgabe}
 
 ------------------------------------------------------------------------
 
 ## Aufgabe 5
 
 [MA.2.A.3.j](https://be.lehrplan.ch/101WHZAFydPBVsWSKRxVbDDTJ9S2qrXGZ){.knopf
-.stufe .nach}
+.stufe }
 
 Bestimme das Volumen und die Oberfläche der Pyramide. Hinweis:
 gestrichelte Linie ist die Hälfte von a.
 
 $h = 6$ $a = 4$
 
-![](images/geogebra-export_5.png)
+![](math_07_geometrie_01/geogebra-export_5.png){#fig-aufgabe}
 
 $V =$
 
@@ -158,9 +164,9 @@ $O =$
 ## Aufgabe 6:
 
 [MA.2.A.1.k](https://be.lehrplan.ch/101bVuh6VdBgHN5Cz8e8GNuD4cNJh6x2p){.knopf
-.stufe .nach}
+.stufe }
 [MA.2.A.3.i](https://be.lehrplan.ch/101hY2pesFLB3JJ6vSRYcnGYRen9Wuyfy){.knopf
-.stufe .vor}
+.stufe }
 
 ### Auftrag (Real):
 
@@ -186,4 +192,4 @@ Volumen:
 
 Oberfläche:
 
-![](images/geogebra-export_6.png)
+![](math_07_geometrie_01/geogebra-export_6.png){#fig-aufgabe}

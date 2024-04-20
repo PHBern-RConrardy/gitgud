@@ -40,6 +40,18 @@ website:  # Menüs für die Webseite
           - text: Fachzusammenhänge
             href: strukturen/zusammenhaenge.qmd
             icon: diagram-2-fill
+      - text: Zahl
+        href: mathematik/zahl/010.qmd
+      - text: Variable
+        href: mathematik/variable/010.qmd
+      - text: Form
+        href: mathematik/form/010.qmd
+      - text: Raum
+        href: mathematik/raum/010.qmd
+      - text: Funktionen
+        href: mathematik/funktionen/010.qmd
+      - text: Daten und Zufall
+        href: mathematik/daten_und_zufall/010.qmd
       
   page-footer: # Fusszeile
     center: 
