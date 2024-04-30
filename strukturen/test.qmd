@@ -3,21 +3,21 @@ format: revealjs
 ---
 
 
-# Wer bist du? Name, aktuelle Funktion, was hast du mit KI zu tun?
+## Wer bist du? Name, aktuelle Funktion, was hast du mit KI zu tun?
 
-# Was begeistert dich an KI? Was ist neu und faszinierend daran?
+## Was begeistert dich an KI? Was ist neu und faszinierend daran?
 
-# Und: Was ist denn eigentlich KI und wie funktioniert KI ? Kannst du uns dazu eine kurze Beschreibung in eigenen Worten geben?
+## Und: Was ist denn eigentlich KI und wie funktioniert KI ? Kannst du uns dazu eine kurze Beschreibung in eigenen Worten geben?
 
-# Welche offenen Fragen und Herausforderungen bezüglich KI findest du besonders erwähnenswert und relevant?
+## Welche offenen Fragen und Herausforderungen bezüglich KI findest du besonders erwähnenswert und relevant?
 
-# Welche Nutzung von KI würdest du deinen Studierenden/den Lernenden vorschlagen? Wie wird KI sinnvoll beim Lernen eingesetzt.
+## Welche Nutzung von KI würdest du deinen Studierenden/den Lernenden vorschlagen? Wie wird KI sinnvoll beim Lernen eingesetzt.
 
-# Nutzt du KI in der Lehre/beim Unterrichten in irgendeiner Form? Kannst du ein paar Beispiele nennen?
+## Nutzt du KI in der Lehre/beim Unterrichten in irgendeiner Form? Kannst du ein paar Beispiele nennen?
 
-# Wenn du Prompts eingibst, wie gehst du vor und auf was achtest du? Womit hast du gute Erfolge?
+## Wenn du Prompts eingibst, wie gehst du vor und auf was achtest du? Womit hast du gute Erfolge?
 
-# KI und Leistungsnachweise/Prüfungen: Was sind deine Gedanken zu diesem Thema?
+## KI und Leistungsnachweise/Prüfungen: Was sind deine Gedanken zu diesem Thema?
 
 ## Setzt du KI beim Programmieren ein? Wenn ja, nenne uns doch ein Beispiel. Funktioniert das? Empfindest du das als hilfreich?
 
