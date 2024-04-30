@@ -42,16 +42,22 @@ website:  # Menüs für die Webseite
             icon: diagram-2-fill
       - text: Zahl
         href: mathematik/zahl/010.qmd
+        icon: 0-square-fill
       - text: Variable
         href: mathematik/variable/010.qmd
+        icon: box-seam-fill
       - text: Form
         href: mathematik/form/010.qmd
+        icon: hexagon-fill
       - text: Raum
         href: mathematik/raum/010.qmd
+        icon: boxes
       - text: Funktionen
         href: mathematik/funktionen/010.qmd
+        icon: gear-wide-connected
       - text: Daten und Zufall
         href: mathematik/daten_und_zufall/010.qmd
+        icon: dice-5-fill
       
   page-footer: # Fusszeile
     center: 

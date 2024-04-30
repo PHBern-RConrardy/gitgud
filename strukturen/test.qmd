@@ -1,0 +1,26 @@
+---
+format: revealjs
+---
+
+
+# Wer bist du? Name, aktuelle Funktion, was hast du mit KI zu tun?
+
+# Was begeistert dich an KI? Was ist neu und faszinierend daran?
+
+# Und: Was ist denn eigentlich KI und wie funktioniert KI ? Kannst du uns dazu eine kurze Beschreibung in eigenen Worten geben?
+
+# Welche offenen Fragen und Herausforderungen bezüglich KI findest du besonders erwähnenswert und relevant?
+
+# Welche Nutzung von KI würdest du deinen Studierenden/den Lernenden vorschlagen? Wie wird KI sinnvoll beim Lernen eingesetzt.
+
+# Nutzt du KI in der Lehre/beim Unterrichten in irgendeiner Form? Kannst du ein paar Beispiele nennen?
+
+# Wenn du Prompts eingibst, wie gehst du vor und auf was achtest du? Womit hast du gute Erfolge?
+
+# KI und Leistungsnachweise/Prüfungen: Was sind deine Gedanken zu diesem Thema?
+
+## Setzt du KI beim Programmieren ein? Wenn ja, nenne uns doch ein Beispiel. Funktioniert das? Empfindest du das als hilfreich?
+
+## Ein Rückschluss hin zur Lernpsychologie und zur Pädagogik: Wie sollten wir deiner Meinung nach KI verwenden, damit sie in der Bildung zielführend ist. Oder was sind deine Gedanken zu diesem Thema. (Es können auch einfach offene Fragen formuliert werden, wenn man keine direkten Antworten geben möchte, da dieses Thema doch recht umstritten ist.)
+
+## Ein Blick in die Zukunft: Wie sieht das Lernen bzw. das Unterrichten mit KI in 10 Jahren aus? Sprich, wohin geht die Reise. Es kann auch gerne als ein wahrscheinliches oder als ein wünschenswertes Szenario formuliert werden.
