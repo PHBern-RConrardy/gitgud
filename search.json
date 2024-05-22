@@ -1,71 +1,8 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "gitgud",
-    "section": "",
-    "text": "Sortieren nach\n       Voreinstellung\n         \n          Titel\n        \n         \n          Autor:in\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nTitel\n\n\nAutor:in\n\n\nUntertitel\n\n\n\n\n\n\nMathematikprüfung\n\n\nJonas Eggimann, Jonas Hunkeler\n\n\n \n\n\n\n\n\nKeine Treffer\n\nWiederverwendungCC BY-SA 4.0"
-  },
-  {
-    "objectID": "strukturen/jahresplanungen.html",
-    "href": "strukturen/jahresplanungen.html",
-    "title": "Jahresplanungen",
-    "section": "",
-    "text": "Übersicht des Jahresablaufes\n\n\n\n\n\n\n\n\n\n\n\n\n\nZahl\nVariable\nForm\nRaum\nFunktionen\nDaten und Zufall\nErweiterung\n\n\n\n\n\nKlasse HS\n\nganze Zahlen\nBrüche\nGleichungen\nlineare Gl.\n\n\n\n\n\n\n\n\nKlasse FS\n\n\n\n\n\n\n\n\n\n\n\nKlasse HS\n\n\n\n\n\n\n\n\n\n\n\nKlasse FS\n\n\n\n\n\n\n\n\n\n\n\nKlasse HS\n\n\n\n\n\n\n\n\n\n\n\nKlasse FS\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWiederverwendungCC BY-SA 4.0"
-  },
-  {
-    "objectID": "strukturen/zusammenhaenge.html",
-    "href": "strukturen/zusammenhaenge.html",
-    "title": "Inhaltliche Zusammenhänge",
-    "section": "",
-    "text": "flowchart LR;\n  subgraph Mathematik Lehr- Lerninhalte des Lehrplans 21\n  subgraph Arithmetik\n    MA_AR_1[Ganze Zahlen];\n    MA_AR_2[Rationale Zahlen];\n    MA_AR_3[Reelle Zahlen];\n    MA_AR_5[Potenzieren];\n    MA_AR_6[Wurzel ziehen];\n    MA_AR_7[Prozentrechnen];\n    MA_AR_8[Wissenschaftliche Schreibweise];\n    MA_AR_9[Umkehroperationen];\n    MA_AR_10[Primzahlen]\n    subgraph Grundoperationen\n      MA_GO_1[\"+\"];\n      MA_GO_2[\"-\"];\n      MA_GO_3[\"*\"];\n      MA_GO_4[\"/\"];\n    end\n  end\n  \n  \n  subgraph Algebra\n    MA_AL_1[Variablen];\n    MA_AL_2[Gleichungen];\n    MA_AL_3[Lineare Gleichungen];\n    MA_AL_4[Terme];\n    MA_AL_5[Ungleichungen];\n    MA_AL_6[Polynome];\n    MA_AL_7[Monome];\n    MA_AL_8[2x2 lineare Gleichungssysteme];\n    MA_AL_9[Binome];\n  end\n  \n  subgraph Analysis\n    MA_AN_1[Funktionen];\n    MA_AN_2[Umkehrfunktionen];\n    MA_AN_3[Lineare Funktionen];\n    MA_AN_4[exponentielles Wachstum];\n    MA_AN_8[quadratisches Wachstum];\n    subgraph sichtweisen[Sichtweisen von Funktionen]\n    MA_AN_5[Wertetabelle];\n    MA_AN_6[Funktionsgraphen];\n    MA_AN_7[Funktionsgleichungen];\n    end\n  end\n  \n  subgraph Geometrie\n    MA_GE_4[Koordinatensystem];\n    MA_GE_5[Einheitsstrecke];\n    MA_GE_11[Winkel];\n    subgraph \"Ebene Geometrie\"\n      MA_GE_1[Dreiecke];\n      MA_GE_2[Vierecke];\n      MA_GE_3[Kongruenzabbildungen];\n      MA_GE_15[Symmetrien];\n      MA_GE_16[Ähnlichkeitsabbildungen];\n      MA_GE_9[Satzgruppe von Pythagoras];\n      MA_GE_10[Satz von Thales];\n      MA_GE_12[Kreise];\n      MA_GE_13[Polygone];\n      MA_GE_14[Rechtwinklige Dreiecke];\n    end\n    subgraph \"Räumliche Geometrie\"\n      MA_GE_6[Prismen];\n      MA_GE_7[Zylinder];\n      MA_GE_8[Pyramiden];\n    end\n  end\n  \n  subgraph Nichtaxiomatische Mathematik\n    MA_NI_1[SI-Einheiten];\n    MA_NI_2[Diagramme];\n    MA_NI_3[Überschlagen];\n    MA_NI_4[Masseinheiten];\n    MA_NI_5[Flussdiagramm];\n    MA_NI_6[Zins, Zinssatz, Kapital, Rabatt, Brutto, Netto];\n  end\n  \n  subgraph Stochastik\n    MA_ST_1[Wahrscheinlichkeit];\n    MA_ST_2[Baumdiagramm];\n    MA_ST_3[Arithmetisches Mittel];\n    subgraph Kombinatorik\n      MA_KO_1[Fakultät];\n      MA_KO_2[mehrstufige Zufallsexperimente];\n      MA_KO_3[4 Auswahlprozesse]\n    end\n  end\n  end\n  \n  subgraph \"Medien und Informatik\"\n    MI_PR_1[Variablen];\n    MI_PR_2[Unterprogramme, Funktionen];\n    MI_PR_3[Schleifen];\n    MI_PR_4[Listen];\n    MI_PR_5[Flussdiagramm];\n    MI_PR_6[Parameter];\n    MI_PR_7[Bedingte Anweisungen]\n  end;\n  \n  MA_AR_1--&gt;MA_AR_2--&gt;MA_AR_3;\n  MA_AN_1--&gt;MA_AN_2;\n  MA_AN_1--&gt;MA_AN_3;\n  MA_ST_2&lt;--&gt;MI_PR_5;\n  MI_PR_1&lt;--&gt;MA_AL_1;\n  MI_PR_2&lt;--&gt;MA_AN_1;\n  MA_GO_1--&gt;MA_AR_1;\n  MA_GO_2--&gt;MA_AR_1;\n  MA_GO_3--&gt;MA_AR_2;\n  MA_GO_4--&gt;MA_AR_2;\n  MA_AR_6--&gt;MA_AR_3;\n  MA_AR_5--&gt;MA_AR_6;\n  MA_AR_9--&gt;MA_AR_6;\n  MA_AR_2--&gt;MA_AR_7--&gt;MA_ST_1;\n  MA_AR_5--&gt;MA_AR_8;\n  MA_AN_1&lt;--&gt;sichtweisen;\n  MA_AL_2--&gt;MA_AN_7;\n  MA_AL_1--&gt;MA_AL_4--&gt;MA_AL_2--&gt;MA_AL_3--&gt;MA_AL_8;\n  MA_AL_2--&gt;MA_AL_5;\n  MA_AR_9--&gt;MA_GO_2;\n  MA_AR_9--&gt;MA_GO_4;\n  MA_GO_1--&gt;MA_GO_3--&gt;MA_AR_5;\n  MA_AR_9--&gt;MA_AN_2;\n  MA_AL_4--&gt;MA_AL_7--&gt;MA_AL_9;  \n  MA_AL_7--&gt;MA_AL_6;\n  MA_AL_3--&gt;MA_AN_3;\n  MA_GE_4--&gt;MA_AL_8;\n  MA_GE_4--&gt;MA_AN_6;\n  MA_GE_1--&gt;MA_GE_9;\n  MA_GE_13--&gt;MA_GE_6;\n  MA_GE_12--&gt;MA_GE_7;\n  MA_GE_13--&gt;MA_GE_1;\n  MA_GE_13--&gt;MA_GE_2;\n  MA_GE_14--&gt;MA_GE_10;\n  MA_GE_11--&gt;MA_GE_14;\n  MA_GE_13--&gt;MA_GE_8;\n  MA_GE_1--&gt;MA_GE_13;\n  MA_GE_4--&gt;MA_GE_3;\n  MA_GE_4--&gt;MA_GE_5;\n  MA_ST_1--&gt;MA_AN_4;\n  MA_AL_9--&gt;MA_AL_3;\n  MA_AN_5&lt;--&gt;MA_AN_7;\n  MA_AN_5&lt;--&gt;MA_AN_6;\n  MA_AN_6&lt;--&gt;MA_AN_7;\n  MA_KO_2--&gt;MA_ST_2;\n  \n  \nsubgraph Hochschulmathematik - Lerngelegenheiten\n   subgraph Fachkompetenz\n      PH_FK_1[Arithmetik];\n      PH_FK_2[Grundlagen der Geometrie];\n      PH_FK_3[Grundlagen der Mathematik];\n      PH_FK_4[Abbildungsgeometrie];\n    end\n    PH_MI_1[Wahrscheinlichkeitsrechnung - Mikroplanung];\n    PH_MA_1[Erforschen und Argumentieren - Makroplanung];\n    PH_FB_1[Sicher Unterwegs in der Mathematik der Ungewissheit - Formative Beurteilung];\n    PH_FB_2[Verstehensorientiert prüfen in Zeiten von KI - Formative und summative Beurteilung];\n    PH_SB_1[Gut angekommen in der Mathematik der Ungewissheit - Summative Beurteilung]\n  end;\n  \n  \n  classDef PH_FK_1 stripedBackground;\n  classDef PH_FK_2 fill:#F0EFCd;\n  classDef PH_FK_3 fill:#d8b5c9;\n  classDef PH_FK_4 fill:#0eb6d9;\n  classDef PH_MI_1 fill:#e95e84\n  classDef PH_MA_1 fill:#F5BF7F\n  classDef PH_FB_1 fill:#FFE806\n  classDef PH_FB_2 fill:#AD9595\n  classDef PH_SB_1 fill:#8fe7a5\n\n\n  class PH_FK_1,MA_AR_10,MA_AL_2,MA_AR_1,MA_AR_5,MA_AR_6,MA_AR_8,MA_KO_1,MA_AL_9,MA_AL_4,MA_AL_6,MA_AL_7 PH_FK_1;\n  class PH_FK_2,MA_GE_1,MA_GE_2,MA_GE_11,MA_GE_6,MA_GE_7,MA_GE_12,MA_GE_9,MA_GE_10,MA_GE_13,MA_GE_14,MA_GE_8 PH_FK_2;\n  class PH_FK_3,MA_AN_1,MA_AN_2,MA_AR_2,MA_AR_8 PH_FK_3;\n  class PH_FK_4,MA_GE_3,MA_GE_4,MA_GE_15,MA_GE_16,MA_AN_1,MA_AN_2 PH_FK_4;\n  class PH_MI_1,MA_ST_1,MA_KO_3,MA_ST_2,MA_KO_3,MA_KO_2,MA_KO_1 PH_MI_1;\n  class PH_MA_1,MA_AR_3,MA_AR_1,MA_AR_2,MA_AR_8,MA_AR_10,MA_AN_1 PH_MA_1;\n  class PH_FB_1,MA_ST_1,MA_KO_2,MA_ST_2,MA_ST_3 PH_FB_1;\n  class PH_FB_2,MA_NI_3,MA_KO_2 PH_FB_2;\n  class PH_SB_1,MA_ST_3,MA_NI_2 PH_SB_1;\n\n\n\n\n\n\n\n\n\nWiederverwendungCC BY-SA 4.0"
-  },
-  {
-    "objectID": "strukturen/hochschullehre.html",
-    "href": "strukturen/hochschullehre.html",
-    "title": "Zusammenhänge Fachwissenschaften LP21",
-    "section": "",
-    "text": "graph LR;\n  subgraph \"Mathematik Lehr- Lerninhalte der Sekundarstufe 1 - Lehrplan21\"\n  subgraph Arithmetik\n    MA_AR_1[Ganze Zahlen];\n    MA_AR_2[Rationale Zahlen];\n    MA_AR_3[Reelle Zahlen];\n    MA_AR_5[Potenzieren];\n    MA_AR_6[Wurzel ziehen];\n    MA_AR_7[Prozentrechnen];\n    MA_AR_8[Wissenschaftliche Schreibweise];\n    MA_AR_9[Umkehroperationen];\n    MA_AR_10[Primzahlen]\n    subgraph Grundoperationen\n      MA_GO_1[\"+\"];\n      MA_GO_2[\"-\"];\n      MA_GO_3[\"*\"];\n      MA_GO_4[\"/\"];\n    end\n  end\n  \n  \n  subgraph Algebra\n    MA_AL_1[Variablen];\n    MA_AL_2[Gleichungen];\n    MA_AL_3[Lineare Gleichungen];\n    MA_AL_4[Terme];\n    MA_AL_5[Ungleichungen];\n    MA_AL_6[Polynome];\n    MA_AL_7[Monome];\n    MA_AL_8[2x2 lineare Gleichungssysteme];\n    MA_AL_9[Binome];\n  end\n  \n  subgraph Analysis\n    MA_AN_1[Funktionen];\n    MA_AN_2[Umkehrfunktionen];\n    MA_AN_3[Lineare Funktionen];\n    MA_AN_4[exponentielles Wachstum];\n    MA_AN_8[quadratisches Wachstum];\n    subgraph sichtweisen[Sichtweisen von Funktionen]\n    MA_AN_5[Wertetabelle];\n    MA_AN_6[Funktionsgraphen];\n    MA_AN_7[Funktionsgleichungen];\n    end\n  end\n  \n  subgraph Geometrie\n    MA_GE_4[Koordinatensystem];\n    MA_GE_5[Einheitsstrecke];\n    MA_GE_11[Winkel];\n    subgraph \"Ebene Geometrie\"\n      MA_GE_1[Dreiecke];\n      MA_GE_2[Vierecke];\n      MA_GE_3[Kongruenzabbildungen];\n      MA_GE_15[Symmetrien];\n      MA_GE_16[Ähnlichkeitsabbildungen];\n      MA_GE_9[Satzgruppe von Pythagoras];\n      MA_GE_10[Satz von Thales];\n      MA_GE_12[Kreise];\n      MA_GE_13[Polygone];\n      MA_GE_14[Rechtwinklige Dreiecke];\n    end\n    subgraph \"Räumliche Geometrie\"\n      MA_GE_6[Prismen];\n      MA_GE_7[Zylinder];\n      MA_GE_8[Pyramiden];\n    end\n  end\n  \n  subgraph Nichtaxiomatische Mathematik\n    MA_NI_1[SI-Einheiten];\n    MA_NI_2[Diagramme der deskriptiven Statistik];\n    MA_NI_3[Überschlagen];\n    MA_NI_4[Masseinheiten];\n    MA_NI_5[Flussdiagramm];\n    MA_NI_6[Zins, Zinssatz, Kapital, Rabatt, Brutto, Netto];\n  end\n  \n  subgraph Stochastik\n    MA_ST_1[Wahrscheinlichkeit];\n    MA_ST_2[Baumdiagramm];\n    MA_ST_3[Arithmetisches Mittel];\n    subgraph Kombinatorik\n      MA_KO_1[Fakultät];\n      MA_KO_2[mehrstufige Zufallsexperimente];\n      MA_KO_3[4 Auswahlprozesse]\n    end\n  end\n  end\n  \n  \n  subgraph Hochschulmathematik\n   \n      PH_FK_1[Arithmetik - Fachkompetenz];\n      PH_FK_2[Grundlagen der Geometrie - Fachkompetenz];\n      PH_FK_3[Grundlagen der Mathematik - Fachkompetenz];\n      PH_FK_4[Abbildungsgeometrie - Fachkompetenz];\n    \n    PH_MI_1[Wahrscheinlichkeitsrechnung - Mikroplanung];\n    PH_MA_1[Erforschen und Argumentieren - Makroplanung];\n    PH_FB_1[Sicher Unterwegs in der Mathematik der Ungewissheit - Formative Beurteilung];\n    PH_FB_2[Verstehensorientiert prüfen in Zeiten von KI - Formative und summative Beurteilung];\n    PH_SB_1[Gut angekommen in der Mathematik der Ungewissheit - Summative Beurteilung]\n  end\n  \n  PH_FK_1-.-&gt; MA_AR_10 & MA_AL_2 & MA_AR_1 & MA_AR_5 & MA_AR_6 & MA_AR_8 & Grundoperationen & MA_KO_1 & MA_AL_9 & MA_AL_4 & MA_AL_6 & MA_AL_7;\n  PH_FK_2-.-&gt;MA_GE_1 & MA_GE_2 & MA_GE_11 & MA_GE_6 & MA_GE_7 & MA_GE_12 & MA_GE_9 & MA_GE_10 & MA_GE_13 & MA_GE_14 & MA_GE_8;\n  PH_FK_3-.-&gt;MA_AN_1 & MA_AN_2 & MA_AR_2 & MA_AR_8;\n  PH_FK_4-.-&gt;MA_GE_3 & MA_GE_4 & MA_GE_15 & MA_GE_16 & MA_AN_1 & MA_AN_2;\n  PH_MI_1-.-&gt;MA_ST_1 & MA_KO_3 & MA_ST_2 & MA_KO_3 & MA_KO_2 & MA_KO_1;\n  PH_MA_1-.-&gt;MA_AR_3 & MA_AR_1 & MA_AR_2 & MA_AR_8 & MA_AR_10 & MA_AN_1;\n  PH_FB_1-.-&gt;MA_ST_1 & MA_KO_2 & MA_ST_2 & MA_ST_3;\n  PH_FB_2-.-&gt;MA_NI_3 & MA_KO_2;\n  PH_SB_1-.-&gt;MA_ST_3 & MA_NI_2;\n  \n  classDef PH_FK_1 fill:#CDDFE8;\n  classDef PH_FK_2 fill:#F0EFCd;\n  classDef PH_FK_3 fill:#d8b5c9;\n  classDef PH_FK_4 fill:#0eb6d9;\n  classDef PH_MI_1 fill:#e95e84\n  classDef PH_MA_1 fill:#F5BF7F\n  classDef PH_FB_1 fill:#FFE806\n  classDef PH_FB_2 fill:#AD9595\n  classDef PH_SB_1 fill:#8fe7a5\n  \n  \n  class PH_FK_1,MA_AR_10,MA_AL_2,MA_AR_1,MA_AR_5,MA_AR_6,MA_AR_8,MA_KO_1,MA_AL_9,MA_AL_4,MA_AL_6,MA_AL_7 PH_FK_1;\n  class PH_FK_2,MA_GE_1,MA_GE_2,MA_GE_11,MA_GE_6,MA_GE_7,MA_GE_12,MA_GE_9,MA_GE_10,MA_GE_13,MA_GE_14,MA_GE_8 PH_FK_2;\n  class PH_FK_3,MA_AN_1,MA_AN_2,MA_AR_2,MA_AR_8 PH_FK_3;\n  class PH_FK_4,MA_GE_3,MA_GE_4,MA_GE_15,MA_GE_16,MA_AN_1,MA_AN_2 PH_FK_4;\n  class PH_MI_1,MA_ST_1,MA_KO_3,MA_ST_2,MA_KO_3,MA_KO_2,MA_KO_1 PH_MI_1;\n  class PH_MA_1,MA_AR_3,MA_AR_1,MA_AR_2,MA_AR_8,MA_AR_10,MA_AN_1 PH_MA_1;\n  class PH_FB_1,MA_ST_1,MA_KO_2,MA_ST_2,MA_ST_3 PH_FB_1;\n  class PH_FB_2,MA_NI_3,MA_KO_2 PH_FB_2;\n  class PH_SB_1,MA_ST_3,MA_NI_2 PH_SB_1;\n  \n  \n  classDef title font-size:14px;\n  classDef padding stroke:none,fill:none;\n\n  class main title;\n  class padding padding;\n\n\n\n\n\n\n\n\n\nWiederverwendungCC BY-SA 4.0"
-  },
-  {
-    "objectID": "footer/impressum.html",
-    "href": "footer/impressum.html",
-    "title": "Impressum",
-    "section": "",
-    "text": "Es handelt sich weder um eine Zeitung, noch um eine Zeitschrift, gemäss Art. 322 StGB.\nAuf ein formelles Impressum wird verzichtet.\nDer Quellcode der Webseite (inklusive .qmd Dateien), steht unter der GNU Affero General Public License, wie sie in der Datei LICENSE im Repository zu finden ist.\nSoweit nicht anders gekennzeichnet, stehen alle Inhalte auf dieser Website unter folgender Lizenz:\nUniversity of Teacher Education Bern, CC BY-SA 4.0\nFolgende Autoren verzichten dabei auf Namensnennung bei Wiederverwendung:\n\nRichard François Conrardy\nJoel Adler\n\nDie Marke PHBern sind von der vorliegenden Lizenz unberührt.\n\n\n\nWiederverwendungCC BY-SA 4.0"
-  },
-  {
-    "objectID": "mathematik/variable/010.html",
-    "href": "mathematik/variable/010.html",
-    "title": "Variable",
-    "section": "",
-    "text": "WiederverwendungCC BY-SA 4.0"
-  },
-  {
-    "objectID": "mathematik/funktionen/010.html",
-    "href": "mathematik/funktionen/010.html",
-    "title": "Funktionen",
-    "section": "",
-    "text": "WiederverwendungCC BY-SA 4.0"
-  },
-  {
     "objectID": "mathematik/form/010.html",
     "href": "mathematik/form/010.html",
     "title": "Form",
-    "section": "",
-    "text": "WiederverwendungCC BY-SA 4.0"
-  },
-  {
-    "objectID": "mathematik/zahl/010.html",
-    "href": "mathematik/zahl/010.html",
-    "title": "Zahl",
-    "section": "",
-    "text": "WiederverwendungCC BY-SA 4.0"
-  },
-  {
-    "objectID": "mathematik/raum/010.html",
-    "href": "mathematik/raum/010.html",
-    "title": "Raum",
     "section": "",
     "text": "WiederverwendungCC BY-SA 4.0"
   },
@@ -77,11 +14,67 @@
     "text": "WiederverwendungCC BY-SA 4.0"
   },
   {
-    "objectID": "footer/disclaimer.html",
-    "href": "footer/disclaimer.html",
-    "title": "Disclaimer",
+    "objectID": "mathematik/funktionen/010.html",
+    "href": "mathematik/funktionen/010.html",
+    "title": "Funktionen",
     "section": "",
-    "text": "Meine Website enthält Verknüpfungen zu Webseiten Dritter (sog. „externe Links“) Da ich auf deren Inhalte keinen Einfluss habe, kann für die fremden Inhalte keine Gewähr übernommen werden.\nFür die Inhalte und Richtigkeit der Informationen ist stets der jeweilige Informationsanbieter der verlinkten Webseite verantwortlich.\nExterne Links entziehen sich, wenn nicht anderes kennzeichnet, der OER Lizenz.\n\n\n\nWiederverwendungCC BY-SA 4.0"
+    "text": "WiederverwendungCC BY-SA 4.0"
+  },
+  {
+    "objectID": "beurteilung/math_07_geometrie_01.html",
+    "href": "beurteilung/math_07_geometrie_01.html",
+    "title": "Mathematikprüfung",
+    "section": "",
+    "text": "Name, Niveau, Datum:"
+  },
+  {
+    "objectID": "beurteilung/math_07_geometrie_01.html#aufgabe-1",
+    "href": "beurteilung/math_07_geometrie_01.html#aufgabe-1",
+    "title": "Mathematikprüfung",
+    "section": "Aufgabe 1",
+    "text": "Aufgabe 1\nMA.2.A.3.h\nKreuze die wahre Aussage an:\n\nDie Formel, um mit dem Satz des Pythagoras zu rechnen, lautet: \\(a^2 + b^2 = c\\)\nDieFormel, um mit dem Satz des Pythagoras zu rechnen, lautet: \\(a^2 + b^2 = c^2\\)\nDie Formel, um mit dem Satz des Pythagoras zu rechnen, lautet: \\(1a^2 +1b^2 = 2c^2\\)"
+  },
+  {
+    "objectID": "beurteilung/math_07_geometrie_01.html#aufgabe-2",
+    "href": "beurteilung/math_07_geometrie_01.html#aufgabe-2",
+    "title": "Mathematikprüfung",
+    "section": "Aufgabe 2",
+    "text": "Aufgabe 2\nMA.2.A.3.h\nBestimme die fehlende Grösse der folgenden Dreiecke. Dein Rechnungsweg muss ersichtlich sein.\n\n\n\n\n\n\n\n\nAbbildung 1\n\n\n\n\n\n\n\n\n\n\nAbbildung 2"
+  },
+  {
+    "objectID": "beurteilung/math_07_geometrie_01.html#aufgabe-3",
+    "href": "beurteilung/math_07_geometrie_01.html#aufgabe-3",
+    "title": "Mathematikprüfung",
+    "section": "Aufgabe 3",
+    "text": "Aufgabe 3\nMA.2.A.3.h MA.2.A.1.i\nBestimme vom gleichschenkligen Dreieck die Grundlinie \\(g\\).\nHinweis: Höhe des Dreiecks = 15\n\n\n\n\n\n\nAbbildung 3"
+  },
+  {
+    "objectID": "beurteilung/math_07_geometrie_01.html#aufgabe-4",
+    "href": "beurteilung/math_07_geometrie_01.html#aufgabe-4",
+    "title": "Mathematikprüfung",
+    "section": "Aufgabe 4",
+    "text": "Aufgabe 4\nMA.2.C.2.i\nAuftrag a*: Konstruiere die Mittelsenkrechte der Linie a.\nAuftrag b**: Konstruiere mithilfe des Satzes von Thales ein rechtwinkliges Dreieck. Hypotenuse = a\n\n\n\n\n\n\nAbbildung 4"
+  },
+  {
+    "objectID": "beurteilung/math_07_geometrie_01.html#aufgabe-5",
+    "href": "beurteilung/math_07_geometrie_01.html#aufgabe-5",
+    "title": "Mathematikprüfung",
+    "section": "Aufgabe 5",
+    "text": "Aufgabe 5\nMA.2.A.3.j\nBestimme das Volumen und die Oberfläche der Pyramide. Hinweis: gestrichelte Linie ist die Hälfte von a.\n\\(h = 6\\) \\(a = 4\\)\n\n\n\n\n\n\nAbbildung 5\n\n\n\n\\(V =\\)\n\\(O =\\)"
+  },
+  {
+    "objectID": "beurteilung/math_07_geometrie_01.html#aufgabe-6",
+    "href": "beurteilung/math_07_geometrie_01.html#aufgabe-6",
+    "title": "Mathematikprüfung",
+    "section": "Aufgabe 6:",
+    "text": "Aufgabe 6:\nMA.2.A.1.k MA.2.A.3.i\n\nAuftrag (Real):\nBestimme das Volumen und die\nOberfläche des Prismas. Gegeben: \\(c = 10\\) \\(h_c = 4\\) \\(h_P = 12\\)\n\n\nAuftrag (Sek):\nBestimme das Volumen und die Oberfläche des Prismas.\nGegeben: \\(a = 12\\) \\(b = 8\\) \\(h_P = 22\\)\n\n\nAuftrag (Spez-Sek):\nBestimme das Volumen und die Oberfläche des Prismas.\nGegeben: \\(a = 25\\) \\(c= 60\\) \\(h_P = 34\\)\nVolumen:\nOberfläche:\n\n\n\n\n\n\nAbbildung 6"
+  },
+  {
+    "objectID": "strukturen/zusammenhaenge.html",
+    "href": "strukturen/zusammenhaenge.html",
+    "title": "Inhaltliche Zusammenhänge",
+    "section": "",
+    "text": "flowchart LR;\n  subgraph Mathematik Lehr- Lerninhalte des Lehrplans 21\n  subgraph Arithmetik\n    MA_AR_1[Ganze Zahlen];\n    MA_AR_2[Rationale Zahlen];\n    MA_AR_3[Reelle Zahlen];\n    MA_AR_5[Potenzieren];\n    MA_AR_6[Wurzel ziehen];\n    MA_AR_7[Prozentrechnen];\n    MA_AR_8[Wissenschaftliche Schreibweise];\n    MA_AR_9[Umkehroperationen];\n    MA_AR_10[Primzahlen]\n    subgraph Grundoperationen\n      MA_GO_1[\"+\"];\n      MA_GO_2[\"-\"];\n      MA_GO_3[\"*\"];\n      MA_GO_4[\"/\"];\n    end\n  end\n  \n  \n  subgraph Algebra\n    MA_AL_1[Variablen];\n    MA_AL_2[Gleichungen];\n    MA_AL_3[Lineare Gleichungen];\n    MA_AL_4[Terme];\n    MA_AL_5[Ungleichungen];\n    MA_AL_6[Polynome];\n    MA_AL_7[Monome];\n    MA_AL_8[2x2 lineare Gleichungssysteme];\n    MA_AL_9[Binome];\n  end\n  \n  subgraph Analysis\n    MA_AN_1[Funktionen];\n    MA_AN_2[Umkehrfunktionen];\n    MA_AN_3[Lineare Funktionen];\n    MA_AN_4[exponentielles Wachstum];\n    MA_AN_8[quadratisches Wachstum];\n    subgraph sichtweisen[Sichtweisen von Funktionen]\n    MA_AN_5[Wertetabelle];\n    MA_AN_6[Funktionsgraphen];\n    MA_AN_7[Funktionsgleichungen];\n    end\n  end\n  \n  subgraph Geometrie\n    MA_GE_4[Koordinatensystem];\n    MA_GE_5[Einheitsstrecke];\n    MA_GE_11[Winkel];\n    subgraph \"Ebene Geometrie\"\n      MA_GE_1[Dreiecke];\n      MA_GE_2[Vierecke];\n      MA_GE_3[Kongruenzabbildungen];\n      MA_GE_15[Symmetrien];\n      MA_GE_16[Ähnlichkeitsabbildungen];\n      MA_GE_9[Satzgruppe von Pythagoras];\n      MA_GE_10[Satz von Thales];\n      MA_GE_12[Kreise];\n      MA_GE_13[Polygone];\n      MA_GE_14[Rechtwinklige Dreiecke];\n    end\n    subgraph \"Räumliche Geometrie\"\n      MA_GE_6[Prismen];\n      MA_GE_7[Zylinder];\n      MA_GE_8[Pyramiden];\n    end\n  end\n  \n  subgraph Nichtaxiomatische Mathematik\n    MA_NI_1[SI-Einheiten];\n    MA_NI_2[Diagramme];\n    MA_NI_3[Überschlagen];\n    MA_NI_4[Masseinheiten];\n    MA_NI_5[Flussdiagramm];\n    MA_NI_6[Zins, Zinssatz, Kapital, Rabatt, Brutto, Netto];\n  end\n  \n  subgraph Stochastik\n    MA_ST_1[Wahrscheinlichkeit];\n    MA_ST_2[Baumdiagramm];\n    MA_ST_3[Arithmetisches Mittel];\n    subgraph Kombinatorik\n      MA_KO_1[Fakultät];\n      MA_KO_2[mehrstufige Zufallsexperimente];\n      MA_KO_3[4 Auswahlprozesse]\n    end\n  end\n  end\n  \n  subgraph \"Medien und Informatik\"\n    MI_PR_1[Variablen];\n    MI_PR_2[Unterprogramme, Funktionen];\n    MI_PR_3[Schleifen];\n    MI_PR_4[Listen];\n    MI_PR_5[Flussdiagramm];\n    MI_PR_6[Parameter];\n    MI_PR_7[Bedingte Anweisungen]\n  end;\n  \n  MA_AR_1--&gt;MA_AR_2--&gt;MA_AR_3;\n  MA_AN_1--&gt;MA_AN_2;\n  MA_AN_1--&gt;MA_AN_3;\n  MA_ST_2&lt;--&gt;MI_PR_5;\n  MI_PR_1&lt;--&gt;MA_AL_1;\n  MI_PR_2&lt;--&gt;MA_AN_1;\n  MA_GO_1--&gt;MA_AR_1;\n  MA_GO_2--&gt;MA_AR_1;\n  MA_GO_3--&gt;MA_AR_2;\n  MA_GO_4--&gt;MA_AR_2;\n  MA_AR_6--&gt;MA_AR_3;\n  MA_AR_5--&gt;MA_AR_6;\n  MA_AR_9--&gt;MA_AR_6;\n  MA_AR_2--&gt;MA_AR_7--&gt;MA_ST_1;\n  MA_AR_5--&gt;MA_AR_8;\n  MA_AN_1&lt;--&gt;sichtweisen;\n  MA_AL_2--&gt;MA_AN_7;\n  MA_AL_1--&gt;MA_AL_4--&gt;MA_AL_2--&gt;MA_AL_3--&gt;MA_AL_8;\n  MA_AL_2--&gt;MA_AL_5;\n  MA_AR_9--&gt;MA_GO_2;\n  MA_AR_9--&gt;MA_GO_4;\n  MA_GO_1--&gt;MA_GO_3--&gt;MA_AR_5;\n  MA_AR_9--&gt;MA_AN_2;\n  MA_AL_4--&gt;MA_AL_7--&gt;MA_AL_9;  \n  MA_AL_7--&gt;MA_AL_6;\n  MA_AL_3--&gt;MA_AN_3;\n  MA_GE_4--&gt;MA_AL_8;\n  MA_GE_4--&gt;MA_AN_6;\n  MA_GE_1--&gt;MA_GE_9;\n  MA_GE_13--&gt;MA_GE_6;\n  MA_GE_12--&gt;MA_GE_7;\n  MA_GE_13--&gt;MA_GE_1;\n  MA_GE_13--&gt;MA_GE_2;\n  MA_GE_14--&gt;MA_GE_10;\n  MA_GE_11--&gt;MA_GE_14;\n  MA_GE_13--&gt;MA_GE_8;\n  MA_GE_1--&gt;MA_GE_13;\n  MA_GE_4--&gt;MA_GE_3;\n  MA_GE_4--&gt;MA_GE_5;\n  MA_ST_1--&gt;MA_AN_4;\n  MA_AL_9--&gt;MA_AL_3;\n  MA_AN_5&lt;--&gt;MA_AN_7;\n  MA_AN_5&lt;--&gt;MA_AN_6;\n  MA_AN_6&lt;--&gt;MA_AN_7;\n  MA_KO_2--&gt;MA_ST_2;\n  \n  \nsubgraph Hochschulmathematik - Lerngelegenheiten\n   subgraph Fachkompetenz\n      PH_FK_1[Arithmetik];\n      PH_FK_2[Grundlagen der Geometrie];\n      PH_FK_3[Grundlagen der Mathematik];\n      PH_FK_4[Abbildungsgeometrie];\n    end\n    PH_MI_1[Wahrscheinlichkeitsrechnung - Mikroplanung];\n    PH_MA_1[Erforschen und Argumentieren - Makroplanung];\n    PH_FB_1[Sicher Unterwegs in der Mathematik der Ungewissheit - Formative Beurteilung];\n    PH_FB_2[Verstehensorientiert prüfen in Zeiten von KI - Formative und summative Beurteilung];\n    PH_SB_1[Gut angekommen in der Mathematik der Ungewissheit - Summative Beurteilung]\n  end;\n  \n  \n  classDef PH_FK_1 stripedBackground;\n  classDef PH_FK_2 fill:#F0EFCd;\n  classDef PH_FK_3 fill:#d8b5c9;\n  classDef PH_FK_4 fill:#0eb6d9;\n  classDef PH_MI_1 fill:#e95e84\n  classDef PH_MA_1 fill:#F5BF7F\n  classDef PH_FB_1 fill:#FFE806\n  classDef PH_FB_2 fill:#AD9595\n  classDef PH_SB_1 fill:#8fe7a5\n\n\n  class PH_FK_1,MA_AR_10,MA_AL_2,MA_AR_1,MA_AR_5,MA_AR_6,MA_AR_8,MA_KO_1,MA_AL_9,MA_AL_4,MA_AL_6,MA_AL_7 PH_FK_1;\n  class PH_FK_2,MA_GE_1,MA_GE_2,MA_GE_11,MA_GE_6,MA_GE_7,MA_GE_12,MA_GE_9,MA_GE_10,MA_GE_13,MA_GE_14,MA_GE_8 PH_FK_2;\n  class PH_FK_3,MA_AN_1,MA_AN_2,MA_AR_2,MA_AR_8 PH_FK_3;\n  class PH_FK_4,MA_GE_3,MA_GE_4,MA_GE_15,MA_GE_16,MA_AN_1,MA_AN_2 PH_FK_4;\n  class PH_MI_1,MA_ST_1,MA_KO_3,MA_ST_2,MA_KO_3,MA_KO_2,MA_KO_1 PH_MI_1;\n  class PH_MA_1,MA_AR_3,MA_AR_1,MA_AR_2,MA_AR_8,MA_AR_10,MA_AN_1 PH_MA_1;\n  class PH_FB_1,MA_ST_1,MA_KO_2,MA_ST_2,MA_ST_3 PH_FB_1;\n  class PH_FB_2,MA_NI_3,MA_KO_2 PH_FB_2;\n  class PH_SB_1,MA_ST_3,MA_NI_2 PH_SB_1;\n\n\n\n\n\n\n\n\n\nWiederverwendungCC BY-SA 4.0"
   },
   {
     "objectID": "strukturen/Notizen.html",
@@ -89,6 +82,27 @@
     "title": "Notizen",
     "section": "",
     "text": "Arithmetik: - kein Modulo - Quantorenlogik - Buch = Basiswissen Zahlentheorie - Beweisformen - GGT & KGB - Vollständige Induktion\nGrundlagen der Geometrie: - Höhensatz - Kathetensatz - Pythagoras - Argumentieren - Kongruenzabbildungen - Symmetrien - Ähnlichkeitsabbildungen - (Affine Abbildungen)\nMath als Produkt und Prozess: - Fachkonzept, welche Sicht gibt es? - Math als Werkzeug - Math die gefunden werden kann - Math als Wissenschaft - Weitere Forschung - Arbeitsformen - 9 Beweise, verständlich, korrekt, vollständig? (Buch Leuders, Erlebnis Arithmetik) - Geschichte Mathematik, Schwerpunkt Antike (Vorschlag: Geschichte von Kantor)\nMathematik unterricht planen: - Mathematikdidaktische Einführungs - Mathematikdiddaktische Prinzipien - Lernphasenmodelle. - Guter Mathematikunterricht nach Mayer (Annegret) - Kernprozessmodell (Leuders, Prediger, Bruder?) 3 Kernprozesse, Erkunden, Ordnen, Vertiefen - LU9 -&gt; Kühlschrankaufgabe\nWahrscheinlichkeitsrechnen: - Produkt und Summenregel - 4 Auswahlprozesse - Bijektion - Binomialkoeffizient - Pascalsches Dreieck - Bernouillikette - keine(oder doch?) bedingte Wahrscheinlichkeit - keine Axiomatik\nMakroplanung: - keine Jahresplanung - Leistungsnachweis Stellung nehmen zur Planung Erforschen und Argumentieren: - Beweisprinzipien - Direkter, Induktion, Kontraposition, Wiederspruch - Mächtigkeiten - Mengenlehre\nForm. Beurt. Sicher Unterwegs in der Math der Ungewissheit: - Allg. Sachanalyse - Wie wird ein unsicherer Ergebnis generiert. - Mögliche Ergebnisse, Wahrscheinlichkeiten, - Zufallsvariable - Verteilung - Erwartungswert - Kreieren Aufgaben und Beurteilungsmethoden - Fehleranalyse - Statistik nur sehr wenig\nGut angekommen in der Mathematik der Ungewissheit: - Auswertungen machen - Noten setzen - Histogramm - Rel und Abs. Häufigkeiten - ÜGK - Grundbegriffe (Grundgesamtheit) -\n\n\n\nWiederverwendungCC BY-SA 4.0"
+  },
+  {
+    "objectID": "footer/disclaimer.html",
+    "href": "footer/disclaimer.html",
+    "title": "Disclaimer",
+    "section": "",
+    "text": "Meine Website enthält Verknüpfungen zu Webseiten Dritter (sog. „externe Links“) Da ich auf deren Inhalte keinen Einfluss habe, kann für die fremden Inhalte keine Gewähr übernommen werden.\nFür die Inhalte und Richtigkeit der Informationen ist stets der jeweilige Informationsanbieter der verlinkten Webseite verantwortlich.\nExterne Links entziehen sich, wenn nicht anderes kennzeichnet, der OER Lizenz.\n\n\n\nWiederverwendungCC BY-SA 4.0"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "gitgud",
+    "section": "",
+    "text": "Sortieren nach\n       Voreinstellung\n         \n          Titel\n        \n         \n          Autor:in\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nTitel\n\n\nAutor:in\n\n\nUntertitel\n\n\n\n\n\n\nMathematikprüfung\n\n\nJonas Eggimann, Jonas Hunkeler\n\n\n \n\n\n\n\n\nKeine Treffer\n\nWiederverwendungCC BY-SA 4.0"
+  },
+  {
+    "objectID": "footer/impressum.html",
+    "href": "footer/impressum.html",
+    "title": "Impressum",
+    "section": "",
+    "text": "Es handelt sich weder um eine Zeitung, noch um eine Zeitschrift, gemäss Art. 322 StGB.\nAuf ein formelles Impressum wird verzichtet.\nDer Quellcode der Webseite (inklusive .qmd Dateien), steht unter der GNU Affero General Public License, wie sie in der Datei LICENSE im Repository zu finden ist.\nSoweit nicht anders gekennzeichnet, stehen alle Inhalte auf dieser Website unter folgender Lizenz:\nUniversity of Teacher Education Bern, CC BY-SA 4.0\nFolgende Autoren verzichten dabei auf Namensnennung bei Wiederverwendung:\n\nRichard François Conrardy\nJoel Adler\n\nDie Marke PHBern sind von der vorliegenden Lizenz unberührt.\n\n\n\nWiederverwendungCC BY-SA 4.0"
   },
   {
     "objectID": "strukturen/test.html#wer-bist-du-name-aktuelle-funktion-was-hast-du-mit-ki-zu-tun",
@@ -168,52 +182,38 @@
     "text": "Ein Blick in die Zukunft: Wie sieht das Lernen bzw. das Unterrichten mit KI in 10 Jahren aus? Sprich, wohin geht die Reise. Es kann auch gerne als ein wahrscheinliches oder als ein wünschenswertes Szenario formuliert werden.\n\n\n\n\nPHBern, Institut Sekundarstufe 1, Richard Conrardy, Dozent"
   },
   {
-    "objectID": "beurteilung/math_07_geometrie_01.html",
-    "href": "beurteilung/math_07_geometrie_01.html",
-    "title": "Mathematikprüfung",
+    "objectID": "strukturen/jahresplanungen.html",
+    "href": "strukturen/jahresplanungen.html",
+    "title": "Jahresplanungen",
     "section": "",
-    "text": "Name, Niveau, Datum:"
+    "text": "Übersicht des Jahresablaufes\n\n\n\n\n\n\n\n\n\n\n\n\n\nZahl\nVariable\nForm\nRaum\nFunktionen\nDaten und Zufall\nErweiterung\n\n\n\n\n\nKlasse HS\n\nganze Zahlen\nBrüche\nGleichungen\nlineare Gl.\n\n\n\n\n\n\n\n\nKlasse FS\n\n\n\n\n\n\n\n\n\n\n\nKlasse HS\n\n\n\n\n\n\n\n\n\n\n\nKlasse FS\n\n\n\n\n\n\n\n\n\n\n\nKlasse HS\n\n\n\n\n\n\n\n\n\n\n\nKlasse FS\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWiederverwendungCC BY-SA 4.0"
   },
   {
-    "objectID": "beurteilung/math_07_geometrie_01.html#aufgabe-1",
-    "href": "beurteilung/math_07_geometrie_01.html#aufgabe-1",
-    "title": "Mathematikprüfung",
-    "section": "Aufgabe 1",
-    "text": "Aufgabe 1\nMA.2.A.3.h\nKreuze die wahre Aussage an:\n\nDie Formel, um mit dem Satz des Pythagoras zu rechnen, lautet: \\(a^2 + b^2 = c\\)\nDieFormel, um mit dem Satz des Pythagoras zu rechnen, lautet: \\(a^2 + b^2 = c^2\\)\nDie Formel, um mit dem Satz des Pythagoras zu rechnen, lautet: \\(1a^2 +1b^2 = 2c^2\\)"
+    "objectID": "strukturen/hochschullehre.html",
+    "href": "strukturen/hochschullehre.html",
+    "title": "Zusammenhänge Fachwissenschaften LP21",
+    "section": "",
+    "text": "graph LR;\n  subgraph \"Mathematik Lehr- Lerninhalte der Sekundarstufe 1 - Lehrplan21\"\n  subgraph Arithmetik\n    MA_AR_1[Ganze Zahlen];\n    MA_AR_2[Rationale Zahlen];\n    MA_AR_3[Reelle Zahlen];\n    MA_AR_5[Potenzieren];\n    MA_AR_6[Wurzel ziehen];\n    MA_AR_7[Prozentrechnen];\n    MA_AR_8[Wissenschaftliche Schreibweise];\n    MA_AR_9[Umkehroperationen];\n    MA_AR_10[Primzahlen]\n    subgraph Grundoperationen\n      MA_GO_1[\"+\"];\n      MA_GO_2[\"-\"];\n      MA_GO_3[\"*\"];\n      MA_GO_4[\"/\"];\n    end\n  end\n  \n  \n  subgraph Algebra\n    MA_AL_1[Variablen];\n    MA_AL_2[Gleichungen];\n    MA_AL_3[Lineare Gleichungen];\n    MA_AL_4[Terme];\n    MA_AL_5[Ungleichungen];\n    MA_AL_6[Polynome];\n    MA_AL_7[Monome];\n    MA_AL_8[2x2 lineare Gleichungssysteme];\n    MA_AL_9[Binome];\n  end\n  \n  subgraph Analysis\n    MA_AN_1[Funktionen];\n    MA_AN_2[Umkehrfunktionen];\n    MA_AN_3[Lineare Funktionen];\n    MA_AN_4[exponentielles Wachstum];\n    MA_AN_8[quadratisches Wachstum];\n    subgraph sichtweisen[Sichtweisen von Funktionen]\n    MA_AN_5[Wertetabelle];\n    MA_AN_6[Funktionsgraphen];\n    MA_AN_7[Funktionsgleichungen];\n    end\n  end\n  \n  subgraph Geometrie\n    MA_GE_4[Koordinatensystem];\n    MA_GE_5[Einheitsstrecke];\n    MA_GE_11[Winkel];\n    subgraph \"Ebene Geometrie\"\n      MA_GE_1[Dreiecke];\n      MA_GE_2[Vierecke];\n      MA_GE_3[Kongruenzabbildungen];\n      MA_GE_15[Symmetrien];\n      MA_GE_16[Ähnlichkeitsabbildungen];\n      MA_GE_9[Satzgruppe von Pythagoras];\n      MA_GE_10[Satz von Thales];\n      MA_GE_12[Kreise];\n      MA_GE_13[Polygone];\n      MA_GE_14[Rechtwinklige Dreiecke];\n    end\n    subgraph \"Räumliche Geometrie\"\n      MA_GE_6[Prismen];\n      MA_GE_7[Zylinder];\n      MA_GE_8[Pyramiden];\n    end\n  end\n  \n  subgraph Nichtaxiomatische Mathematik\n    MA_NI_1[SI-Einheiten];\n    MA_NI_2[Diagramme der deskriptiven Statistik];\n    MA_NI_3[Überschlagen];\n    MA_NI_4[Masseinheiten];\n    MA_NI_5[Flussdiagramm];\n    MA_NI_6[Zins, Zinssatz, Kapital, Rabatt, Brutto, Netto];\n  end\n  \n  subgraph Stochastik\n    MA_ST_1[Wahrscheinlichkeit];\n    MA_ST_2[Baumdiagramm];\n    MA_ST_3[Arithmetisches Mittel];\n    subgraph Kombinatorik\n      MA_KO_1[Fakultät];\n      MA_KO_2[mehrstufige Zufallsexperimente];\n      MA_KO_3[4 Auswahlprozesse]\n    end\n  end\n  end\n  \n  \n  subgraph Hochschulmathematik\n   \n      PH_FK_1[Arithmetik - Fachkompetenz];\n      PH_FK_2[Grundlagen der Geometrie - Fachkompetenz];\n      PH_FK_3[Grundlagen der Mathematik - Fachkompetenz];\n      PH_FK_4[Abbildungsgeometrie - Fachkompetenz];\n    \n    PH_MI_1[Wahrscheinlichkeitsrechnung - Mikroplanung];\n    PH_MA_1[Erforschen und Argumentieren - Makroplanung];\n    PH_FB_1[Sicher Unterwegs in der Mathematik der Ungewissheit - Formative Beurteilung];\n    PH_FB_2[Verstehensorientiert prüfen in Zeiten von KI - Formative und summative Beurteilung];\n    PH_SB_1[Gut angekommen in der Mathematik der Ungewissheit - Summative Beurteilung]\n  end\n  \n  PH_FK_1-.-&gt; MA_AR_10 & MA_AL_2 & MA_AR_1 & MA_AR_5 & MA_AR_6 & MA_AR_8 & Grundoperationen & MA_KO_1 & MA_AL_9 & MA_AL_4 & MA_AL_6 & MA_AL_7;\n  PH_FK_2-.-&gt;MA_GE_1 & MA_GE_2 & MA_GE_11 & MA_GE_6 & MA_GE_7 & MA_GE_12 & MA_GE_9 & MA_GE_10 & MA_GE_13 & MA_GE_14 & MA_GE_8;\n  PH_FK_3-.-&gt;MA_AN_1 & MA_AN_2 & MA_AR_2 & MA_AR_8;\n  PH_FK_4-.-&gt;MA_GE_3 & MA_GE_4 & MA_GE_15 & MA_GE_16 & MA_AN_1 & MA_AN_2;\n  PH_MI_1-.-&gt;MA_ST_1 & MA_KO_3 & MA_ST_2 & MA_KO_3 & MA_KO_2 & MA_KO_1;\n  PH_MA_1-.-&gt;MA_AR_3 & MA_AR_1 & MA_AR_2 & MA_AR_8 & MA_AR_10 & MA_AN_1;\n  PH_FB_1-.-&gt;MA_ST_1 & MA_KO_2 & MA_ST_2 & MA_ST_3;\n  PH_FB_2-.-&gt;MA_NI_3 & MA_KO_2;\n  PH_SB_1-.-&gt;MA_ST_3 & MA_NI_2;\n  \n  classDef PH_FK_1 fill:#CDDFE8;\n  classDef PH_FK_2 fill:#F0EFCd;\n  classDef PH_FK_3 fill:#d8b5c9;\n  classDef PH_FK_4 fill:#0eb6d9;\n  classDef PH_MI_1 fill:#e95e84\n  classDef PH_MA_1 fill:#F5BF7F\n  classDef PH_FB_1 fill:#FFE806\n  classDef PH_FB_2 fill:#AD9595\n  classDef PH_SB_1 fill:#8fe7a5\n  \n  \n  class PH_FK_1,MA_AR_10,MA_AL_2,MA_AR_1,MA_AR_5,MA_AR_6,MA_AR_8,MA_KO_1,MA_AL_9,MA_AL_4,MA_AL_6,MA_AL_7 PH_FK_1;\n  class PH_FK_2,MA_GE_1,MA_GE_2,MA_GE_11,MA_GE_6,MA_GE_7,MA_GE_12,MA_GE_9,MA_GE_10,MA_GE_13,MA_GE_14,MA_GE_8 PH_FK_2;\n  class PH_FK_3,MA_AN_1,MA_AN_2,MA_AR_2,MA_AR_8 PH_FK_3;\n  class PH_FK_4,MA_GE_3,MA_GE_4,MA_GE_15,MA_GE_16,MA_AN_1,MA_AN_2 PH_FK_4;\n  class PH_MI_1,MA_ST_1,MA_KO_3,MA_ST_2,MA_KO_3,MA_KO_2,MA_KO_1 PH_MI_1;\n  class PH_MA_1,MA_AR_3,MA_AR_1,MA_AR_2,MA_AR_8,MA_AR_10,MA_AN_1 PH_MA_1;\n  class PH_FB_1,MA_ST_1,MA_KO_2,MA_ST_2,MA_ST_3 PH_FB_1;\n  class PH_FB_2,MA_NI_3,MA_KO_2 PH_FB_2;\n  class PH_SB_1,MA_ST_3,MA_NI_2 PH_SB_1;\n  \n  \n  classDef title font-size:14px;\n  classDef padding stroke:none,fill:none;\n\n  class main title;\n  class padding padding;\n\n\n\n\n\n\n\n\n\nWiederverwendungCC BY-SA 4.0"
   },
   {
-    "objectID": "beurteilung/math_07_geometrie_01.html#aufgabe-2",
-    "href": "beurteilung/math_07_geometrie_01.html#aufgabe-2",
-    "title": "Mathematikprüfung",
-    "section": "Aufgabe 2",
-    "text": "Aufgabe 2\nMA.2.A.3.h\nBestimme die fehlende Grösse der folgenden Dreiecke. Dein Rechnungsweg muss ersichtlich sein.\n\n\n\n\n\n\n\n\nAbbildung 1\n\n\n\n\n\n\n\n\n\n\nAbbildung 2"
+    "objectID": "mathematik/raum/010.html",
+    "href": "mathematik/raum/010.html",
+    "title": "Raum",
+    "section": "",
+    "text": "WiederverwendungCC BY-SA 4.0"
   },
   {
-    "objectID": "beurteilung/math_07_geometrie_01.html#aufgabe-3",
-    "href": "beurteilung/math_07_geometrie_01.html#aufgabe-3",
-    "title": "Mathematikprüfung",
-    "section": "Aufgabe 3",
-    "text": "Aufgabe 3\nMA.2.A.3.h MA.2.A.1.i\nBestimme vom gleichschenkligen Dreieck die Grundlinie \\(g\\).\nHinweis: Höhe des Dreiecks = 15\n\n\n\n\n\n\nAbbildung 3"
+    "objectID": "mathematik/variable/010.html",
+    "href": "mathematik/variable/010.html",
+    "title": "Variable",
+    "section": "",
+    "text": "WiederverwendungCC BY-SA 4.0"
   },
   {
-    "objectID": "beurteilung/math_07_geometrie_01.html#aufgabe-4",
-    "href": "beurteilung/math_07_geometrie_01.html#aufgabe-4",
-    "title": "Mathematikprüfung",
-    "section": "Aufgabe 4",
-    "text": "Aufgabe 4\nMA.2.C.2.i\nAuftrag a*: Konstruiere die Mittelsenkrechte der Linie a.\nAuftrag b**: Konstruiere mithilfe des Satzes von Thales ein rechtwinkliges Dreieck. Hypotenuse = a\n\n\n\n\n\n\nAbbildung 4"
-  },
-  {
-    "objectID": "beurteilung/math_07_geometrie_01.html#aufgabe-5",
-    "href": "beurteilung/math_07_geometrie_01.html#aufgabe-5",
-    "title": "Mathematikprüfung",
-    "section": "Aufgabe 5",
-    "text": "Aufgabe 5\nMA.2.A.3.j\nBestimme das Volumen und die Oberfläche der Pyramide. Hinweis: gestrichelte Linie ist die Hälfte von a.\n\\(h = 6\\) \\(a = 4\\)\n\n\n\n\n\n\nAbbildung 5\n\n\n\n\\(V =\\)\n\\(O =\\)"
-  },
-  {
-    "objectID": "beurteilung/math_07_geometrie_01.html#aufgabe-6",
-    "href": "beurteilung/math_07_geometrie_01.html#aufgabe-6",
-    "title": "Mathematikprüfung",
-    "section": "Aufgabe 6:",
-    "text": "Aufgabe 6:\nMA.2.A.1.k MA.2.A.3.i\n\nAuftrag (Real):\nBestimme das Volumen und die\nOberfläche des Prismas. Gegeben: \\(c = 10\\) \\(h_c = 4\\) \\(h_P = 12\\)\n\n\nAuftrag (Sek):\nBestimme das Volumen und die Oberfläche des Prismas.\nGegeben: \\(a = 12\\) \\(b = 8\\) \\(h_P = 22\\)\n\n\nAuftrag (Spez-Sek):\nBestimme das Volumen und die Oberfläche des Prismas.\nGegeben: \\(a = 25\\) \\(c= 60\\) \\(h_P = 34\\)\nVolumen:\nOberfläche:\n\n\n\n\n\n\nAbbildung 6"
+    "objectID": "mathematik/zahl/010.html",
+    "href": "mathematik/zahl/010.html",
+    "title": "Zahl",
+    "section": "",
+    "text": "WiederverwendungCC BY-SA 4.0"
   }
 ]
