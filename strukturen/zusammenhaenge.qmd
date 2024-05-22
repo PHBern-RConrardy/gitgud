@@ -1,9 +1,17 @@
 ---
-title: "Inhaltliche Zusammenhänge"
+title: Inhaltliche Zusammenhänge
 format: 
     html:
       embed-resources: true
       page-layout: full
+    pdf: 
+      papersize: A4
+      geometry:
+      - top=10mm
+      - left=10mm
+      - landscape
+      
+      
 ---
 
 
