@@ -5,19 +5,22 @@ format:
       embed-resources: true
       page-layout: full
     pdf: 
-      papersize: A4
+      papersize: A3
       geometry:
       - top=10mm
       - left=10mm
+      - bottom=10mm
+      - right=10mm
       - landscape
     docx: default
 ---
 
 
 ```{mermaid}
-%%|mermaid-format: js
-%%|fig-width: 10
-%%|fig-height: 9
+%%|mermaid-format: png
+%%|fig-width: 16
+%%|fig-height: 11
+%%|fig-responsive: false
 
 flowchart LR;
   subgraph Mathematik Lehr- Lerninhalte des Lehrplans 21

@@ -1,0 +1,223 @@
+---
+format: 
+  html: default
+title: "Mathematikprüfung"
+subtitle: "Zahl und Variable (Arithmetik): Bruchrechnen, Prozentrechnen, SI-System"
+categories: 
+  - "Algebra"
+  - "Zahl und Variable"
+  - "Lernzielkontrolle"
+author:
+  - name: Leandro Luethi
+  - name: Maryna Ilynska
+  - name: Simon Soom
+date: 04/26/2024
+citation: 
+  author:
+    - name: Leandro Luethi
+    - name: Maryna Ilynska
+    - name: Simon Soom
+license: "CC BY"
+---
+
+Vorauss. Punkte für Note 4: 10 / 18
+
+# Aufgabe 1(Real) (7pt.):
+
+[MA.1.A.3.i](https://be.lehrplan.ch/101hY2pesFLB3JJ6vSRYcnGYRen9Wuyfy)
+
+a)  Ergänze die fehlenden Brüche, so dass die Multiplikationsrechnungen (4.5P.)
+
+![](math_07_zahl_variable_01/Screenshot%202024-06-11%20at%2021.40.21.png)
+
+b)  Bei der Produktion von Kunststoffbehältern mittels Vakuumformung gehen $\frac{1}{5}$ des Rohmaterials als Abfall verloren. Wenn ein Unternehmen 200 kg Rohmaterial verwendet, wie viele Kilogramm Abfall werden produziert? (1.5P.)
+
+c)  Berechne (1P):
+
+-   \$2{\frac{3}{4}} - \frac{5}{6} = \$
+-   \$4{\frac{2}{5}} + {\frac{3}{8}} = \$
+
+# Aufgabe 2 (Sek) (7P.):
+
+[MA.1.A.3.i](https://be.lehrplan.ch/101hY2pesFLB3JJ6vSRYcnGYRen9Wuyfy)
+
+a)  Berechne (1.5P):
+
+-   $4{\frac{2}{5}} + 1{\frac{3}{8}} =$
+-   $\frac{a}{b} - \frac{c}{d} =$
+-   $\frac{3a}{cd} \times \frac{ef}{d} =$
+
+# Aufgabe 3
+
+[MA.1.A.3.i](https://be.lehrplan.ch/101hY2pesFLB3JJ6vSRYcnGYRen9Wuyfy)
+
+b)  In einem Kochwettbewerb müssen die Schülerinnen und Schüler ein Rezept für einen Kuchen entwickeln. Das Rezept fordert $\frac{3}{4}$ Tasse Zucker für einen Kuchen. Die Schülerin Marie hat jedoch nur $\frac{5}{8}$ Tasse Zucker in ihrem Vorrat. Sie möchte wissen, wie viele Kuchen sie mit ihrem aktuellen Zuckerbestand backen kann, wenn jeder Kuchen $\frac{1}{6}$ Tasse Zucker benötigt.
+
+b.a) Wie viele Kuchen kann Marie mit ihrem aktuellen Zuckerbestand backen? (1 P.)
+
+b.b) Wenn Marie beschließt, die Anzahl der Kuchen zu verdoppeln, wie viel Zucker benötigt sie dann insgesamt? (1 P.)
+
+c)  Ein Behälter enthält $\frac{3}{5}$ Liter Saft. Wenn $\frac{1}{4}$ Liter Saft abgelassen werden, wie viel Liter Saft bleiben im Behälter übrig? (0.5P)
+
+# Aufgabe 3 (Spez. Sek.) (7p.):
+
+a)  Ein Unternehmen erhöht seine Produktion jeden Monat um $\frac{1}{10}$ der aktuellen Produktion. Wenn die Produktion im ersten Monat 1000 Fr. beträgt, wie viele Einheiten werden im vierten Monat produziert? (1P.)
+
+b)  Berechne (1.5P):
+
+-   \$\frac{2x+3}{3} + \frac{x-1}{4} = \$
+-   $\frac{6x^2}{x} + \frac{18x}{9x} = )$
+-   \$\frac{2}{3} + = \frac{1}{5} {21} \$
+
+c)  Ein Glas ist zu $\frac{3}{5}$ mit Saft gefüllt. Wenn jemand $\frac{1}{4}$ des Safts aus dem Glas trinkt, wie viel Prozent des ursprünglichen Saftgehalts bleibt im Glas? (1.5P)
+
+# Aufgabe 4 (Real) (4.5P)
+
+[MA.1.A.1.h](https://zh.lehrplan.ch/index.php?code=a|5|0|1|1|1&hilit=101ae4LP3zUc7Lv3nZNtvtpBAsVS2bBBc)
+
+1.  Wandle die Dezimalzahlen in Prozente um. (1.5P)
+
+```{=html}
+<!-- -->
+```
+a)  0,2 =
+b)  0,01 =
+c)  0,009 =
+
+```{=html}
+<!-- -->
+```
+2.  Wandle die Brüche in Prozenten um. (1.5P)
+
+```{=html}
+<!-- -->
+```
+a)  $\frac{25}{100} =$
+b)  $\frac{5}{100}=$
+c)  $\frac{31}{1000}=$
+
+
+3.  Schreibe die Prozentanteile als Bruch und kürze, wenn möglich. (1.5P)
+
+
+a)  4 Teile von 100 = % = $\frac{A}{B}=$
+b)  20 Teile von 100 = % = $\frac{A}{B}=$
+c)  50 Teile von 100 = % = $\frac{A}{B}=$
+
+# Aufgabe 5 (Sek)(4.5P)
+
+[MA.1.A.1.h](https://zh.lehrplan.ch/index.php?code=a|5|0|1|1|1&hilit=101ae4LP3zUc7Lv3nZNtvtpBAsVS2bBBc)
+
+1.  Schreibe die richtige Antwort in Dezimalbrüche(1P):
+
+```{=html}
+<!-- -->
+```
+a)  20% + 50% + 2,5 =
+b)  15% + 0,5 + 51% =
+c)  3,7 + 25% + 37% =
+
+```{=html}
+<!-- -->
+```
+2.  Umwandle die Brüche in Prozenten (1.5P)
+
+```{=html}
+<!-- -->
+```
+a)  $\frac{9}{10}$
+b)  $\frac{7}{25}$
+c)  $\frac{24}{32}$
+d)  $\frac{1}{25}$
+e)  $\frac{13}{65}$
+
+```{=html}
+<!-- -->
+```
+3.  Schreibe die folgenden Brüche, Dezimalbrüche und Prozentsätze in der Reihenfolge der zunehmenden Reihenfolge. (2P)
+
+$$ 25\%;0.9;\frac{1}{10};\frac{4}{20};\frac{1}{10};\frac{4}{20};0.26;17\%;\frac{5}{6} ;52\%; 0.99; \frac{3}{8}$$
+
+# Aufgabe 6 (Spez. Sek) (4.5P)
+
+[MA.1.A.1.h](https://zh.lehrplan.ch/index.php?code=a|5|0|1|1|1&hilit=101ae4LP3zUc7Lv3nZNtvtpBAsVS2bBBc)
+
+1.  Schreibe die richtige Antwort in Dezimalbrüche(2.5P):
+
+```{=html}
+<!-- -->
+```
+a)  $50\% + \frac{1}{25} + 0.2 + 12\%$
+b)  $\frac{8}{20} + 25\% + 13\% + \frac{13}{20}$
+c)  $62\% + \frac{2}{5} + 3\% + \frac{2}{10}$
+d)  $32\% + \left(\frac{1}{2} - \frac{5}{4}\right) + 19\%$
+e)  $\frac{7}{11} + 13.5 + 19\% - \frac{2}{5}$
+
+
+2.  Wandel folgende Brüche in Dezimalzahlen und dann in Prozenten um. Erstell zu jedem Bruch entweder ein Kreismodell, Flächenmodell oder Streckenmodell. (2P)
+
+
+a)  \$5 \frac{1}{2} \$
+b)  \$4 \frac{16}{256} \$
+c)  $3 \frac{15}{32}$
+d)  \$11 \frac{3}{8} \$
+
+# Aufgabe 7 (Real) (4.5P)
+
+[MA.3.A.2.i](https://be.lehrplan.ch/10156xykaVcEyrcmXZNwwhk4AWTrc7aTv)
+[MA.3.A.2.j](https://zh.lehrplan.ch/101pKB7pMb6w5xLuVhrbVUpKHsTtYKMYh)
+
+a)  Anna und Reto Werfen Steine in den Thunersee. Dabei wirft Reto den Stein $2.75 \cdot 10^4$ Zentimeter weit. Anna wirft ihr Stein um $\frac{3}{47}$ weniger weit. Wie viele Meter legt ihr Stein zurück, bevor dieser im Wasser landet? (1P)
+b)  Der Stein der Anna geworfen hatte wog $3\%$ mehr als der von Reto. Der Stein von Reto wog $7\cdot 10^5$mg. Wie schwer war der Stein von Anna in Tonnen? Verwende dazu die Wissenschaftliche Schreibweise. (1P) c)Anna und Reto sehen auf dem Weg nachhause ein Auto, welches bei einer Tafel, welches die Geschwindigkeit misst, vorbeifährt. Die Anzeige zeigt $15$ m/s an. Ist das Auto nun schneller gefahren als die erlaubten $50$ km/h? (1P)
+c)  Die Temperatur zeigt 20°Celsius an. Ist dies wärmer als 20 Kelvin? Begründe. (1.5P)
+
+# Aufgabe 8 (Sek) (4.5P)
+
+[MA.3.A.2.i](https://be.lehrplan.ch/10156xykaVcEyrcmXZNwwhk4AWTrc7aTv)
+[MA.3.A.2.j](https://zh.lehrplan.ch/101pKB7pMb6w5xLuVhrbVUpKHsTtYKMYh)
+
+a)  Anna und Reto Werfen Steine in den Thunersee. Dabei wirft Reto den Stein $2.75 ∗ 10^4$ Zentimeter weit. Anna wirft ihr Stein um $\frac{3}{47}$ weniger weit. Wie viele Kilometer legt ihr Stein zurück, bevor dieser im Wasser landet? Verwende dazu die Wissenschaftliche Schreibweise. (1P)
+b)  Der Stein der Anna geworfen hatte wog $0.3\%$ mehr als der von Reto. Der Stein von Reto wog $7\cdot 10^5$mg. Wie schwer war der Stein von Anna in Tonnen? Verwende dazu die Wissenschaftliche Schreibweise. (1P) c)Anna und Reto sehen auf dem Weg nachhause ein Auto, welches bei einer Tafel, welches die Geschwindigkeit misst, vorbeifährt. Die Anzeige zeigt $14$ 𝑚/s an. Ist das Auto nun schneller gefahren als die erlaubten $50$ km/h? (1P) d)Begründe weshalb jede Zeiteinheit in Sekunden angegeben werden sollte. (1.5P)
+
+# Aufgabe 9 (Spez. Sek) (4.5P)
+
+[MA.3.A.2.i](https://be.lehrplan.ch/10156xykaVcEyrcmXZNwwhk4AWTrc7aTv)
+[MA.3.A.2.j](https://zh.lehrplan.ch/101pKB7pMb6w5xLuVhrbVUpKHsTtYKMYh)
+
+a)  Anna und Reto Werfen Steine in den Thunersee. Dabei wirft Reto den Stein $2.75 ∗ 10^7$ Mikrometer weit. Anna wirft ihr Stein um $\frac{3}{47}$ weniger weit. Wie viele Kilometer legt ihr Stein zurück, bevor dieser im Wasser landet? Verwende dazu die Wissenschaftliche Schreibweise. (1P)
+b)  Der Stein der Anna geworfen hatte wog $3.0001\%$ mehr als der von Reto. Der Stein von Reto wog $7\cdot10^5$mg. Wie schwer war der Stein von Anna in Tonnen? Verwende dazu die Wissenschaftliche Schreibweise. (1P) c)Anna und Reto sehen auf dem Weg nachhause ein Auto, welches bei einer Tafel, welches die Geschwindigkeit misst, vorbeifährt. Die Anzeige zeigt 14 m/s an. Ist das Auto nun schneller gefahren als die erlaubten 50km/h? (1P) d)Weshalb ist 0°Celsius = 273.15 Kelvin. Begründe wieso die Angabe in Kelvin die SI-Einheit ist und nicht Celsius. (1.5P)
+
+# Aufgabe 10 (Real) (2P)
+
+[MA.1.A.2.j](https://be.lehrplan.ch/101CSM4FTe2egcZ7P2P9KYnuqd63dvNg5)
+
+1.  Ordne die Zahlen rückwärts: $5,6; -0,9; 2; 3,52; -3,23; 0; 1,2.$ (1P)
+2.  (Ordne die folgenden Zahlen auf dem Zahlenstrahl: $-3; \frac{2}{10}; -0,2; 1,3; 7; -0,05; -0,12$. (1P)
+
+# Aufgabe 11 (Sek) (2P)
+
+[MA.1.A.2.j](https://be.lehrplan.ch/101CSM4FTe2egcZ7P2P9KYnuqd63dvNg5)
+
+1.  Ordne die folgenden Brüche auf dem Zahlenstrahl: $\frac{1}{10}; - \frac{3}{4}; 3,2; -0,25; \frac{5}{6}; 4,2$. (1P)
+2.  Zeichne einen Zahlenstrahl von -5 bis 5 und bestimm, welche Brüche sind drin. (1P) $\frac{2}{7}; -6,25; 5\frac{1}{3}; 5,1; 4\frac{3}{4}; -4,99$.
+
+# Aufgabe 12 (Spez. Sek) (2P)
+
+[MA.1.A.2.j](https://be.lehrplan.ch/101CSM4FTe2egcZ7P2P9KYnuqd63dvNg5)
+
+1.  Ordne die folgenden Zahlen auf dem Zahlenstrahl: (1P) $-3\%; \frac{3}{7}; -0,2; 1,03; 70\%; -0,05; -0,12; 5\frac{5}{6}; \frac{13}{5} ; 18\%$.
+2.  Vergleiche die rationale Zahle -3,5 und -3,75 auf dem Zahlenstrahl und bestimme, welche Zahle zwischendrin liegen. Schreib mindestens fünf Brüche. (1P)
+
+Aufgabe 10 (Real) (2P) 1. Ordne die Zahlen rückwärts: 5,6; -0,9; 2; 3,52; -3,23; 0; 1,2. (1P) 2. (Ordne die folgenden Zahlen auf dem Zahlenstrahl: -3; 2 10; -0,2; 1,3; 7; -0,05; -0,12. (1P) Aufgabe 11 (Sek) (2P) 1. Ordne die folgenden Brüche auf dem Zahlenstrahl: 1 10; - 3 4; 3,2; -0,25; 5 6; 4,2. (1P) 2. Zeichne einen Zahlenstrahl von -5 bis 5 und bestimm, welche Brüche sind drin. (1P) 2 7; -6,25; 5 1 3; 5,1; 4 3 4; -4,99. Aufgabe 12 (Spez. Sek) (2P) 1. Ordne die folgenden Zahlen auf dem Zahlenstrahl: (1P) -3%; 3 7; -0,2; 1,03; 70%; -0,05; -0,12; 5 5 6; 13 5 ; 18%. 2. Vergleiche die rationale Zahle -3,5 und -3,75 auf dem Zahlenstrahl und bestimme, welche Zahle zwischendrin liegen. Schreib mindestens fünf Brüche. (1P)
+
+# Punkte Note 
+
+| Col1  | Col2 |
+|-------|------|
+| 0-8   | 3    |
+| 8.5   | 3.5  |
+| 10    | 4    |
+| 11.5  | 4.5  |
+| 13    | 5    |
+| 14.5  | 5.5  |
+| 16-18 | 6    |

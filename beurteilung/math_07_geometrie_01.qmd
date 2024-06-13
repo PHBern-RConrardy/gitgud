@@ -19,7 +19,6 @@ citation:
   author:
     - Jonas Eggimann
     - Jonas Hunkeler
-    - Richard Conrardy
 ---
 
 ### Angaben

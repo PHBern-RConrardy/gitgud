@@ -1,0 +1,84 @@
+---
+format: 
+  html: default
+  pdf: default
+  docx: default
+title: "Prüfung"
+subtitle: "Lineare Gleichungen"
+categories: 
+  - "Lernzielkontrolle"
+author:
+  - name: Luc Borruat
+  - name: Anna-Carola Schotterer
+  
+date: 04/26/2024
+citation: 
+  author:
+    - name: Luc Borruat
+    - name: Anna-Carola Schotterer
+
+License: "CC BY"
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+# Aufgabe 1
+
+## 1.1)
+
+Ordne die Graphen den folgenden Gleichungen zu.
+
+1.  $f(x) = 2x+ 3:$
+2.  $f(x) = −5x$\
+3.  $f(x)=x+4:$
+4.  $f(x)=3$
+5.  $f(x)=-0.25x-2$
+6.  $f(x)=2x$
+
+![](images/Screenshot%202024-06-13%20at%2013.25.17.png)
+
+## 1.2)
+
+Wo schneiden sich folgende Graphen:
+
+$$ f(x)=2x+2, /quad f(x)=-x+3$$ \# Aufgabe 2
+
+Fülle die folgende Tabelle mithilfe der Funktion $f(x)=2x-3$ aus und
+zeichne sie im Koordinatensystem ein.
+
+| x   | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+| y   |     |     |     |     |     |     |     |     |     |
+
+![](images/Screenshot%202024-06-13%20at%2013.31.00.png)
+
+# Aufgabe 3
+
+Berechne die Steigung aus den folgenden Punkten und schreibe die
+Funktion auf:
+
+Punkt 1 = $(-2/0)$
+
+Punkt 2= $(3/5)$
+
+Steigung:
+
+Funktion:
+
+# Aufgabe 4
+
+Gegeben ist die Funktion: $2.5 = 3 \cdit 2-b$. Löse nach b auf.
+
+# Aufgabe 5
+
+Formel 1 Rennen: 10 Runden vor Schluss sind liegt Fahrer 1
+$\delta t = 8 s$ vor Fahrer 2. Fahrer 2 fährt jedoch $0.9s$ pro Runde
+schneller.
+
+a)  Stelle eine Gleichung auf, die den Abstand der Fahrer in Sekunden in
+    Abhängigkeit der Runden angibt:
+b)  Wer gewinnt das Rennen?:
+c)  Zeichne den Graphen ein und beschrifte die Achsen sinnvoll.
+
+![](images/Screenshot%202024-06-13%20at%2013.36.05.png)
