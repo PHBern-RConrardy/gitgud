@@ -2,7 +2,12 @@
   {
     "listing": "/index.html",
     "items": [
-      "/beurteilung/math_07_geometrie_01.html"
+      "/beurteilung/math_07_zahl_variable_02.html",
+      "/beurteilung/math_07_LZK_Gleichungen.html",
+      "/beurteilung/math_07_zahl_variable_01.html",
+      "/beurteilung/math_07_geometrie_01.html",
+      "/beurteilung/math_07_Prd_Symmetrien.html",
+      "/beurteilung/math_07_lineare_gleichungen.html"
     ]
   }
 ]
