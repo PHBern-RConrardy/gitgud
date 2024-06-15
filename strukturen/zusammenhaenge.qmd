@@ -6,7 +6,6 @@ format:
       page-layout: full
 ---
 
-
 ```{mermaid}
 %%|fig-width: 16
 %%|fig-height: 11
