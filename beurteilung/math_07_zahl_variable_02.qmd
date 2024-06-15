@@ -9,6 +9,7 @@ categories:
   - "Algebra"
   - "Zahl und Variable"
   - "Lernzielkontrolle"
+  - "8. Klasse"
 author:
   - name: Liv Küng
   - name: David Grossenbacher

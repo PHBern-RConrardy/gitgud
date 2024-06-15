@@ -1,0 +1,129 @@
+---
+title: "Lernzielkontrolle"
+subtitle: "Gleichungen"
+categories: 
+  - "Algebra"
+  - "Zahl und Variable"
+  - "Lernzielkontrolle"
+  - "7. Klasse"
+author:
+  - name: Jessica Balsiger 
+  - name: Elia Sahli
+  - name: Mario Siegenthaler
+  - name: Benjamin Theler
+editor: 
+  markdown: 
+    wrap: 72
+format: 
+  html: default
+toc-depth: 3
+
+citation: 
+  author:
+    - name: Jessica Balsiger 
+    - name: Elia Sahli
+    - name: Mario Siegenthaler
+    - name: Benjamin Theler
+---
+
+# Aufgabe: Ausklammern und Ausmultiplizieren
+
+(R / S) MA.1.A.4.j
+
+Vereinfache die Terme durch Ausklammern oder Ausmultiplizieren so weit
+als möglich.
+
+a)  $3 (x + 4) =$ \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+b)  $-9 (4a – 7b + 12c) =$ \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+c)  $12x + 48 =$ \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+d)  $40a + 24b – 64c =$ \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+R / S \_\_\_\_ / 4 Punkte
+
+# Aufgabe: Gleichungen lösen
+
+(R a/b, S a-d, SS a-e) MA.1.A.4.j / MA 1.a.4.m
+
+Löse die folgenden Gleichungen nach x auf.
+
+a)  $6x – 14 = 52$
+b)  $5 = 46 – (2x + 1)$
+c)  $13 + 4 (x + 3) = 105$
+d)  $3.4 – 2 (x + 1.8) = – 1.5x – 3.8$
+e)  $\frac{3}{4}(x + 1) =\frac{3}{4}$
+
+R / 4 Punkte S  / 8 Punkte SS / 10 Punkte
+
+# Aufgabe: Gleichungen aufstellen
+
+(R a/b, S a-d, SS c-f) MA 1.c.2i
+
+Stelle zu den folgenden Geschichten jeweils eine Gleichung auf uns löse
+sie auf.
+
+a)  Sven verkauft an seinem Stand Limonade. Während des Vormittags hat
+    er 34 Becher Limonade verkauft. Am Mittag zählt er das eingenommene
+    Geld. Insgesamt hat er 85 Fr. eingenommen. Für wie viel hat er einen
+    Becher Limonade verkauft?
+b)  Martina verkauft an ihrem Stand Vanilleeis. Während des Tages hat
+    sie insgesamt 64 Portionen Vanilleeis verkauft. Hinzu kommt, dass
+    sie von drei Personen je 3 Fr. Trinkgeld erhalten hat. Am Abend hat
+    sie 137 Franken in der Kasse. Wie teuer war eine Portion Vanilleeis
+    bei Martina?
+c)  Brigitta hat zum Fünffachen einer Zahl zwanzig addiert und
+    fünfundsechzig erhalten. Mit welcher Zahl hat Brigitta gerechnet?
+d)  Bestimme die drei Zahlen A, B und C, die alle zusammengezählt 60
+    ergeben. A ist um 8 kleiner als das Doppelte von B. A ist doppelt so
+    gross wie die C.
+e)  
+    11. Ein Vater ist 30 Jahre alt. Seine Tochter ist 4 Jahre alt. In
+        wie vielen Jahren ist der Vater genau dreimal so alt wie seine
+        Tochter?
+f)  Ein Stab wird in 20 gleiche Stücke unterteilt. Wäre jedes Stück um
+    1,6 mm kleiner gemacht worden, hätte es 2 Stücke mehr ergeben. Wie
+    lang war ein ursprüngliches Stück?
+
+R \_\_\_\_ / 4 Punkte S \_\_\_\_ / 8 Punkte SS \_\_\_\_ / 8 Punkte
+
+# Aufgabe: Geschichten ableiten
+
+(R a, S a/b, SS a-c) MA 1.c.2.i
+
+Schreibe eine passende Textaufgabe zu den folgenden Gleichungen auf.
+
+a)  $4x + 2 = 24$
+b)  $3(x + 5) = 24$
+c)  $13x + 6y = 137$
+
+R \_\_\_\_ / 2 Punkte S \_\_\_\_ / 4 Punkte SS \_\_\_\_ / 6 Punkte
+
+# Notenskalen
+
+## Notenskala Real (R): 
+
+Vorschlag (muss von der Lehrperson nicht übernommen
+werden)
+
+| 5P  | 8P  | 11P | 14P |
+|-----|-----|-----|-----|
+| 3   | 4   | 5   | 6   |
+
+
+## Notenskala Sek (S): 
+
+Vorschlag (muss von der Lehrperson nicht übernommen
+werden)
+
+| 10P  | 14P  | 19P | 24P |
+|-----|-----|-----|-----|
+| 3   | 4   | 5   | 6   |
+
+
+## Notenskala Spez. Sek (SS): 
+
+Vorschlag (muss von der Lehrperson nicht
+übernommen werden) 
+
+| 10P  | 14P  | 19P | 24P |
+|-----|-----|-----|-----|
+| 3   | 4   | 5   | 6   |

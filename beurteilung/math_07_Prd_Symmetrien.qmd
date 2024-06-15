@@ -1,0 +1,226 @@
+---
+title: "Produkt: Form und Raum"
+subtitle: ""
+categories: 
+  - "Geometrie"
+  - "Form und Raum"
+  - "Produktbeurteilung"
+  - "7. Klasse"
+author:
+  - name: Jessica Balsiger 
+  - name: Elia Sahli
+  - name: Mario Siegenthaler
+  - name: Benjamin Theler
+editor: 
+  markdown: 
+    wrap: 72
+format: 
+  html: default
+toc-depth: 3
+
+citation: 
+  author:
+    - name: Jessica Balsiger 
+    - name: Elia Sahli
+    - name: Mario Siegenthaler
+    - name: Benjamin Theler
+---
+
+Lehrplanbezug: Die SuS können Figuren um 90°, 180° (Punktspiegelung) und
+270° drehen und erkennen entsprechende Abbildungen.
+
+Sozialform: Einzelarbeit
+
+Dauer: 2 Lektionen
+
+Wichtig speichere das Konstruktionsprotokoll bei Geogebra ab.
+
+# Auftrag 1
+
+1.  Erstellung von Symmetrien und Transformationen mittels Geogebra (ca.
+    20 Minuten), wird nicht beurteilt.
+
+Ziel: Kennenlernen der Befehle und Basisfunktionen von Geogebra
+
+Öffne Geogebra, wähle “Werkzeuge” aus und suche den Befehl Vielecke.
+
+Klicke auf das Symbol Vieleck und zeichne ein Vieleck auf dem weissen Hintergrund.
+
+Sobald du ein Vieleck mit mindestens 3 Eckpunkten gezeichnet hast,
+probiere dich an den Transformationen, die es im Geogebra als Befehl
+gibt. Du findest sie wieder links unter Werkzeuge.
+
+Um dein Vieleck an einer Geraden zu spiegeln, benötigst du eine Gerade.
+Zeichne dafür mit dem Befehl “Punkt” zwei Punkte.
+
+Mit dem Befehl Gerade kannst du nun diese beiden Punkte zu einer Geraden
+verbinden, an der du dein Vieleck dann spiegeln kannst.
+
+Verwende dazu die Transformation “Spiegele an Gerade”:
+
+Klicke zunächst auf das Symbol "Spiegele an Gerade":
+
+Dann klickst du auf die von dir erstellte Gerade. Eine Abbildung deines
+Vielecks sollte nun auf der gegenüberliegenden Seite der Geraden
+erscheinen.
+
+Zur Überprüfung siehst du hier ein Beispiel einer Vieleck-Spiegelung,
+welche nach dem oben beschriebenen Ablauf erstellt wurde. Das Dreieck
+A’B’C‘ ist die Spiegelfigur vom Dreieck ABC.
+
+(Es handelt sich dabei lediglich um ein Beispiel, dein eigenes Bild wird
+nicht genau gleich aussehen.)
+
+:::{#fig-1}
+![](images/Screenshot%202024-06-15%20at%2008.12.04.png)
+:::
+
+# Auftrag 2
+
+2.  Drehung eines Dreiecks um 90° an einem Punkt (ca. 15 Minuten) **wird
+    beurteilt**.
+
+Aufgabe: Zeichne im Geogebra nun an einer von dir gewählten Position ein
+Dreieck und einen Punkt. Dies sollte in etwa so aussehen.
+
+:::{#fig-2}
+![](images/Screenshot%202024-06-15%20at%2008.14.14.png)
+:::
+
+Wähle nun unter Transformationen das Werkzeug “Drehe um Punkt” aus.
+Klicke in die Mitte von deinem erstellten Dreieck und anschliessend auf
+den Punkt, um den du die Figur drehen möchtest. Es sollte sich ein Feld
+öffnen, bei dem du 90° eintippen kannst. Dies bedeutet, dass die Figur
+nun am Punkt um 90° gedreht wird. Mit Enter bestätigst du deine Eingabe
+und die Drehung wird sichtbar.
+
+Bemerkung: Gegeben falls ist bei deinem Geogebra nicht „Grad“ sondern
+„Radiant“ eingestellt, wodurch die Eingabe von 90° nicht funktioniert.
+Dies kannst du unter den Einstellungen abändern. Einstellungen →
+Erweitert → Winkeleinheit 3.
+
+## Auftrag 3
+
+Drehung eines Dreiecks um 180° und 270° an einem Punkt (ca. 20 Minuten)
+wird beurteilt
+
+Aufgabe: Nun hast du bereits ein Dreieck an einem Punkt um 90° rotiert
+(gedreht). Erstelle nun neben dem vorhandenen Dreieck zwei neue Dreiecke
+und zwei dazugehörende Punkte. Lasse zwischen den Abbildungen genug
+Platz. Drehe ein Dreieck nun um 180° und das andere Dreieck um 270°. →
+speichere deine Datei unbedingt ab.
+
+Notiere dir, wie du vorgegangen bist, sodass jemand deiner
+Mitschüler\*innen ohne Vorwissen die Drehung durchführen könnte. Notiere
+nicht nur „ich habe das Symbol angewählt“, sondern was mittels des
+Befehles gemacht wurde, wie z.B. „man erstellt einen Punkt und rotiert
+daran das Dreieck“
+
+| Drehung                     | Dein Vorgehen |
+|-----------------------------|---------------|
+| 180° Drehung eines Dreiecks |               |
+| 270° Drehung eines Dreiecks |               |
+|                             |               |
+
+## Auftrag (Spätsek)
+
+Punktspiegelung (Zusätzlich für das Spätsek-Niveau) wird beurteilt.
+
+Eine Punktspiegelung kann auch als Spiegelung an zwei Geraden angesehen
+werden, die senkrecht zueinanderstehen. Versuche es anhand von der
+Abbildung nachzuvollziehen wie man vom Dreieck ABC zum Dreieck A’B’C‘
+kommt.
+
+:::{#fig-3}
+![](images/Screenshot%202024-06-15%20at%2008.22.01.png)
+:::
+
+Erstelle im Anschluss im Geogebra ein Fünfeck und führe einmal eine
+Punktspiegelung durch. Stelle die gleiche Spiegelung mithilfe von zwei
+Geraden dar.
+
+# Auftrag 4
+
+4.  Erkennen von gedrehten und gespiegelten Abbildungen (ca. 15 Minuten)
+    wird beurteilt.
+
+Aufgabe: In der Tabelle auf den folgenden Seiten sind Figuren, die
+unterschiedlich gespiegelt und gedreht wurden.
+
+1.  Gib an, ob es sich um eine Drehung oder um eine Spiegelung handelt.
+2.  Beschreibe um welche Spiegelung und Drehung sich handeln könnte und
+    begründe dabei deine Antwort. Überlege dir bei einer Rotation, um
+    wie viele Grad die Abbildung gedreht wurde.
+
+Tipp: Du kannst auch Geogebra als Hilfestellung gebrauchen.
+
+### Aufgabe Real-Niveau
+
+:::{#fig-5}
+![](images/Screenshot%202024-06-15%20at%2008.25.32.png)
+:::
+
+:::{#fig-6}
+![](images/Screenshot%202024-06-15%20at%2008.25.48.png)
+:::
+
+:::{#fig-7}
+![](images/Screenshot%202024-06-15%20at%2008.26.08.png)
+:::
+
+### Aufgabe Sek-Niveau
+
+:::{#fig-8}
+![](images/Screenshot%202024-06-15%20at%2008.25.32.png)
+:::
+
+:::{#fig-9}
+![](images/Screenshot%202024-06-15%20at%2008.25.48.png)
+:::
+
+:::{#fig-10}
+![](images/Screenshot%202024-06-15%20at%2008.25.59.png)
+:::
+
+:::{#fig-11}
+![](images/Screenshot%202024-06-15%20at%2008.26.08.png)
+:::
+
+
+### Aufgabe Spätsek-Niveau
+
+:::{#fig-12}
+![](images/Screenshot%202024-06-15%20at%2008.25.48.png)
+:::
+
+:::{#fig-13}
+![](images/Screenshot%202024-06-15%20at%2008.25.59.png)
+:::
+
+:::{#fig-14}
+![](images/Screenshot%202024-06-15%20at%2008.26.08.png)
+:::
+
+:::{#fig-15}
+![](images/Screenshot%202024-06-15%20at%2008.29.06.png)
+:::
+
+# Beurteilungsraster
+
+1 = nicht ausreichend, 2 = ausreichend, 3 = gut, 4 = sehr gut
+
+| Handlungsaspekt | Kriterium                                                                                                                                | 1P  | 2P  | 3P  | 4P  |
+|------|-----------------------------------------|------|------|------|------|
+| Darstellen      | Die 90°-Drehung eines Dreiecks an einem Punkt wurde korrekt erstellt (GeoGebra)                                                          |     | n/a |     | n/a |
+| Darstellen      | Die 180°-Drehung eines Dreiecks an einem Punkt wurde korrekt erstellt (GeoGebra)                                                         |     | n/a |     | n/a |
+| Darstellen      | Die 270°-Drehung eines Dreiecks an einem Punkt wurde korrekt erstellt (GeoGebra)                                                         |     | n/a |     | n/a |
+| Argumentieren   | Dein Vorgehen ist klar und ausführlich beschrieben, sodass jemand die Drehung ohne Vorwissen durchführen könnte.                         |     |     |     |     |
+| Argumentieren   | Die Begründung, ob es sich bei den gegebenen Abbildungen um Spiegelungen oder Drehungen handelt, ist verständlich begründet und korrekt. |     |     |     |     |
+
+## Punkteskala
+
+| Note    | \<4  | 4     | 4.5   | 5     | 5.5   | 6     |
+|---------|------|-------|-------|-------|-------|-------|
+| Real    | \<9  | 9-10  | 11-12 | 13-14 | 15-16 | 17    |
+| Sek     | \<9  | 9-10  | 11-12 | 13-14 | 15-16 | 17    |
+| SpezSek | \<10 | 10-11 | 13-14 | 15-16 | 17-18 | 19-20 |

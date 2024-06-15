@@ -7,6 +7,7 @@ title: "Prüfung"
 subtitle: "Lineare Gleichungen"
 categories: 
   - "Lernzielkontrolle"
+  - "8. Klasse"
 author:
   - name: Luc Borruat
   - name: Anna-Carola Schotterer

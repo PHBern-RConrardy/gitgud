@@ -12,7 +12,6 @@ format:
       - bottom=10mm
       - right=10mm
       - landscape
-    docx: default
 ---
 
 
