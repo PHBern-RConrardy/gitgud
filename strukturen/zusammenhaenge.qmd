@@ -4,14 +4,6 @@ format:
     html:
       embed-resources: true
       page-layout: full
-    pdf: 
-      papersize: A3
-      geometry:
-      - top=10mm
-      - left=10mm
-      - bottom=10mm
-      - right=10mm
-      - landscape
 ---
 
 
