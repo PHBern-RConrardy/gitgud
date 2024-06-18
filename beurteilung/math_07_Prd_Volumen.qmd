@@ -1,0 +1,99 @@
+---
+title: "Produkt summativ Mathe"
+subtitle: ""
+categories: 
+  - "Geometrie"
+  - "Form und Raum"
+  - "Produktbeurteilung"
+  - "7. Klasse"
+author:
+  - name: Joëlle Bumann 
+  - name: Nicoline Supersaxo 
+  - name: Alessandra Brigger
+editor: 
+  markdown: 
+    wrap: 72
+format: 
+  html: default
+toc-depth: 3
+
+citation: 
+  author:
+    - name: Joëlle Bumann 
+    - name: Nicoline Supersaxo 
+    - name: Alessandra Brigger 
+license: "CC0 1.0 - https://creativecommons.org/publicdomain/zero/1.0/"
+---
+
+## Kompetenzstufen nach LP 21:
+[MA.2.C.1.h](https://be.lehrplan.ch/101mdMCc32pGGLWqF76vwvc9xmsSgHNmp){.knopf .stufe .zyklus2}  [MA.2.B.2.e](https://be.lehrplan.ch/101xW7YFdm8Zp6SvLUd72pZX26C6C64zL){.knopf .stufe}  [MA.2.B.1.h](https://be.lehrplan.ch/101Ca6L586chLSXDJdCJwbMhZpGR38BVX){.knopf .stufe .zyklus2}  [MA.2.A.3.f](https://be.lehrplan.ch/101JT2beZtnawGbAXuF5Td36ScEyv3uvm){.knopf .stufe .zyklus2} 
+
+
+-   MA.2.C.1.h: können zusammengesetzte Körper skizzieren und beschreiben (z.B. aus Schachteln, Rollen und Prismen).
+-   MA.2.B.2.e: können heuristische Strategien verwenden: planen, skizzieren, Beispiele untersuchen, vorwärts arbeiten, von einer angenommenen Lösung aus rückwärts arbeiten.
+-   MA.2.B.1.h: lassen sich auf Forschungsaufgaben zu Form und Raum ein
+-   MA.2.A.3.f: können Volumen von Quadern berechnen.
+
+## Lernziele:
+
+-   Du kannst einen Plan konstruieren, bei dem du vorgegebene
+    Volumenangaben berücksichtigen musst.
+-   Du kannst das Volumen von verschiedenen Körpern berechnen und nutzt
+    dazu auch die Zerlegung von Körpern.
+-   Du kannst einen verständlichen Konstruktionsplan anfertigen.
+
+# Aufgabe:
+
+Deine Tante möchte sich gerne ein Aquarium mit 5 Goldfischen kaufen. Ihr
+Wunsch ist es, dass du ihr Aquarium entwirfst. Ihr ist es wichtig, dass
+es genügend Platz für alle Goldfische hat. Sie schreibt dir, dass pro
+Fisch 40l [@lobe_goldfische_2023] Wasser notwendig sind. Die maximalen
+Masse, die das Aquarium aber haben darf, sind:
+
+$$ 121cm \times 43 cm \times 57 cm \quad (l \times b \times h)$$
+
+Zusätzlich wünscht sich deine Tante mindestens 4 Gegenstände im
+Aquarium, welche für ihre Fische notwendig sind oder das Aquarium
+verschönern.
+
+Erstelle dazu einen exakten Konstruktionsplan (A3) mit allen nötigen
+Angaben, den du deiner Tante zusenden kannst. Dieser enthält sowohl das
+Aquarium wie auch alle darin enthaltenen Gegenstände.
+
+### Was du bei den Gegenständen beachten musst:
+
+-   Die Form der Gegenstände ist erkennbar.
+-   Deine Gegenstände bestehen aus Würfel, Quader und Prismen.
+-   Mindestes 2 der Gegenstände bestehen aus zusammengesetzten Körpern.
+-   Mindestens 1 Gegenstand hat ein Loch.
+-   Du beschriftest, was die Gegenstände genau darstellen sollen.
+
+### Wie du den Konstruktionsplan gestalten sollst:
+
+-   Du erhältst ein A3-Blatt
+-   Du gestaltest den Konstruktionsplan von Hand.
+-   Du zeichnest den Grundriss (von oben) und den Aufriss (von vorne).
+-   Für die Gegenstände planst du rechts am Rand eine Spalte, wo du
+    diese skizzierst.
+-   Dein Konstruktionsplan muss NICHT massstabsgerecht sein.
+
+Auf einem **separaten Blatt** gibst du all deine verwendeten
+Berechnungen ab. Dort musst du auch immer angeben, für welchen
+Gegenstand du gerade berechnest.
+
+Wichtig: Denk daran, wie viel Platz die Fische zum Schwimmen brauchen.
+Die Gegenstände verringern das Wasservolumen.
+
+Zeit: Für dieses Produkt hast du 4 Lektionen Zeit.
+
+| Kriterien                                                                                          | Gut erreicht 2P | Erreicht 1P | Noch nicht erreich 0P |
+|-----------------|-----------------|-----------------|----------------------|
+| Dein Aquarium entspricht den vorgegebenen Grössen.                                                 | n/a             |             |                       |
+| Dein Aquarium enthält mindestens 4 Gegenstände.                                                    | n/a             |             |                       |
+| Mindestens 2 der 4 Gegenstände sind aus mehreren Körpern zusammengesetzt.                          | n/a             |             |                       |
+| Mindestens 1 Körper hat ein Loch.                                                                  | n/a             |             |                       |
+| Die Masse und die verschiedenen Volumina der einzelnen Gegenstände und des Aquariums sind korrekt. |                 |             |                       |
+| Die einzelnen Gegenstände sind am Rand des Konstruktionsplans skizziert.                           | n/a             |             |                       |
+| Die Fische haben alle genügend Platz.                                                              | n/a             |             |                       |
+| Deine Rechenschritte sind nachvollziehbar und korrekt.                                             |                 |             |                       |
+| Auf deinem Konstruktionsplan sind der Aufriss und der Grundriss ersichtlich.                       | n/a             |             |                       |
