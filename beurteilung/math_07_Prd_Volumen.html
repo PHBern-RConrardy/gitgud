@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Joëlle Bumann">
+<meta name="author" content="Nicoline Supersaxo">
+<meta name="author" content="Alessandra Brigger">
 
-<title>Jahresplanungen</title>
+<title>Produkt summativ Mathe</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,7 +23,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -68,6 +91,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -149,13 +201,27 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Jahresplanungen</h1>
-                      </div>
+      <h1 class="title">Produkt summativ Mathe</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">Geometrie</div>
+                <div class="quarto-category">Form und Raum</div>
+                <div class="quarto-category">Produktbeurteilung</div>
+                <div class="quarto-category">7. Klasse</div>
+              </div>
+                  </div>
   </div>
     
   
   <div class="quarto-title-meta">
 
+      <div>
+      <div class="quarto-title-meta-heading">Autor:innen</div>
+      <div class="quarto-title-meta-contents">
+               <p>Joëlle Bumann </p>
+               <p>Nicoline Supersaxo </p>
+               <p>Alessandra Brigger </p>
+            </div>
+    </div>
       
     
       
@@ -166,8 +232,20 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <div class="quarto-alternate-formats"><h2>Andere Formate</h2><ul><li><a href="jahresplanungen.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="99">
+    <h2 id="toc-title">Auf dieser Seite</h2>
+   
+  <ul>
+  <li><a href="#kompetenzstufen-nach-lp-21" id="toc-kompetenzstufen-nach-lp-21" class="nav-link active" data-scroll-target="#kompetenzstufen-nach-lp-21">Kompetenzstufen nach LP 21:</a></li>
+  <li><a href="#lernziele" id="toc-lernziele" class="nav-link" data-scroll-target="#lernziele">Lernziele:</a></li>
+  <li><a href="#aufgabe" id="toc-aufgabe" class="nav-link" data-scroll-target="#aufgabe">Aufgabe:</a>
+  <ul class="collapse">
+  <li><a href="#was-du-bei-den-gegenständen-beachten-musst" id="toc-was-du-bei-den-gegenständen-beachten-musst" class="nav-link" data-scroll-target="#was-du-bei-den-gegenständen-beachten-musst">Was du bei den Gegenständen beachten musst:</a></li>
+  <li><a href="#wie-du-den-konstruktionsplan-gestalten-sollst" id="toc-wie-du-den-konstruktionsplan-gestalten-sollst" class="nav-link" data-scroll-target="#wie-du-den-konstruktionsplan-gestalten-sollst">Wie du den Konstruktionsplan gestalten sollst:</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
 
@@ -175,126 +253,145 @@ ul.task-list li input[type="checkbox"] {
 
 
 
+<section id="kompetenzstufen-nach-lp-21" class="level2">
+<h2 class="anchored" data-anchor-id="kompetenzstufen-nach-lp-21">Kompetenzstufen nach LP 21:</h2>
+<p><a href="https://be.lehrplan.ch/101mdMCc32pGGLWqF76vwvc9xmsSgHNmp" class="knopf stufe zyklus2">MA.2.C.1.h</a> <a href="https://be.lehrplan.ch/101xW7YFdm8Zp6SvLUd72pZX26C6C64zL" class="knopf stufe">MA.2.B.2.e</a> <a href="https://be.lehrplan.ch/101Ca6L586chLSXDJdCJwbMhZpGR38BVX" class="knopf stufe zyklus2">MA.2.B.1.h</a> <a href="https://be.lehrplan.ch/101JT2beZtnawGbAXuF5Td36ScEyv3uvm" class="knopf stufe zyklus2">MA.2.A.3.f</a></p>
+<ul>
+<li>MA.2.C.1.h: können zusammengesetzte Körper skizzieren und beschreiben (z.B. aus Schachteln, Rollen und Prismen).</li>
+<li>MA.2.B.2.e: können heuristische Strategien verwenden: planen, skizzieren, Beispiele untersuchen, vorwärts arbeiten, von einer angenommenen Lösung aus rückwärts arbeiten.</li>
+<li>MA.2.B.1.h: lassen sich auf Forschungsaufgaben zu Form und Raum ein</li>
+<li>MA.2.A.3.f: können Volumen von Quadern berechnen.</li>
+</ul>
+</section>
+<section id="lernziele" class="level2">
+<h2 class="anchored" data-anchor-id="lernziele">Lernziele:</h2>
+<ul>
+<li>Du kannst einen Plan konstruieren, bei dem du vorgegebene Volumenangaben berücksichtigen musst.</li>
+<li>Du kannst das Volumen von verschiedenen Körpern berechnen und nutzt dazu auch die Zerlegung von Körpern.</li>
+<li>Du kannst einen verständlichen Konstruktionsplan anfertigen.</li>
+</ul>
+</section>
+<section id="aufgabe" class="level1">
+<h1>Aufgabe:</h1>
+<p>Deine Tante möchte sich gerne ein Aquarium mit 5 Goldfischen kaufen. Ihr Wunsch ist es, dass du ihr Aquarium entwirfst. Ihr ist es wichtig, dass es genügend Platz für alle Goldfische hat. Sie schreibt dir, dass pro Fisch 40l <span class="citation" data-cites="lobe_goldfische_2023">(<a href="#ref-lobe_goldfische_2023" role="doc-biblioref">Löbe, 2023</a>)</span> Wasser notwendig sind. Die maximalen Masse, die das Aquarium aber haben darf, sind:</p>
+<p><span class="math display">\[ 121cm \times 43 cm \times 57 cm \quad (l \times b \times h)\]</span></p>
+<p>Zusätzlich wünscht sich deine Tante mindestens 4 Gegenstände im Aquarium, welche für ihre Fische notwendig sind oder das Aquarium verschönern.</p>
+<p>Erstelle dazu einen exakten Konstruktionsplan (A3) mit allen nötigen Angaben, den du deiner Tante zusenden kannst. Dieser enthält sowohl das Aquarium wie auch alle darin enthaltenen Gegenstände.</p>
+<section id="was-du-bei-den-gegenständen-beachten-musst" class="level3">
+<h3 class="anchored" data-anchor-id="was-du-bei-den-gegenständen-beachten-musst">Was du bei den Gegenständen beachten musst:</h3>
+<ul>
+<li>Die Form der Gegenstände ist erkennbar.</li>
+<li>Deine Gegenstände bestehen aus Würfel, Quader und Prismen.</li>
+<li>Mindestes 2 der Gegenstände bestehen aus zusammengesetzten Körpern.</li>
+<li>Mindestens 1 Gegenstand hat ein Loch.</li>
+<li>Du beschriftest, was die Gegenstände genau darstellen sollen.</li>
+</ul>
+</section>
+<section id="wie-du-den-konstruktionsplan-gestalten-sollst" class="level3">
+<h3 class="anchored" data-anchor-id="wie-du-den-konstruktionsplan-gestalten-sollst">Wie du den Konstruktionsplan gestalten sollst:</h3>
+<ul>
+<li>Du erhältst ein A3-Blatt</li>
+<li>Du gestaltest den Konstruktionsplan von Hand.</li>
+<li>Du zeichnest den Grundriss (von oben) und den Aufriss (von vorne).</li>
+<li>Für die Gegenstände planst du rechts am Rand eine Spalte, wo du diese skizzierst.</li>
+<li>Dein Konstruktionsplan muss NICHT massstabsgerecht sein.</li>
+</ul>
+<p>Auf einem <strong>separaten Blatt</strong> gibst du all deine verwendeten Berechnungen ab. Dort musst du auch immer angeben, für welchen Gegenstand du gerade berechnest.</p>
+<p>Wichtig: Denk daran, wie viel Platz die Fische zum Schwimmen brauchen. Die Gegenstände verringern das Wasservolumen.</p>
+<p>Zeit: Für dieses Produkt hast du 4 Lektionen Zeit.</p>
 <table class="caption-top table">
-<caption>Übersicht des Jahresablaufes</caption>
 <colgroup>
-<col style="width: 10%">
-<col style="width: 13%">
-<col style="width: 12%">
-<col style="width: 13%">
-<col style="width: 16%">
-<col style="width: 8%">
-<col style="width: 12%">
-<col style="width: 9%">
+<col style="width: 23%">
+<col style="width: 23%">
+<col style="width: 23%">
+<col style="width: 30%">
 </colgroup>
 <thead>
 <tr class="header">
-<th></th>
-<th>Form</th>
-<th>Zahl</th>
-<th>Raum</th>
-<th>Variable</th>
-<th>Funktionen</th>
-<th>Daten und Zufall</th>
-<th>Erweiterung</th>
+<th>Kriterien</th>
+<th>Gut erreicht 2P</th>
+<th>Erreicht 1P</th>
+<th>Noch nicht erreich 0P</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><ol start="7" type="1">
-<li>Klasse HS</li>
-</ol></td>
-<td>Rechtecke, Kreise</td>
-<td>Rationale Zahlen</td>
-<td>Koordinatensystem</td>
-<td>Variablen, Gleichungen</td>
-<td>Funktionen</td>
-<td>Diagramme</td>
+<td>Dein Aquarium entspricht den vorgegebenen Grössen.</td>
+<td>n/a</td>
+<td></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><ol start="7" type="1">
-<li>Klasse FS</li>
-</ol></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>Dein Aquarium enthält mindestens 4 Gegenstände.</td>
+<td>n/a</td>
 <td></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><ol start="8" type="1">
-<li>Klasse HS</li>
-</ol></td>
+<td>Mindestens 2 der 4 Gegenstände sind aus mehreren Körpern zusammengesetzt.</td>
+<td>n/a</td>
 <td></td>
 <td></td>
+</tr>
+<tr class="even">
+<td>Mindestens 1 Körper hat ein Loch.</td>
+<td>n/a</td>
 <td></td>
 <td></td>
+</tr>
+<tr class="odd">
+<td>Die Masse und die verschiedenen Volumina der einzelnen Gegenstände und des Aquariums sind korrekt.</td>
 <td></td>
 <td></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><ol start="8" type="1">
-<li>Klasse FS</li>
-</ol></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>Die einzelnen Gegenstände sind am Rand des Konstruktionsplans skizziert.</td>
+<td>n/a</td>
 <td></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><ol start="9" type="1">
-<li>Klasse HS</li>
-</ol></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>Die Fische haben alle genügend Platz.</td>
+<td>n/a</td>
 <td></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><ol start="9" type="1">
-<li>Klasse FS</li>
-</ol></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>Deine Rechenschritte sind nachvollziehbar und korrekt.</td>
 <td></td>
 <td></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>Auf deinem Konstruktionsplan sind der Aufriss und der Grundriss ersichtlich.</td>
+<td>n/a</td>
 <td></td>
 <td></td>
 </tr>
 </tbody>
 </table>
-<p>Pro Jahr 39 (19+20) Schulwochen. Planung mit 36 (18+18) Wochen -&gt; Pro Feld 3 Wochen</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://stammdaten.lehrplan.ch/pdf_inhalte/illustrationen/92/ahb_kapitel_4.1.4.jpg" class="img-fluid figure-img"></p>
-<figcaption>Lektionentafel</figcaption>
-</figure>
+
+
+
+</section>
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Literatur</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="ref-lobe_goldfische_2023" class="csl-entry" role="listitem">
+Löbe, D. (2023, Oktober 27). <em>Goldfische im Aquarium: So machst du alles richtig! Aquarium-Fische.net</em>. <a href="https://aquarium-fische.net/goldfische-im-aquarium/">https://aquarium-fische.net/goldfische-im-aquarium/</a>
 </div>
-
-
-
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Wiederverwendung</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">CC BY-SA 4.0</a></div></div></section></div></main> <!-- /main -->
+</div></section><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Wiederverwendung</h2><div class="quarto-appendix-contents"><div>CC0 1.0 - https://creativecommons.org/publicdomain/zero/1.0/</div></div></section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Zitat</h2><div><div class="quarto-appendix-secondary-label">Mit BibTeX zitieren:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{bumann,
+  author = {Bumann, Joëlle and Supersaxo, Nicoline and Brigger,
+    Alessandra},
+  title = {Produkt summativ Mathe},
+  url = {https://PHBern-RConrardy.github.io/gitgud//beurteilung/math_07_Prd_Volumen.html},
+  langid = {de}
+}
+</code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">Bitte zitieren Sie diese Arbeit als:</div><div id="ref-bumann" class="csl-entry quarto-appendix-citeas" role="listitem">
+Bumann, J., Supersaxo, N., &amp; Brigger, A. (n.d.). <em>Produkt
+summativ Mathe</em>. <a href="https://PHBern-RConrardy.github.io/gitgud//beurteilung/math_07_Prd_Volumen.html">https://PHBern-RConrardy.github.io/gitgud//beurteilung/math_07_Prd_Volumen.html</a>
+</div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
