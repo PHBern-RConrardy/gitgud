@@ -1,0 +1,146 @@
+---
+title: "Lernzielkontrolle"
+subtitle: "Gleichungen"
+categories: 
+  - "Algebra"
+  - "Zahl und Variable"
+  - "Lernzielkontrolle"
+  - "7. Klasse"
+author:
+  - name: Nicoline Supersaxo
+  - name: Alessandra Brigger
+  - name: Joëlle Bumann
+editor: 
+  markdown: 
+    wrap: 72
+format: 
+  html: default
+toc-depth: 3
+date: 06/27/2024
+citation: 
+  author:
+  - name: Nicoline Supersaxo
+  - name: Alessandra Brigger
+  - name: Joëlle Bumann
+license: CC0
+---
+Zeit: 45 Min.
+
+# Lernkontrolle Real
+
+:::{.callout-note}
+## Lernziele
+
+* Du kannst Gleichungen und Ungleichungen mit Variablen lösen.
+* Du kannst Terme aufstellen und vereinfachen.
+* Du erkennst an einer Gleichung, wie viele Lösungen diese haben wird.
+:::
+
+Zahl und Variable (Algebra): Einführung in algebraische Ausdrücke, Lösen einfacher Gleichungen, Ungleichungen
+
+1.	Mache ein eigenes Beispiel zu einer Aufgabe mit Variablen im Alltag und schreibe dazu den Term auf. [MA.1.A.1.i](https://be.lehrplan.ch/1012ASpUwBy3Avq8Fh6pLaSX6qJA4E9aP){.knopf .stufe } [MA.1.C.2.h](https://be.lehrplan.ch/101LEtbVUpVAxXh9zzvaGG9S5PqCAqdqW){.knopf .stufe .zyklus2}
+2.	Löse folgende Gleichungen nach x auf [MA.1.A.4.h](https://be.lehrplan.ch/101kSAkAr2maExwz4HHC4z7x4eemPCXgH){.knopf .stufe .zyklus2}:
+  a)	$2x+5=17$
+  b)	$3(x−4)=9$
+  c)	$\frac{1}{2}x−3=7$
+3.	Beschreibe die Anzahl Kugeln mit einem passenden Term [MA.1.A.4.j](https://be.lehrplan.ch/101AJt2yMqVxRygKJ2xZqrbaqzAhfYnDL){.knopf .stufe }
+  * Im Sack B hat es 4 Kugeln mehr als in Sack A: :
+  * Im Sack B hat es 3 mal weniger Kugeln als im Sack A:
+  * Im Sack B hat es 2 Kugeln mehr als das Doppelte der Kugeln im Sack A:
+4.	Vereinfache folgende Terme so weit wie möglich. [MA.1.A.4.j](https://be.lehrplan.ch/101AJt2yMqVxRygKJ2xZqrbaqzAhfYnDL){.knopf .stufe }
+  a)	$3x+2y−x+4y$
+  b)	$2(3x−5)−4x $
+  c)	$5a−(2a+3b)$
+
+5.	Ungleichungen [MA.1.A.1.i](https://be.lehrplan.ch/1012ASpUwBy3Avq8Fh6pLaSX6qJA4E9aP){.knopf .stufe }, [MA.1.A.4.j](https://be.lehrplan.ch/101AJt2yMqVxRygKJ2xZqrbaqzAhfYnDL){.knopf .stufe }
+  a)	Auf einem Obststand werden Äpfel für 1 Euro pro Stück und Orangen für 0,75 Euro pro Stück verkauft. Du möchtest nicht mehr als 5 Euro für Obst ausgeben. Formuliere eine Ungleichung, um zu bestimmen, wie viele Äpfel und Orangen du höchstens kaufen kannst, ohne dein Budget zu überschreiten. Schreibe nur den Term, du musst sie nicht lösen
+  b) Zeichne die Lösung für $x$ auf dem Zahlenstrahl ein. $4 + x \geq7$.
+  
+# Lernkontrolle Sek
+
+:::{.callout-note}
+## Lernziele
+
+* Du kannst Gleichungen und Ungleichungen mit Variablen lösen.
+* Du kannst Terme aufstellen und vereinfachen.
+* Du erkennst an einer Gleichung, wie viele Lösungen diese haben wird.
+:::
+
+Zahl und Variable (Algebra): Einführung in algebraische Ausdrücke, Lösen einfacher Gleichungen, Ungleichungen
+
+1. Mache ein eigenes Beispiel zu einer Aufgabe mit Variablen im Alltag und schreibe dazu den Term auf. [MA.1.A.1.i](https://be.lehrplan.ch/1012ASpUwBy3Avq8Fh6pLaSX6qJA4E9aP){.knopf .stufe } [MA.1.C.2.h](https://be.lehrplan.ch/101LEtbVUpVAxXh9zzvaGG9S5PqCAqdqW){.knopf .stufe .zyklus2}
+2. Löse folgende Gleichungen nach x auf [MA.1.A.4.h](https://be.lehrplan.ch/101kSAkAr2maExwz4HHC4z7x4eemPCXgH){.knopf .stufe .zyklus2}:
+a) $2x+5=17$
+b) $3(x−4)=9$
+c) $\frac{1}{2} x−3=7$
+3. Wie viele Lösungen haben folgende Gleichungen [MA.1.A.4.h](https://be.lehrplan.ch/101kSAkAr2maExwz4HHC4z7x4eemPCXgH){.knopf .stufe .zyklus2}?  
+* $16=4\cdot x^2$   		Anzahl Lösungen:
+* $2x+3=2x+5$         	Anzahl Lösungen:
+* $\frac{x}{x}=2$	       		Anzahl Lösungen:
+* $3x+7=3x+7$	      	Anzahl Lösungen:
+
+4. Beschreibe die Anzahl Kugeln mit einem passenden Term [MA.1.A.4.j](https://be.lehrplan.ch/101AJt2yMqVxRygKJ2xZqrbaqzAhfYnDL){.knopf .stufe }
+* Im Sack B hat es 4 Kugeln mehr als in Sack A: :
+* Im Sack B hat es 3 mal weniger Kugeln als im Sack A:
+* Im Sack B hat es 2 Kugeln mehr als das Doppelte der Kugeln im Sack A:
+* Im Sack B hat es 3 Kugeln weniger als die vierfache Zahl der Kugeln im Sack A:
+
+5. Vereinfache folgende Terme so weit wie möglich. [MA.1.A.4.j](https://be.lehrplan.ch/101AJt2yMqVxRygKJ2xZqrbaqzAhfYnDL){.knopf .stufe }
+* $3x+2y−x+4y$
+* $2(3x−5)−4x$
+* $5a−(2a+3b)$
+
+6. Ungleichungen [MA.1.A.1.i](https://be.lehrplan.ch/1012ASpUwBy3Avq8Fh6pLaSX6qJA4E9aP){.knopf .stufe }, [MA.1.A.4.j](https://be.lehrplan.ch/101AJt2yMqVxRygKJ2xZqrbaqzAhfYnDL){.knopf .stufe }
+
+c) Auf einem Obststand werden Äpfel für 1 Euro pro Stück und Orangen für 0,75 Euro pro Stück verkauft. Du möchtest nicht mehr als 5 Euro für Obst ausgeben.
+
+Formuliere eine Ungleichung, um zu bestimmen, wie viele Äpfel und Orangen du höchstens kaufen kannst, ohne dein Budget zu überschreiten. Schreibe nur den Term, du musst sie nicht lösen. 
+
+d) Zeichne die Lösung für x auf dem Zahlenstrahl ein. $4−x \geq7$
+
+# Lernkontrolle SpezSek
+
+:::{.callout-note}
+## Lernziele
+
+* Du kannst Gleichungen und Ungleichungen mit Variablen lösen.
+* Du kannst Terme aufstellen und vereinfachen.
+* Du erkennst an einer Gleichung, wie viele Lösungen diese haben wird.
+:::
+
+Zahl und Variable (Algebra): Einführung in algebraische Ausdrücke, Lösen einfacher Gleichungen, Ungleichungen
+
+1. Mache ein eigenes Beispiel zu einer Aufgabe mit Variablen im Alltag und schreibe dazu den Term auf. [MA.1.A.1.i](https://be.lehrplan.ch/1012ASpUwBy3Avq8Fh6pLaSX6qJA4E9aP){.knopf .stufe } [MA.1.C.2.h](https://be.lehrplan.ch/101LEtbVUpVAxXh9zzvaGG9S5PqCAqdqW){.knopf .stufe .zyklus2}
+
+
+2. Löse folgende Gleichungen nach x auf [MA.1.A.4.h](https://be.lehrplan.ch/101kSAkAr2maExwz4HHC4z7x4eemPCXgH){.knopf .stufe .zyklus2}:
+a) $2x+5=17$
+b) $3(x−4)=9$
+c) $\frac{1}{2} x−3=7$
+
+
+3. Wie viele Lösungen haben folgende Gleichungen und nenne diese [MA.1.A.4.h](https://be.lehrplan.ch/101kSAkAr2maExwz4HHC4z7x4eemPCXgH){.knopf .stufe .zyklus2} (MA.1.A.4.l)? 
+* $16=4\cdot x^2$   		Anzahl Lösungen:
+* $2x+3=2x+5$         	Anzahl Lösungen:
+* $\frac{x}{x}=2$	       		Anzahl Lösungen:
+* $3x+7=3x+7$	      	Anzahl Lösungen:
+
+4. Beschreibe die Anzahl Kugeln mit einem passenden Term [MA.1.A.4.j](https://be.lehrplan.ch/101AJt2yMqVxRygKJ2xZqrbaqzAhfYnDL){.knopf .stufe }
+* Im Sack B hat es 4 Kugeln mehr als in Sack A: :
+* Im Sack B hat es 3 mal weniger Kugeln als im Sack A:
+* Im Sack B hat es 2 Kugeln mehr als das Doppelte der Kugeln im Sack A:
+* Im Sack B hat es 3 Kugeln weniger als die vierfache Zahl der Kugeln im Sack A:
+* Im Sack B hat es das Doppelte von der Hälfte der Anzahl Kugeln im Sack A:
+5. Vereinfache folgende Terme so weit wie möglich. [MA.1.A.4.j](https://be.lehrplan.ch/101AJt2yMqVxRygKJ2xZqrbaqzAhfYnDL){.knopf .stufe }
+* $3x+2y−x+4y$
+* $2(3x−5)−4x$ 
+* $5a−(2a+3b)$
+
+6. Ungleichungen [MA.1.A.1.i](https://be.lehrplan.ch/1012ASpUwBy3Avq8Fh6pLaSX6qJA4E9aP){.knopf .stufe }, [MA.1.A.4.j](https://be.lehrplan.ch/101AJt2yMqVxRygKJ2xZqrbaqzAhfYnDL){.knopf .stufe }
+
+a) Auf einem Obststand werden Äpfel für 1 Euro pro Stück und Orangen für 0,75 Euro pro Stück verkauft. Du möchtest nicht mehr als 5 Euro für Obst ausgeben.
+
+Formuliere eine Ungleichung, um zu bestimmen, wie viele Äpfel und Orangen du höchstens kaufen kannst, ohne dein Budget zu überschreiten. Schreibe nur den Term, du musst sie nicht lösen. 
+
+
+b) Zeichne die Lösung für x auf dem Zahlenstrahl ein. $18−x \geq23$.
