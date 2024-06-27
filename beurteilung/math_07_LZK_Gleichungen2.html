@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Nicoline Supersaxo">
+<meta name="author" content="Alessandra Brigger">
+<meta name="author" content="Joëlle Bumann">
 
-<title>Jahresplanungen</title>
+<title>Lernzielkontrolle</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -68,6 +71,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -149,14 +181,35 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Jahresplanungen</h1>
-                      </div>
+      <h1 class="title">Lernzielkontrolle</h1>
+            <p class="subtitle lead">Gleichungen</p>
+                                <div class="quarto-categories">
+                <div class="quarto-category">Algebra</div>
+                <div class="quarto-category">Zahl und Variable</div>
+                <div class="quarto-category">Lernzielkontrolle</div>
+                <div class="quarto-category">7. Klasse</div>
+              </div>
+                  </div>
   </div>
     
   
   <div class="quarto-title-meta">
 
+      <div>
+      <div class="quarto-title-meta-heading">Autor:innen</div>
+      <div class="quarto-title-meta-contents">
+               <p>Nicoline Supersaxo </p>
+               <p>Alessandra Brigger </p>
+               <p>Joëlle Bumann </p>
+            </div>
+    </div>
       
+      <div>
+      <div class="quarto-title-meta-heading">Veröffentlichungsdatum</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">27.06.2024</p>
+      </div>
+    </div>
     
       
     </div>
@@ -166,8 +219,16 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <div class="quarto-alternate-formats"><h2>Andere Formate</h2><ul><li><a href="jahresplanungen.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="99">
+    <h2 id="toc-title">Auf dieser Seite</h2>
+   
+  <ul>
+  <li><a href="#lernkontrolle-real" id="toc-lernkontrolle-real" class="nav-link active" data-scroll-target="#lernkontrolle-real">Lernkontrolle Real</a></li>
+  <li><a href="#lernkontrolle-sek" id="toc-lernkontrolle-sek" class="nav-link" data-scroll-target="#lernkontrolle-sek">Lernkontrolle Sek</a></li>
+  <li><a href="#lernkontrolle-spezsek" id="toc-lernkontrolle-spezsek" class="nav-link" data-scroll-target="#lernkontrolle-spezsek">Lernkontrolle SpezSek</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
 
@@ -175,126 +236,209 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<table class="caption-top table">
-<caption>Übersicht des Jahresablaufes</caption>
-<colgroup>
-<col style="width: 10%">
-<col style="width: 13%">
-<col style="width: 12%">
-<col style="width: 13%">
-<col style="width: 16%">
-<col style="width: 8%">
-<col style="width: 12%">
-<col style="width: 9%">
-</colgroup>
-<thead>
-<tr class="header">
-<th></th>
-<th>Form</th>
-<th>Zahl</th>
-<th>Raum</th>
-<th>Variable</th>
-<th>Funktionen</th>
-<th>Daten und Zufall</th>
-<th>Erweiterung</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><ol start="7" type="1">
-<li>Klasse HS</li>
-</ol></td>
-<td>Rechtecke, Kreise</td>
-<td>Rationale Zahlen</td>
-<td>Koordinatensystem</td>
-<td>Variablen, Gleichungen</td>
-<td>Funktionen</td>
-<td>Diagramme</td>
-<td></td>
-</tr>
-<tr class="even">
-<td><ol start="7" type="1">
-<li>Klasse FS</li>
-</ol></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td><ol start="8" type="1">
-<li>Klasse HS</li>
-</ol></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td><ol start="8" type="1">
-<li>Klasse FS</li>
-</ol></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td><ol start="9" type="1">
-<li>Klasse HS</li>
-</ol></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td><ol start="9" type="1">
-<li>Klasse FS</li>
-</ol></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<p>Pro Jahr 39 (19+20) Schulwochen. Planung mit 36 (18+18) Wochen -&gt; Pro Feld 3 Wochen</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://stammdaten.lehrplan.ch/pdf_inhalte/illustrationen/92/ahb_kapitel_4.1.4.jpg" class="img-fluid figure-img"></p>
-<figcaption>Lektionentafel</figcaption>
-</figure>
+<p>Zeit: 45 Min.</p>
+<section id="lernkontrolle-real" class="level1">
+<h1>Lernkontrolle Real</h1>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
 </div>
+<div class="callout-title-container flex-fill">
+Lernziele
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>Du kannst Gleichungen und Ungleichungen mit Variablen lösen.</li>
+<li>Du kannst Terme aufstellen und vereinfachen.</li>
+<li>Du erkennst an einer Gleichung, wie viele Lösungen diese haben wird.</li>
+</ul>
+</div>
+</div>
+<p>Zahl und Variable (Algebra): Einführung in algebraische Ausdrücke, Lösen einfacher Gleichungen, Ungleichungen</p>
+<ol type="1">
+<li>Mache ein eigenes Beispiel zu einer Aufgabe mit Variablen im Alltag und schreibe dazu den Term auf. <a href="https://be.lehrplan.ch/1012ASpUwBy3Avq8Fh6pLaSX6qJA4E9aP" class="knopf stufe">MA.1.A.1.i</a> <a href="https://be.lehrplan.ch/101LEtbVUpVAxXh9zzvaGG9S5PqCAqdqW" class="knopf stufe zyklus2">MA.1.C.2.h</a></li>
+<li>Löse folgende Gleichungen nach x auf <a href="https://be.lehrplan.ch/101kSAkAr2maExwz4HHC4z7x4eemPCXgH" class="knopf stufe zyklus2">MA.1.A.4.h</a>:</li>
+</ol>
+<ol type="a">
+<li><span class="math inline">\(2x+5=17\)</span></li>
+<li><span class="math inline">\(3(x−4)=9\)</span></li>
+<li><span class="math inline">\(\frac{1}{2}x−3=7\)</span></li>
+</ol>
+<ol start="3" type="1">
+<li>Beschreibe die Anzahl Kugeln mit einem passenden Term <a href="https://be.lehrplan.ch/101AJt2yMqVxRygKJ2xZqrbaqzAhfYnDL" class="knopf stufe">MA.1.A.4.j</a></li>
+</ol>
+<ul>
+<li>Im Sack B hat es 4 Kugeln mehr als in Sack A: :</li>
+<li>Im Sack B hat es 3 mal weniger Kugeln als im Sack A:</li>
+<li>Im Sack B hat es 2 Kugeln mehr als das Doppelte der Kugeln im Sack A:</li>
+</ul>
+<ol start="4" type="1">
+<li>Vereinfache folgende Terme so weit wie möglich. <a href="https://be.lehrplan.ch/101AJt2yMqVxRygKJ2xZqrbaqzAhfYnDL" class="knopf stufe">MA.1.A.4.j</a></li>
+</ol>
+<ol type="a">
+<li><span class="math inline">\(3x+2y−x+4y\)</span></li>
+<li>$2(3x−5)−4x $</li>
+<li><span class="math inline">\(5a−(2a+3b)\)</span></li>
+</ol>
+<ol start="5" type="1">
+<li>Ungleichungen <a href="https://be.lehrplan.ch/1012ASpUwBy3Avq8Fh6pLaSX6qJA4E9aP" class="knopf stufe">MA.1.A.1.i</a>, <a href="https://be.lehrplan.ch/101AJt2yMqVxRygKJ2xZqrbaqzAhfYnDL" class="knopf stufe">MA.1.A.4.j</a></li>
+</ol>
+<ol type="a">
+<li>Auf einem Obststand werden Äpfel für 1 Euro pro Stück und Orangen für 0,75 Euro pro Stück verkauft. Du möchtest nicht mehr als 5 Euro für Obst ausgeben. Formuliere eine Ungleichung, um zu bestimmen, wie viele Äpfel und Orangen du höchstens kaufen kannst, ohne dein Budget zu überschreiten. Schreibe nur den Term, du musst sie nicht lösen</li>
+<li>Zeichne die Lösung für <span class="math inline">\(x\)</span> auf dem Zahlenstrahl ein. <span class="math inline">\(4 + x \geq7\)</span>.</li>
+</ol>
+</section>
+<section id="lernkontrolle-sek" class="level1">
+<h1>Lernkontrolle Sek</h1>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Lernziele
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>Du kannst Gleichungen und Ungleichungen mit Variablen lösen.</li>
+<li>Du kannst Terme aufstellen und vereinfachen.</li>
+<li>Du erkennst an einer Gleichung, wie viele Lösungen diese haben wird.</li>
+</ul>
+</div>
+</div>
+<p>Zahl und Variable (Algebra): Einführung in algebraische Ausdrücke, Lösen einfacher Gleichungen, Ungleichungen</p>
+<ol type="1">
+<li>Mache ein eigenes Beispiel zu einer Aufgabe mit Variablen im Alltag und schreibe dazu den Term auf. <a href="https://be.lehrplan.ch/1012ASpUwBy3Avq8Fh6pLaSX6qJA4E9aP" class="knopf stufe">MA.1.A.1.i</a> <a href="https://be.lehrplan.ch/101LEtbVUpVAxXh9zzvaGG9S5PqCAqdqW" class="knopf stufe zyklus2">MA.1.C.2.h</a></li>
+<li>Löse folgende Gleichungen nach x auf <a href="https://be.lehrplan.ch/101kSAkAr2maExwz4HHC4z7x4eemPCXgH" class="knopf stufe zyklus2">MA.1.A.4.h</a>:</li>
+</ol>
+<ol type="a">
+<li><span class="math inline">\(2x+5=17\)</span></li>
+<li><span class="math inline">\(3(x−4)=9\)</span></li>
+<li><span class="math inline">\(\frac{1}{2} x−3=7\)</span></li>
+</ol>
+<ol start="3" type="1">
+<li>Wie viele Lösungen haben folgende Gleichungen <a href="https://be.lehrplan.ch/101kSAkAr2maExwz4HHC4z7x4eemPCXgH" class="knopf stufe zyklus2">MA.1.A.4.h</a>?<br>
+</li>
+</ol>
+<ul>
+<li><span class="math inline">\(16=4\cdot x^2\)</span> Anzahl Lösungen:</li>
+<li><span class="math inline">\(2x+3=2x+5\)</span> Anzahl Lösungen:</li>
+<li><span class="math inline">\(\frac{x}{x}=2\)</span> Anzahl Lösungen:</li>
+<li><span class="math inline">\(3x+7=3x+7\)</span> Anzahl Lösungen:</li>
+</ul>
+<ol start="4" type="1">
+<li>Beschreibe die Anzahl Kugeln mit einem passenden Term <a href="https://be.lehrplan.ch/101AJt2yMqVxRygKJ2xZqrbaqzAhfYnDL" class="knopf stufe">MA.1.A.4.j</a></li>
+</ol>
+<ul>
+<li>Im Sack B hat es 4 Kugeln mehr als in Sack A: :</li>
+<li>Im Sack B hat es 3 mal weniger Kugeln als im Sack A:</li>
+<li>Im Sack B hat es 2 Kugeln mehr als das Doppelte der Kugeln im Sack A:</li>
+<li>Im Sack B hat es 3 Kugeln weniger als die vierfache Zahl der Kugeln im Sack A:</li>
+</ul>
+<ol start="5" type="1">
+<li>Vereinfache folgende Terme so weit wie möglich. <a href="https://be.lehrplan.ch/101AJt2yMqVxRygKJ2xZqrbaqzAhfYnDL" class="knopf stufe">MA.1.A.4.j</a></li>
+</ol>
+<ul>
+<li><span class="math inline">\(3x+2y−x+4y\)</span></li>
+<li><span class="math inline">\(2(3x−5)−4x\)</span></li>
+<li><span class="math inline">\(5a−(2a+3b)\)</span></li>
+</ul>
+<ol start="6" type="1">
+<li>Ungleichungen <a href="https://be.lehrplan.ch/1012ASpUwBy3Avq8Fh6pLaSX6qJA4E9aP" class="knopf stufe">MA.1.A.1.i</a>, <a href="https://be.lehrplan.ch/101AJt2yMqVxRygKJ2xZqrbaqzAhfYnDL" class="knopf stufe">MA.1.A.4.j</a></li>
+</ol>
+<ol start="3" type="a">
+<li>Auf einem Obststand werden Äpfel für 1 Euro pro Stück und Orangen für 0,75 Euro pro Stück verkauft. Du möchtest nicht mehr als 5 Euro für Obst ausgeben.</li>
+</ol>
+<p>Formuliere eine Ungleichung, um zu bestimmen, wie viele Äpfel und Orangen du höchstens kaufen kannst, ohne dein Budget zu überschreiten. Schreibe nur den Term, du musst sie nicht lösen.</p>
+<ol start="4" type="a">
+<li>Zeichne die Lösung für x auf dem Zahlenstrahl ein. <span class="math inline">\(4−x \geq7\)</span></li>
+</ol>
+</section>
+<section id="lernkontrolle-spezsek" class="level1">
+<h1>Lernkontrolle SpezSek</h1>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Lernziele
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>Du kannst Gleichungen und Ungleichungen mit Variablen lösen.</li>
+<li>Du kannst Terme aufstellen und vereinfachen.</li>
+<li>Du erkennst an einer Gleichung, wie viele Lösungen diese haben wird.</li>
+</ul>
+</div>
+</div>
+<p>Zahl und Variable (Algebra): Einführung in algebraische Ausdrücke, Lösen einfacher Gleichungen, Ungleichungen</p>
+<ol type="1">
+<li><p>Mache ein eigenes Beispiel zu einer Aufgabe mit Variablen im Alltag und schreibe dazu den Term auf. <a href="https://be.lehrplan.ch/1012ASpUwBy3Avq8Fh6pLaSX6qJA4E9aP" class="knopf stufe">MA.1.A.1.i</a> <a href="https://be.lehrplan.ch/101LEtbVUpVAxXh9zzvaGG9S5PqCAqdqW" class="knopf stufe zyklus2">MA.1.C.2.h</a></p></li>
+<li><p>Löse folgende Gleichungen nach x auf <a href="https://be.lehrplan.ch/101kSAkAr2maExwz4HHC4z7x4eemPCXgH" class="knopf stufe zyklus2">MA.1.A.4.h</a>:</p></li>
+</ol>
+<ol type="a">
+<li><span class="math inline">\(2x+5=17\)</span></li>
+<li><span class="math inline">\(3(x−4)=9\)</span></li>
+<li><span class="math inline">\(\frac{1}{2} x−3=7\)</span></li>
+</ol>
+<ol start="3" type="1">
+<li>Wie viele Lösungen haben folgende Gleichungen und nenne diese <a href="https://be.lehrplan.ch/101kSAkAr2maExwz4HHC4z7x4eemPCXgH" class="knopf stufe zyklus2">MA.1.A.4.h</a> (MA.1.A.4.l)?</li>
+</ol>
+<ul>
+<li><span class="math inline">\(16=4\cdot x^2\)</span> Anzahl Lösungen:</li>
+<li><span class="math inline">\(2x+3=2x+5\)</span> Anzahl Lösungen:</li>
+<li><span class="math inline">\(\frac{x}{x}=2\)</span> Anzahl Lösungen:</li>
+<li><span class="math inline">\(3x+7=3x+7\)</span> Anzahl Lösungen:</li>
+</ul>
+<ol start="4" type="1">
+<li>Beschreibe die Anzahl Kugeln mit einem passenden Term <a href="https://be.lehrplan.ch/101AJt2yMqVxRygKJ2xZqrbaqzAhfYnDL" class="knopf stufe">MA.1.A.4.j</a></li>
+</ol>
+<ul>
+<li>Im Sack B hat es 4 Kugeln mehr als in Sack A: :</li>
+<li>Im Sack B hat es 3 mal weniger Kugeln als im Sack A:</li>
+<li>Im Sack B hat es 2 Kugeln mehr als das Doppelte der Kugeln im Sack A:</li>
+<li>Im Sack B hat es 3 Kugeln weniger als die vierfache Zahl der Kugeln im Sack A:</li>
+<li>Im Sack B hat es das Doppelte von der Hälfte der Anzahl Kugeln im Sack A:</li>
+</ul>
+<ol start="5" type="1">
+<li>Vereinfache folgende Terme so weit wie möglich. <a href="https://be.lehrplan.ch/101AJt2yMqVxRygKJ2xZqrbaqzAhfYnDL" class="knopf stufe">MA.1.A.4.j</a></li>
+</ol>
+<ul>
+<li><span class="math inline">\(3x+2y−x+4y\)</span></li>
+<li><span class="math inline">\(2(3x−5)−4x\)</span></li>
+<li><span class="math inline">\(5a−(2a+3b)\)</span></li>
+</ul>
+<ol start="6" type="1">
+<li>Ungleichungen <a href="https://be.lehrplan.ch/1012ASpUwBy3Avq8Fh6pLaSX6qJA4E9aP" class="knopf stufe">MA.1.A.1.i</a>, <a href="https://be.lehrplan.ch/101AJt2yMqVxRygKJ2xZqrbaqzAhfYnDL" class="knopf stufe">MA.1.A.4.j</a></li>
+</ol>
+<ol type="a">
+<li>Auf einem Obststand werden Äpfel für 1 Euro pro Stück und Orangen für 0,75 Euro pro Stück verkauft. Du möchtest nicht mehr als 5 Euro für Obst ausgeben.</li>
+</ol>
+<p>Formuliere eine Ungleichung, um zu bestimmen, wie viele Äpfel und Orangen du höchstens kaufen kannst, ohne dein Budget zu überschreiten. Schreibe nur den Term, du musst sie nicht lösen.</p>
+<ol start="2" type="a">
+<li>Zeichne die Lösung für x auf dem Zahlenstrahl ein. <span class="math inline">\(18−x \geq23\)</span>.</li>
+</ol>
 
 
+</section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Wiederverwendung</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">CC BY-SA 4.0</a></div></div></section></div></main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Wiederverwendung</h2><div class="quarto-appendix-contents"><div>CC0</div></div></section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Zitat</h2><div><div class="quarto-appendix-secondary-label">Mit BibTeX zitieren:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{supersaxo2024,
+  author = {Supersaxo, Nicoline and Brigger, Alessandra and Bumann,
+    Joëlle},
+  title = {Lernzielkontrolle},
+  date = {2024-06-27},
+  url = {https://PHBern-RConrardy.github.io/gitgud//beurteilung/math_07_LZK_Gleichungen2.html},
+  langid = {de}
+}
+</code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">Bitte zitieren Sie diese Arbeit als:</div><div id="ref-supersaxo2024" class="csl-entry quarto-appendix-citeas" role="listitem">
+Supersaxo, N., Brigger, A., &amp; Bumann, J. (2024, June 27).
+<em>Lernzielkontrolle</em>. <a href="https://PHBern-RConrardy.github.io/gitgud//beurteilung/math_07_LZK_Gleichungen2.html">https://PHBern-RConrardy.github.io/gitgud//beurteilung/math_07_LZK_Gleichungen2.html</a>
+</div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
